@@ -4,8 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "SludgeCharacter.generated.h"
+#include "SpellComponent.h"
 
+#include "SludgeCharacter.generated.h"
 class UInputComponent;
 class USkeletalMeshComponent;
 class USceneComponent;
@@ -19,6 +20,7 @@ class ASludgeCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+
 	/** Pawn mesh: 1st person view (arms; seen only by self) */
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
 		USkeletalMeshComponent* Mesh1P;
@@ -27,17 +29,23 @@ class ASludgeCharacter : public ACharacter
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* FirstPersonCameraComponent;
 
+
+
 public:
 	ASludgeCharacter();
 
 
 	UPROPERTY(BlueprintReadWrite)
-	bool bIsClimbing;
+		bool bIsClimbing;
 	UPROPERTY(BlueprintReadWrite)
 		bool bIsOnLedge;
 	UPROPERTY(BlueprintReadWrite)
 		bool bIsClimbingUp;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		USpellComponent* Spell;
 
+	//UPROPERTY(EditDefaultOnly)
+		//USpellComponentTemplate
 protected:
 	virtual void BeginPlay();
 	virtual void Tick(float DeltaTime);
@@ -52,7 +60,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
-
+	
 protected:
 
 	/** Handles moving forward/backward */
