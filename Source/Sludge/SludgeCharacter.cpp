@@ -137,10 +137,10 @@ void ASludgeCharacter::TurnAtRate(float Rate)
 }
 void ASludgeCharacter::TurnMouse(float Rate)
 {
-	if (bIsClimbing)
-	{
+	//if (bIsClimbing)
+	//{
 
-	}
+	//}
 	if (!bIsClimbing)
 		// calculate delta for this frame from the rate information
 		AddControllerYawInput(Rate);
@@ -159,8 +159,9 @@ void ASludgeCharacter::InteractLineTrace()
 	FRotator Rot;
 	FHitResult Hit;
 	
-	GetController()->GetPlayerViewPoint(Loc, Rot);
-
+	//GetController()->GetPlayerViewPoint(Loc, Rot);
+	Loc = GetActorLocation();
+	Rot = GetActorRotation();
 	FVector StartP = Loc;
 	FVector EndP = StartP + (Rot.Vector() * 100);
 
