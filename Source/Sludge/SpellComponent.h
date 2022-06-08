@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "SpellClass.h"
+
 #include "SpellComponent.generated.h"
 
 USTRUCT(BlueprintType)
@@ -15,6 +17,8 @@ struct FSpell
 		FName SpellName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString SpellSequence;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TSubclassOf<class ASpellClass>  SpellClass;
 };
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
