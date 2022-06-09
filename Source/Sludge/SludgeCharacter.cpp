@@ -108,7 +108,16 @@ void ASludgeCharacter::MoveForward(float Value)
 		{
 					// add movement in that direction
 			AddMovementInput(GetActorUpVector(), Value);
+			if (bIsOnLedge)
+			{
+				bIsClimbingUp = true;
+				bIsClimbing = false;
+				LaunchCharacter(FVector(0.0f, 0.0f, 600.0f), false, false);
 
+				bIsClimbingUp = false;
+
+				GetCharacterMovement()->MovementMode = MOVE_Walking;
+			}
 		}
 		else
 		AddMovementInput(GetActorForwardVector(), Value);
