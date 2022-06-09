@@ -176,6 +176,7 @@ void ASludgeCharacter::InteractLineTrace()
 		if (!bIsClimbing)
 		{
 			bIsClimbing = true;
+
 			DrawDebugLine(GetWorld(), StartP, EndP, FColor::Green, false, 0.2f);
 
 			GetCharacterMovement()->Velocity = FVector(0.0f, 0.0f, 0.0f);
