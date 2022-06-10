@@ -37,11 +37,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bIsActivated;
 
-	//	void ActivateSpellCasting();
+
+	void ActivateSpellCasting();
+	void ResetSpell();
 	//UFUNCTION(BlueprintCallable)
-	//	void ReceiveInput(FString CurSequence);
+	void ReceiveInput(float Tone);
 	//UFUNCTION(BlueprintCallable)
-	//	void CheckSpellSequence();
+	void CastSpell();
 
 protected:
 	// Called when the game starts

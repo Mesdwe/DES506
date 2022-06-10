@@ -62,7 +62,7 @@ public:
 
 	
 protected:
-
+	void Jump();
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);
 
@@ -82,6 +82,12 @@ protected:
 	 */
 	void LookUpAtRate(float Rate);
 
+	void SpellCasting();
+	void ToneInput(float Rate);
+	void Tone1Input();
+	void Tone2Input();
+	void Tone3Input();
+	void Tone4Input();
 	void InteractLineTrace();
 	void ClimbingEdgeCheck();
 
