@@ -75,16 +75,16 @@ void ASludgeCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	check(PlayerInputComponent);
 
 	// Bind jump events
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ASludgeCharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	
+	//Bind spell casting events
+	PlayerInputComponent->BindAction("Casting", IE_Pressed, this, &ASludgeCharacter::SpellCasting);
+	PlayerInputComponent->BindAction("Tone1", IE_Pressed, this, &ASludgeCharacter::Tone1Input);
+	PlayerInputComponent->BindAction("Tone2", IE_Pressed, this, &ASludgeCharacter::Tone2Input);
+	PlayerInputComponent->BindAction("Tone3", IE_Pressed, this, &ASludgeCharacter::Tone3Input);
+	PlayerInputComponent->BindAction("Tone4", IE_Pressed, this, &ASludgeCharacter::Tone4Input);
 
-	//// Bind fire event
-	//PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ASludgeCharacter::OnFire);
-
-	//// Enable touchscreen input
-	//EnableTouchscreenMovement(PlayerInputComponent);
-
-	//PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &ASludgeCharacter::OnResetVR);
 
 	// Bind movement events
 	PlayerInputComponent->BindAxis("MoveForward", this, &ASludgeCharacter::MoveForward);
@@ -99,7 +99,20 @@ void ASludgeCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ASludgeCharacter::LookUpAtRate);
 }
 
-
+void ASludgeCharacter::Jump()
+{
+	if (bIsClimbing)
+	{
+		FVector OffWall = GetActorForwardVector() * (-500.0f);
+		LaunchCharacter(FVector(OffWall.X, OffWall.Y, 0.0f), false, false);
+		bIsClimbing = false;
+		GetCharacterMovement()->MovementMode = MOVE_Walking;
+	}
+	else if (Spell != nullptr && Spell->bIsActivated)
+		return;
+	else
+		ACharacter::Jump();
+}
 void ASludgeCharacter::MoveForward(float Value)
 {
 	if (Value != 0.0f)
@@ -136,20 +149,14 @@ void ASludgeCharacter::MoveRight(float Value)
 
 void ASludgeCharacter::TurnAtRate(float Rate)
 {
-	if (bIsClimbing)
-	{
 
-	}
 	if(!bIsClimbing)
 	// calculate delta for this frame from the rate information
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 void ASludgeCharacter::TurnMouse(float Rate)
 {
-	//if (bIsClimbing)
-	//{
 
-	//}
 	if (!bIsClimbing)
 		// calculate delta for this frame from the rate information
 		AddControllerYawInput(Rate);
@@ -161,6 +168,40 @@ void ASludgeCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
+void ASludgeCharacter::SpellCasting()
+{
+	if (Spell != nullptr)
+		Spell->ActivateSpellCasting();
+}
+void ASludgeCharacter::Tone1Input()
+{
+	if (Spell != nullptr && Spell->bIsActivated)
+	{
+		Spell->ReceiveInput(1.0f);
+	}
+}
+void ASludgeCharacter::Tone2Input()
+{
+	if (Spell != nullptr && Spell->bIsActivated)
+	{
+		Spell->ReceiveInput(2.0f);
+	}
+}
+void ASludgeCharacter::Tone3Input()
+{
+	if (Spell != nullptr && Spell->bIsActivated)
+	{
+		Spell->ReceiveInput(3.0f);
+	}
+}
+void ASludgeCharacter::Tone4Input()
+{
+	if (Spell != nullptr && Spell->bIsActivated)
+	{
+		Spell->ReceiveInput(4.0f);
+	}
+}
+//CLIMBING
 void ASludgeCharacter::InteractLineTrace()
 {
 	if (bIsClimbingUp) return;
@@ -201,7 +242,7 @@ void ASludgeCharacter::InteractLineTrace()
 		bIsClimbing = false;
 		GetCharacterMovement()->MovementMode = MOVE_Walking;
 	}
-	DrawDebugLine(GetWorld(), StartP, EndP, FColor::Red, false, 0.2f);
+	//DrawDebugLine(GetWorld(), StartP, EndP, FColor::Red, false, 0.2f);
 
 	
 }
