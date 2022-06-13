@@ -41,9 +41,7 @@ void USpellComponent::ActivateSpellCasting()
 	}
 	else
 	{
-		bIsActivated = false;
 		USpellComponent::ResetSpell();
-		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 	}
 }
 
@@ -51,7 +49,8 @@ void USpellComponent::ResetSpell()
 {
 
 		CurrentSequence = "";
-		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("ResetSpell"));
+		bIsActivated = false;
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 }
 void USpellComponent::CastSpell()
 {
