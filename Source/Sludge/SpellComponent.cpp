@@ -43,6 +43,7 @@ void USpellComponent::ActivateSpellCasting()
 	}
 	else
 	{
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 		/*CurrentSequence = "";
 		bIsActivated = false;
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));*/
@@ -56,12 +57,7 @@ void USpellComponent::ResetCurrentSpell()
 
 		CurrentSequence = "";
 		bIsActivated = false;
-		//TODO: Get all spell actors::EndCasting();
-		/*TSubclassOf<AEnemy> classToFind;
-		classToFind = AEnemy::StaticClass();
-		TArray<AActor*> foundEnemies;
-		UGameplayStatics::GetAllActorsOfClass(GetWorld(), classToFind, foundEnemies);*/
-	
+
 		TSubclassOf<ASpellClass> SpellClass;
 		SpellClass = ASpellClass::StaticClass();
 		ASpellClass* SpellR = Cast<ASpellClass>(UGameplayStatics::GetActorOfClass(GetWorld(),SpellClass));
@@ -69,7 +65,7 @@ void USpellComponent::ResetCurrentSpell()
 		{
 			SpellR->EndCasting();
 		}
-		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 }
 void USpellComponent::CastSpell()
 {
@@ -93,6 +89,7 @@ void USpellComponent::CastSpell()
 			{
 				CurrentSequence = "";
 				bIsActivated = false;
+				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 			}
 		}
 	}
@@ -127,9 +124,7 @@ void USpellComponent::ReceiveInput(float Tone)
 	if (CurrentSequence.Len() >= 4)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("CASTING"));
-		//CurrentSequence = "";
 		USpellComponent::CastSpell();
-
 	}
 	else
 	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, CurrentSequence);
