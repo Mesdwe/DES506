@@ -14,12 +14,14 @@ class SLUDGE_API ASpellClass : public AActor
 public:	
 	// Sets default values for this actor's properties
 	ASpellClass();
+	virtual void EndCasting();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	UFUNCTION(BlueprintCallable)
 	virtual void BeginCasting();
+
 
 public:	
 	// Called every frame

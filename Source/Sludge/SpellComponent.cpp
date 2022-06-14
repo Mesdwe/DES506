@@ -1,8 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
-#include "SpellComponent.h"
 #include <Runtime/Engine/Classes/Engine/Engine.h>
+#include "Kismet/GameplayStatics.h"
+#include "SpellComponent.h"
+
 // Sets default values for this component's properties
 USpellComponent::USpellComponent()
 {
@@ -36,20 +37,38 @@ void USpellComponent::ActivateSpellCasting()
 {
 	if (!bIsActivated)
 	{
+		ResetCurrentSpell();
 		bIsActivated = true;
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Activate Casting Menu"));
 	}
 	else
 	{
-		USpellComponent::ResetSpell();
+		/*CurrentSequence = "";
+		bIsActivated = false;
+		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));*/
+
+		USpellComponent::ResetCurrentSpell();
 	}
 }
 
-void USpellComponent::ResetSpell()
+void USpellComponent::ResetCurrentSpell()
 {
 
 		CurrentSequence = "";
 		bIsActivated = false;
+		//TODO: Get all spell actors::EndCasting();
+		/*TSubclassOf<AEnemy> classToFind;
+		classToFind = AEnemy::StaticClass();
+		TArray<AActor*> foundEnemies;
+		UGameplayStatics::GetAllActorsOfClass(GetWorld(), classToFind, foundEnemies);*/
+	
+		TSubclassOf<ASpellClass> SpellClass;
+		SpellClass = ASpellClass::StaticClass();
+		ASpellClass* SpellR = Cast<ASpellClass>(UGameplayStatics::GetActorOfClass(GetWorld(),SpellClass));
+		if (SpellR != nullptr)
+		{
+			SpellR->EndCasting();
+		}
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 }
 void USpellComponent::CastSpell()
@@ -65,13 +84,23 @@ void USpellComponent::CastSpell()
 			FActorSpawnParameters SpawnInfo;
 			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 			GetWorld()->SpawnActor(Sp.SpellClass,&Loc, &Rot, SpawnInfo);
-			USpellComponent::ResetSpell();
+			
+			if (!Sp.bHasAdditionalInput)
+			{
+				ResetCurrentSpell();
+			}
+			else
+			{
+				CurrentSequence = "";
+				bIsActivated = false;
+			}
 		}
 	}
 	if (CurrentSequence != "")
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, TEXT("Invalid Spell"));
-		USpellComponent::ResetSpell();
+		USpellComponent::ResetCurrentSpell();
+		//ActivateSpellCasting();
 
 	}
 }

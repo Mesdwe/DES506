@@ -22,7 +22,12 @@ void ASpellClass::BeginCasting()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Spell Class begin casting"));
 }
+void ASpellClass::EndCasting()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Spell Class end casting"));
+	this->Destroy();
 
+}
 // Called every frame
 void ASpellClass::Tick(float DeltaTime)
 {
