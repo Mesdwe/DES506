@@ -201,6 +201,8 @@ void ASludgeCharacter::Tone4Input()
 		Spell->ReceiveInput(4.0f);
 	}
 }
+
+//////////////////////////////////////////////////////////////////////////
 //CLIMBING
 void ASludgeCharacter::InteractLineTrace()
 {
