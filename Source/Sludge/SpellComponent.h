@@ -13,12 +13,14 @@ struct FSpell
 {
 	GENERATED_BODY()
 
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FName SpellName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString SpellSequence;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TSubclassOf<class ASpellClass>  SpellClass;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bHasAdditionalInput;
 };
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -38,9 +40,11 @@ public:
 		bool bIsActivated;
 
 
+
 	void ActivateSpellCasting();
-	void ResetSpell();
-	//UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable)
+		void ResetCurrentSpell();
+
 	void ReceiveInput(float Tone);
 	//UFUNCTION(BlueprintCallable)
 	void CastSpell();
@@ -48,7 +52,7 @@ public:
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
-
+ 
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
