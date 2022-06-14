@@ -60,7 +60,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
-	
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		float CurrentTone;
 protected:
 	void Jump();
 	/** Handles moving forward/backward */

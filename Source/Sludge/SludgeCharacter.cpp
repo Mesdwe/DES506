@@ -31,8 +31,9 @@ ASludgeCharacter::ASludgeCharacter()
 
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
-	FirstPersonCameraComponent->SetupAttachment(GetCapsuleComponent());
-	FirstPersonCameraComponent->SetRelativeLocation(FVector(-39.56f, 1.75f, 64.f)); // Position the camera
+	FirstPersonCameraComponent->SetupAttachment(ACharacter::GetMesh());
+	FirstPersonCameraComponent->AttachTo(ACharacter::GetMesh(), "Head");
+	//FirstPersonCameraComponent->SetRelativeLocation(FVector(-39.56f, 1.75f, 64.f)); // Position the camera
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
 
@@ -178,6 +179,7 @@ void ASludgeCharacter::Tone1Input()
 	if (Spell != nullptr && Spell->bIsActivated)
 	{
 		Spell->ReceiveInput(1.0f);
+		CurrentTone = 1.0f;
 	}
 }
 void ASludgeCharacter::Tone2Input()
@@ -185,6 +187,8 @@ void ASludgeCharacter::Tone2Input()
 	if (Spell != nullptr && Spell->bIsActivated)
 	{
 		Spell->ReceiveInput(2.0f);
+		CurrentTone = 2.0f;
+
 	}
 }
 void ASludgeCharacter::Tone3Input()
@@ -192,6 +196,8 @@ void ASludgeCharacter::Tone3Input()
 	if (Spell != nullptr && Spell->bIsActivated)
 	{
 		Spell->ReceiveInput(3.0f);
+		CurrentTone = 3.0f;
+
 	}
 }
 void ASludgeCharacter::Tone4Input()
@@ -199,6 +205,8 @@ void ASludgeCharacter::Tone4Input()
 	if (Spell != nullptr && Spell->bIsActivated)
 	{
 		Spell->ReceiveInput(4.0f);
+		CurrentTone = 4.0f;
+
 	}
 }
 
