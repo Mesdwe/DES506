@@ -43,7 +43,8 @@ public:
 		bool bIsClimbingUp;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		USpellComponent* Spell;
-
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		bool bIsCasting;
 	//UPROPERTY(EditDefaultOnly)
 		//USpellComponentTemplate
 protected:
@@ -62,6 +63,7 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		float CurrentTone;
+
 protected:
 	void Jump();
 	/** Handles moving forward/backward */
@@ -89,6 +91,7 @@ protected:
 	void Tone2Input();
 	void Tone3Input();
 	void Tone4Input();
+
 	void InteractLineTrace();
 	void ClimbingEdgeCheck();
 

@@ -35,10 +35,12 @@ void USpellComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 void USpellComponent::ActivateSpellCasting()
 {
-	if (!bIsActivated)
+	if (!bIsUIActivated)
 	{
 		ResetCurrentSpell();
+		CurrentRune = Default;
 		bIsActivated = true;
+		bIsUIActivated = true;
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Activate Casting Menu"));
 	}
 	else
@@ -57,6 +59,7 @@ void USpellComponent::ResetCurrentSpell()
 
 		CurrentSequence = "";
 		bIsActivated = false;
+		bIsUIActivated = false;
 
 		TSubclassOf<ASpellClass> SpellClass;
 		SpellClass = ASpellClass::StaticClass();
@@ -65,6 +68,7 @@ void USpellComponent::ResetCurrentSpell()
 		{
 			SpellR->EndCasting();
 		}
+		bIsCasting = false;
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 }
 void USpellComponent::CastSpell()
@@ -84,12 +88,20 @@ void USpellComponent::CastSpell()
 			if (!Sp.bHasAdditionalInput)
 			{
 				ResetCurrentSpell();
+
+
+
 			}
 			else
 			{
 				CurrentSequence = "";
-				bIsActivated = false;
+				bIsUIActivated = false;
+				//bIsActivated = false;
+				//bIsCasting = false;
 				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
+				//CastingSpell()
+				// bIsActivated = false;
+				//CurrentSequence = "";
 			}
 		}
 	}
@@ -103,22 +115,34 @@ void USpellComponent::CastSpell()
 }
 void USpellComponent::ReceiveInput(float Tone)
 {
+	if (bIsCasting) return;
 	FString NewTone = "";
 	if (Tone == 1.0f)
 	{
 		NewTone = "A";
+		CurrentRune = Rune1;
+		bIsCasting = true;
 	}
 	else if (Tone == 2.0f)
 	{
 		NewTone = "B";
+		CurrentRune = Rune2;
+		bIsCasting = true;
+
 	}
 	else if (Tone == 3.0f)
 	{
 		NewTone = "C";
+		CurrentRune = Rune3;
+		bIsCasting = true;
+
 	}
 	else if (Tone == 4.0f)
 	{
 		NewTone = "D";
+		CurrentRune = Rune4;
+		bIsCasting = true;
+
 	}
 	CurrentSequence.Append(NewTone);
 	if (CurrentSequence.Len() >= 4)
