@@ -176,36 +176,42 @@ void ASludgeCharacter::SpellCasting()
 }
 void ASludgeCharacter::Tone1Input()
 {
-	if (Spell != nullptr && Spell->bIsActivated)
+	if (Spell != nullptr && Spell->bIsUIActivated)
 	{
 		Spell->ReceiveInput(1.0f);
 		CurrentTone = 1.0f;
+		//bIsCasting = true;
 	}
 }
 void ASludgeCharacter::Tone2Input()
 {
-	if (Spell != nullptr && Spell->bIsActivated)
+	if (Spell != nullptr && Spell->bIsUIActivated)
 	{
 		Spell->ReceiveInput(2.0f);
-		CurrentTone = 2.0f;
+
+
+		//CurrentTone = 2.0f;
+		//bIsCasting = true;
 
 	}
 }
 void ASludgeCharacter::Tone3Input()
 {
-	if (Spell != nullptr && Spell->bIsActivated)
+	if (Spell != nullptr && Spell->bIsUIActivated)
 	{
 		Spell->ReceiveInput(3.0f);
-		CurrentTone = 3.0f;
+		//CurrentTone = 3.0f;
+		//bIsCasting = true;
 
 	}
 }
 void ASludgeCharacter::Tone4Input()
 {
-	if (Spell != nullptr && Spell->bIsActivated)
+	if (Spell != nullptr && Spell->bIsUIActivated)
 	{
 		Spell->ReceiveInput(4.0f);
-		CurrentTone = 4.0f;
+		//CurrentTone = 4.0f;
+		//bIsCasting = true;
 
 	}
 }
