@@ -35,7 +35,7 @@ struct FSpell
 };
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
 class SLUDGE_API USpellComponent : public UActorComponent
 {
 	GENERATED_BODY()
@@ -58,9 +58,15 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TEnumAsByte<Rune> CurrentRune;
 	void ActivateSpellCasting();
+
 	UFUNCTION(BlueprintCallable)
 		void ResetCurrentSpell();
-
+	UFUNCTION(BlueprintImplementableEvent)
+		void InvalidSpell();
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnActivateCastingMenu();
+	UFUNCTION(BlueprintImplementableEvent)
+		void OnDeactivateCastingMenu();
 	void ReceiveInput(float Tone);
 	//UFUNCTION(BlueprintCallable)
 	void CastSpell();

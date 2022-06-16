@@ -41,11 +41,13 @@ void USpellComponent::ActivateSpellCasting()
 		CurrentRune = Default;
 		bIsActivated = true;
 		bIsUIActivated = true;
-		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Activate Casting Menu"));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Activate Casting Menu"));
+		OnActivateCastingMenu();
 	}
 	else
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
+		OnDeactivateCastingMenu();
 		/*CurrentSequence = "";
 		bIsActivated = false;
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));*/
@@ -56,7 +58,7 @@ void USpellComponent::ActivateSpellCasting()
 
 void USpellComponent::ResetCurrentSpell()
 {
-
+		
 		CurrentSequence = "";
 		bIsActivated = false;
 		bIsUIActivated = false;
@@ -69,6 +71,7 @@ void USpellComponent::ResetCurrentSpell()
 			SpellR->EndCasting();
 		}
 		bIsCasting = false;
+		OnDeactivateCastingMenu();
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 }
 void USpellComponent::CastSpell()
@@ -96,21 +99,19 @@ void USpellComponent::CastSpell()
 			{
 				CurrentSequence = "";
 				bIsUIActivated = false;
-				//bIsActivated = false;
-				//bIsCasting = false;
+
 				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
-				//CastingSpell()
-				// bIsActivated = false;
-				//CurrentSequence = "";
+				OnDeactivateCastingMenu();
 			}
 		}
 	}
 	if (CurrentSequence != "")
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, TEXT("Invalid Spell"));
+		InvalidSpell();
+
 		USpellComponent::ResetCurrentSpell();
 		//ActivateSpellCasting();
-
 	}
 }
 void USpellComponent::ReceiveInput(float Tone)
