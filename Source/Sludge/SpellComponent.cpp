@@ -62,7 +62,7 @@ void USpellComponent::ResetCurrentSpell()
 		CurrentSequence = "";
 		bIsActivated = false;
 		bIsUIActivated = false;
-
+		OnDeactivateCastingMenu();
 		TSubclassOf<ASpellClass> SpellClass;
 		SpellClass = ASpellClass::StaticClass();
 		ASpellClass* SpellR = Cast<ASpellClass>(UGameplayStatics::GetActorOfClass(GetWorld(),SpellClass));
@@ -71,7 +71,7 @@ void USpellComponent::ResetCurrentSpell()
 			SpellR->EndCasting();
 		}
 		bIsCasting = false;
-		OnDeactivateCastingMenu();
+		
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 }
 void USpellComponent::CastSpell()
@@ -91,23 +91,20 @@ void USpellComponent::CastSpell()
 			if (!Sp.bHasAdditionalInput)
 			{
 				ResetCurrentSpell();
-
-
-
 			}
 			else
 			{
 				CurrentSequence = "";
 				bIsUIActivated = false;
 
-				GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
+				//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 				OnDeactivateCastingMenu();
 			}
 		}
 	}
 	if (CurrentSequence != "")
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, TEXT("Invalid Spell"));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, TEXT("Invalid Spell"));
 		InvalidSpell();
 
 		USpellComponent::ResetCurrentSpell();
@@ -123,12 +120,14 @@ void USpellComponent::ReceiveInput(float Tone)
 		NewTone = "A";
 		CurrentRune = Rune1;
 		bIsCasting = true;
+		Rune1Behaviour();
 	}
 	else if (Tone == 2.0f)
 	{
 		NewTone = "B";
 		CurrentRune = Rune2;
 		bIsCasting = true;
+		Rune2Behaviour();
 
 	}
 	else if (Tone == 3.0f)
@@ -136,6 +135,7 @@ void USpellComponent::ReceiveInput(float Tone)
 		NewTone = "C";
 		CurrentRune = Rune3;
 		bIsCasting = true;
+		Rune3Behaviour();
 
 	}
 	else if (Tone == 4.0f)
@@ -143,16 +143,17 @@ void USpellComponent::ReceiveInput(float Tone)
 		NewTone = "D";
 		CurrentRune = Rune4;
 		bIsCasting = true;
+		Rune4Behaviour();
 
 	}
 	CurrentSequence.Append(NewTone);
 	if (CurrentSequence.Len() >= 4)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("CASTING"));
+		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("CASTING"));
 		USpellComponent::CastSpell();
 	}
-	else
-	GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, CurrentSequence);
+	//else
+	//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, CurrentSequence);
 
 }
 

@@ -67,6 +67,14 @@ public:
 		void OnActivateCastingMenu();
 	UFUNCTION(BlueprintImplementableEvent)
 		void OnDeactivateCastingMenu();
+	UFUNCTION(BlueprintImplementableEvent)
+		void Rune1Behaviour();
+	UFUNCTION(BlueprintImplementableEvent)
+		void Rune2Behaviour();
+	UFUNCTION(BlueprintImplementableEvent)
+		void Rune3Behaviour();	
+	UFUNCTION(BlueprintImplementableEvent)
+		void Rune4Behaviour();
 	void ReceiveInput(float Tone);
 	//UFUNCTION(BlueprintCallable)
 	void CastSpell();
