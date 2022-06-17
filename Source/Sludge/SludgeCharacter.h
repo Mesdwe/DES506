@@ -64,6 +64,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		float CurrentTone;
 
+	UFUNCTION(BlueprintImplementableEvent)
+		void ClimbBehaviour(bool ClimbState);
 protected:
 	void Jump();
 	/** Handles moving forward/backward */
