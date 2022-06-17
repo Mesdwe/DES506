@@ -107,6 +107,8 @@ void ASludgeCharacter::Jump()
 		FVector OffWall = GetActorForwardVector() * (-500.0f);
 		LaunchCharacter(FVector(OffWall.X, OffWall.Y, 0.0f), false, false);
 		bIsClimbing = false;
+		ClimbBehaviour(false);
+
 		GetCharacterMovement()->MovementMode = MOVE_Walking;
 	}
 	else if (Spell != nullptr && Spell->bIsActivated)
@@ -129,6 +131,7 @@ void ASludgeCharacter::MoveForward(float Value)
 				LaunchCharacter(FVector(0.0f, 0.0f, 600.0f), false, false);
 
 				bIsClimbingUp = false;
+				ClimbBehaviour(false);
 
 				GetCharacterMovement()->MovementMode = MOVE_Walking;
 			}
@@ -242,7 +245,7 @@ void ASludgeCharacter::InteractLineTrace()
 		if (!bIsClimbing)
 		{
 			bIsClimbing = true;
-
+			ClimbBehaviour(true);
 			DrawDebugLine(GetWorld(), StartP, EndP, FColor::Green, false, 0.2f);
 
 			GetCharacterMovement()->Velocity = FVector(0.0f, 0.0f, 0.0f);
@@ -256,6 +259,8 @@ void ASludgeCharacter::InteractLineTrace()
 	else if (bIsClimbing)
 	{
 		bIsClimbing = false;
+		ClimbBehaviour(false);
+
 		GetCharacterMovement()->MovementMode = MOVE_Walking;
 	}
 	//DrawDebugLine(GetWorld(), StartP, EndP, FColor::Red, false, 0.2f);
