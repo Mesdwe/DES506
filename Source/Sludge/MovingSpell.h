@@ -25,11 +25,12 @@ protected:
 	virtual void Tick(float DeltaTime);
 	virtual void EndCasting() override;
 	UFUNCTION(BlueprintImplementableEvent)
-		void SetValidState();
+		void SetValidState(FHitResult HitResult);
 
 private:
 	void FindTargetLocation();
 
 	UCameraComponent* FirstPersonCamera;
-	bool bLocationIsValid;
+	/*UPROPERTY(VisibleAnywhere,BlueprintReadWrite)
+	bool bLocationIsValid;*/
 };

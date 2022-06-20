@@ -36,7 +36,8 @@ void AMovingSpell::FindTargetLocation()
 
 	if (Hit.GetActor() != nullptr)
 	{
-		SetValidState();
+		
+		SetValidState(Hit);
 		this->SetActorLocation(Hit.Location);
 		return;
 	}
@@ -52,7 +53,7 @@ void AMovingSpell::FindTargetLocation()
 		GetWorld()->LineTraceSingleByChannel(Hit2, Start2, End2, ECC_Visibility, TraceParam2);
 		if (Hit2.GetActor() != nullptr)
 		{
-			SetValidState();
+			SetValidState(Hit2);
 
 			this->SetActorLocation(Hit2.Location);
 
