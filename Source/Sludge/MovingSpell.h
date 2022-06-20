@@ -24,10 +24,12 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime);
 	virtual void EndCasting() override;
+	UFUNCTION(BlueprintImplementableEvent)
+		void SetValidState();
 
 private:
 	void FindTargetLocation();
 
 	UCameraComponent* FirstPersonCamera;
-
+	bool bLocationIsValid;
 };
