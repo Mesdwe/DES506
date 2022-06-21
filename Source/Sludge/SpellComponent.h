@@ -49,9 +49,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString CurrentSequence;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bIsActivated;
+		bool bIsActivated;		//is able to cast runes
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bIsUIActivated;
+		bool bIsUIActivated;	//show ui on staff
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bIsMenuActivated;	//show menu (button of the screen)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bIsCasting;
 
@@ -78,6 +80,10 @@ public:
 	void ReceiveInput(float Tone);
 	//UFUNCTION(BlueprintCallable)
 	void CastSpell();
+	UFUNCTION(BlueprintImplementableEvent)
+		void ImmediatelyCast();
+	UFUNCTION(BlueprintImplementableEvent)
+		void DelayCast();
 
 protected:
 	// Called when the game starts
