@@ -35,9 +35,14 @@ void USpellComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 void USpellComponent::ActivateSpellCasting()
 {
-	if (!bIsUIActivated)
+	if (bIsMenuActivated)
 	{
 		ResetCurrentSpell();
+		return;
+	}
+	if (!bIsUIActivated)
+	{
+		//ResetCurrentSpell();
 		CurrentRune = Default;
 		bIsActivated = true;
 		bIsUIActivated = true;
@@ -62,6 +67,7 @@ void USpellComponent::ResetCurrentSpell()
 		CurrentSequence = "";
 		bIsActivated = false;
 		bIsUIActivated = false;
+		bIsMenuActivated = false;
 		OnDeactivateCastingMenu();
 		TSubclassOf<ASpellClass> SpellClass;
 		SpellClass = ASpellClass::StaticClass();
@@ -90,15 +96,17 @@ void USpellComponent::CastSpell()
 			
 			if (!Sp.bHasAdditionalInput)
 			{
-				ResetCurrentSpell();
+				//ResetCurrentSpell();
+				ImmediatelyCast();
 			}
 			else
 			{
+				//selecting location
 				CurrentSequence = "";
 				bIsUIActivated = false;
-
+				DelayCast();
 				//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
-				OnDeactivateCastingMenu();
+				//OnDeactivateCastingMenu();
 			}
 		}
 	}
@@ -107,10 +115,12 @@ void USpellComponent::CastSpell()
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, TEXT("Invalid Spell"));
 		InvalidSpell();
 
-		USpellComponent::ResetCurrentSpell();
+		//USpellComponent::ResetCurrentSpell();
 		//ActivateSpellCasting();
 	}
 }
+
+
 void USpellComponent::ReceiveInput(float Tone)
 {
 	if (bIsCasting) return;
