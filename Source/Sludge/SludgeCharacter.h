@@ -66,6 +66,8 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent)
 		void ClimbBehaviour(bool ClimbState);
+	UFUNCTION(BlueprintImplementableEvent)
+		void ClimbMeshBehaviour(FVector Dir,FVector Loc);
 protected:
 	void Jump();
 	/** Handles moving forward/backward */

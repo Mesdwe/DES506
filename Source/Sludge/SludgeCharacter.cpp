@@ -154,14 +154,14 @@ void ASludgeCharacter::MoveRight(float Value)
 void ASludgeCharacter::TurnAtRate(float Rate)
 {
 
-	if(!bIsClimbing)
+	/*if(!bIsClimbing)*/
 	// calculate delta for this frame from the rate information
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 void ASludgeCharacter::TurnMouse(float Rate)
 {
 
-	if (!bIsClimbing)
+	/*if (!bIsClimbing)*/
 		// calculate delta for this frame from the rate information
 		AddControllerYawInput(Rate);
 }
@@ -232,7 +232,7 @@ void ASludgeCharacter::InteractLineTrace()
 	Loc = GetActorLocation();
 	Rot = GetActorRotation();
 	FVector StartP = Loc;
-	FVector EndP = StartP + (Rot.Vector() * 100);
+	FVector EndP = StartP + (Rot.Vector() * 80);
 
 	FCollisionQueryParams TraceParam;
 	GetWorld()->LineTraceSingleByChannel(Hit, StartP, EndP, ECC_Visibility, TraceParam);
@@ -241,12 +241,14 @@ void ASludgeCharacter::InteractLineTrace()
 	if (Hit.GetActor()!=nullptr&&Hit.GetActor()->ActorHasTag("Walls"))
 	{
 		ASludgeCharacter::ClimbingEdgeCheck();
-		this->SetActorRotation(FRotator(0.0f, 0.0f, Hit.Normal.Rotation().Vector().Z));
+		//this->SetActorRotation(FRotator(0.0f, 0.0f, Hit.Normal.Rotation().Vector().Z));
+		
+		ClimbMeshBehaviour(Hit.Normal,Hit.Location);
 		if (!bIsClimbing)
 		{
 			bIsClimbing = true;
 			ClimbBehaviour(true);
-			DrawDebugLine(GetWorld(), StartP, EndP, FColor::Green, false, 0.2f);
+			/*DrawDebugLine(GetWorld(), StartP, EndP, FColor::Green, false, 0.2f);*/
 
 			GetCharacterMovement()->Velocity = FVector(0.0f, 0.0f, 0.0f);
 			GetCharacterMovement()->MovementMode = MOVE_Flying;
