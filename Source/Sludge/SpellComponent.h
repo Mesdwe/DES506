@@ -78,7 +78,7 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 		void Rune4Behaviour();
 	void ReceiveInput(float Tone);
-	//UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable)
 	void CastSpell();
 	UFUNCTION(BlueprintImplementableEvent)
 		void ImmediatelyCast();

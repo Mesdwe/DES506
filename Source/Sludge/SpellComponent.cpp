@@ -129,14 +129,12 @@ void USpellComponent::ReceiveInput(float Tone)
 	{
 		NewTone = "A";
 		CurrentRune = Rune1;
-		bIsCasting = true;
 		Rune1Behaviour();
 	}
 	else if (Tone == 2.0f)
 	{
 		NewTone = "B";
 		CurrentRune = Rune2;
-		bIsCasting = true;
 		Rune2Behaviour();
 
 	}
@@ -144,7 +142,6 @@ void USpellComponent::ReceiveInput(float Tone)
 	{
 		NewTone = "C";
 		CurrentRune = Rune3;
-		bIsCasting = true;
 		Rune3Behaviour();
 
 	}
@@ -152,18 +149,15 @@ void USpellComponent::ReceiveInput(float Tone)
 	{
 		NewTone = "D";
 		CurrentRune = Rune4;
-		bIsCasting = true;
 		Rune4Behaviour();
 
 	}
 	CurrentSequence.Append(NewTone);
 	if (CurrentSequence.Len() >= 4)
 	{
-		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, TEXT("CASTING"));
-		USpellComponent::CastSpell();
+		//Enter casting mode, wait for animation stop playing
+		bIsCasting = true;
 	}
-	//else
-	//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Blue, CurrentSequence);
 
 }
 
