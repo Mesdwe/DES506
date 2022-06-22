@@ -21,7 +21,8 @@ protected:
 	virtual void BeginPlay() override;
 	UFUNCTION(BlueprintCallable)
 	virtual void BeginCasting();
-
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+		void SuccessfulCast();
 
 public:	
 	// Called every frame
