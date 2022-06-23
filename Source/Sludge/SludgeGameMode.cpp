@@ -13,5 +13,5 @@ ASludgeGameMode::ASludgeGameMode()
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
-	HUDClass = ASludgeHUD::StaticClass();
+	//HUDClass = ASludgeHUD::StaticClass();
 }

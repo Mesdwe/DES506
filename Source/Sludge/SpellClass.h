@@ -19,10 +19,12 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	UFUNCTION(BlueprintCallable)
-	virtual void BeginCasting();
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	void BeginCasting();
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 		void SuccessfulCast();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bHasAdditionalInput;
 
 public:	
 	// Called every frame
