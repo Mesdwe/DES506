@@ -58,6 +58,9 @@ public:
 		bool bIsCasting;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class ASpellClass* CurrentSpell;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TEnumAsByte<Rune> CurrentRune;
 	void ActivateSpellCasting();
 
@@ -84,7 +87,8 @@ public:
 		void ImmediatelyCast();
 	UFUNCTION(BlueprintImplementableEvent)
 		void DelayCast();
-
+	UFUNCTION(BlueprintCallable)
+	void CancelSelecting();
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
