@@ -11,6 +11,7 @@ USpellComponent::USpellComponent()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
+	CurrentSpell = nullptr;
 	// ...
 }
 
@@ -35,9 +36,9 @@ void USpellComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 
 void USpellComponent::ActivateSpellCasting()
 {
-	if (bIsMenuActivated)
+	if (bIsMenuActivated && !bIsUIActivated)
 	{
-		ResetCurrentSpell();
+		//ResetCurrentSpell();
 		return;
 	}
 	if (!bIsUIActivated)
@@ -61,6 +62,22 @@ void USpellComponent::ActivateSpellCasting()
 	}
 }
 
+void USpellComponent::CancelSelecting()
+{
+	if (bIsMenuActivated && !bIsUIActivated)
+	{
+		ResetCurrentSpell();
+		//Remove spell instance
+		TSubclassOf<ASpellClass> SpellClass;
+		SpellClass = ASpellClass::StaticClass();
+		ASpellClass* SpellR = Cast<ASpellClass>(UGameplayStatics::GetActorOfClass(GetWorld(), SpellClass));
+		if (SpellR != nullptr)
+		{
+			SpellR->EndCasting();
+		}
+		return;
+	}
+}
 void USpellComponent::ResetCurrentSpell()
 {
 		
@@ -68,17 +85,11 @@ void USpellComponent::ResetCurrentSpell()
 		bIsActivated = false;
 		bIsUIActivated = false;
 		bIsMenuActivated = false;
+
+		CurrentSpell = nullptr;
 		OnDeactivateCastingMenu();
-		TSubclassOf<ASpellClass> SpellClass;
-		SpellClass = ASpellClass::StaticClass();
-		ASpellClass* SpellR = Cast<ASpellClass>(UGameplayStatics::GetActorOfClass(GetWorld(),SpellClass));
-		if (SpellR != nullptr)
-		{
-			SpellR->EndCasting();
-		}
+
 		bIsCasting = false;
-		
-		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 }
 void USpellComponent::CastSpell()
 {
@@ -92,11 +103,10 @@ void USpellComponent::CastSpell()
 			FRotator Rot = GetOwner()->GetActorRotation();
 			FActorSpawnParameters SpawnInfo;
 			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-			GetWorld()->SpawnActor(Sp.SpellClass,&Loc, &Rot, SpawnInfo);
+			CurrentSpell = Cast<ASpellClass>(GetWorld()->SpawnActor(Sp.SpellClass,&Loc, &Rot, SpawnInfo));
 			
 			if (!Sp.bHasAdditionalInput)
 			{
-				//ResetCurrentSpell();
 				ImmediatelyCast();
 			}
 			else
@@ -105,20 +115,15 @@ void USpellComponent::CastSpell()
 				CurrentSequence = "";
 				bIsUIActivated = false;
 				DelayCast();
-				//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
-				//OnDeactivateCastingMenu();
 			}
 		}
 	}
 	if (CurrentSequence != "")
 	{
-		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Red, TEXT("Invalid Spell"));
 		InvalidSpell();
-
-		//USpellComponent::ResetCurrentSpell();
-		//ActivateSpellCasting();
 	}
 }
+
 
 
 void USpellComponent::ReceiveInput(float Tone)
