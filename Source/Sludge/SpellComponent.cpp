@@ -52,7 +52,6 @@ void USpellComponent::ActivateSpellCasting()
 	}
 	else
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));
 		OnDeactivateCastingMenu();
 		/*CurrentSequence = "";
 		bIsActivated = false;
