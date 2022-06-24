@@ -25,6 +25,8 @@ protected:
 		void SuccessfulCast();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bHasAdditionalInput;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bHasValidCondition;
 
 public:	
 	// Called every frame
