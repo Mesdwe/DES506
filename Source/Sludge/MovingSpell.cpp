@@ -38,7 +38,7 @@ void AMovingSpell::FindTargetLocation()
 	{
 		
 		SetValidState(Hit);
-		this->SetActorLocation(Hit.Location);
+		this->SetActorLocationAndRotation(Hit.Location, FRotationMatrix::MakeFromZ(Hit.ImpactNormal).Rotator());
 		return;
 	}
 	else
@@ -46,6 +46,7 @@ void AMovingSpell::FindTargetLocation()
 		SetActorLocation(EndP);
 
 		FVector Start2 = this->GetActorLocation();
+
 		FVector End2 = Start2 + FVector(0.0f, 0.0f, -10000.0f);
 		FHitResult Hit2;
 
@@ -55,7 +56,8 @@ void AMovingSpell::FindTargetLocation()
 		{
 			SetValidState(Hit2);
 
-			this->SetActorLocation(Hit2.Location);
+			//this->SetActorLocation(Hit2.Location);
+			this->SetActorLocationAndRotation(Hit2.Location, FRotationMatrix::MakeFromZ(Hit2.ImpactNormal).Rotator());
 
 		}
 	}
