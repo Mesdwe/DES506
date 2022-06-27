@@ -276,7 +276,6 @@ void ASludgeCharacter::ClimbingEdgeCheck()
 	FVector Start = GetActorLocation() + FVector(0.0f, 0.0f, 110.0f);
 	FVector Direction = GetActorForwardVector() * 100.0f;
 	FVector End = Start + Direction;
-	DrawDebugLine(GetWorld(), Start, End, FColor::Blue, false, 0.2f);
 
 	FCollisionQueryParams TraceParam;
 	GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, TraceParam);
