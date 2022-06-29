@@ -30,7 +30,7 @@ void AMovingSpell::FindTargetLocation()
 	Loc = FirstPersonCamera->GetComponentLocation();
 	Rot = FirstPersonCamera->GetComponentRotation();
 	FVector StartP = Loc;
-	FVector EndP = StartP + (Rot.Vector() * 1000);
+	FVector EndP = StartP + (Rot.Vector() * MoveableRange);
 	FCollisionQueryParams TraceParam;
 	GetWorld()->LineTraceSingleByChannel(Hit, StartP, EndP, ECC_Visibility, TraceParam);
 

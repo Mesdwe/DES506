@@ -27,6 +27,8 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 		void SetValidState(FHitResult HitResult);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float MoveableRange;
 private:
 	void FindTargetLocation();
 
