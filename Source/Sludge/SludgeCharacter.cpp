@@ -124,7 +124,7 @@ void ASludgeCharacter::MoveForward(float Value)
 		{
 					// add movement in that direction
 			AddMovementInput(GetActorUpVector(), Value);
-			if (bIsOnLedge)
+			if (bIsOnLedge && Value > 0.0f)
 			{
 				bIsClimbingUp = true;
 				bIsClimbing = false;
@@ -174,6 +174,7 @@ void ASludgeCharacter::LookUpAtRate(float Rate)
 
 void ASludgeCharacter::SpellCasting()
 {
+	if (bIsClimbing) return;
 	if (Spell != nullptr)
 		Spell->ActivateSpellCasting();
 }
@@ -240,6 +241,7 @@ void ASludgeCharacter::InteractLineTrace()
 	//Climbing walls
 	if (Hit.GetActor()!=nullptr&&Hit.GetActor()->ActorHasTag("Walls"))
 	{
+		if (Spell != nullptr && Spell->bIsMenuActivated) return;
 		ASludgeCharacter::ClimbingEdgeCheck();
 		//this->SetActorRotation(FRotator(0.0f, 0.0f, Hit.Normal.Rotation().Vector().Z));
 		
