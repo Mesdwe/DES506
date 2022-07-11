@@ -113,7 +113,7 @@ void USpellComponent::CastSpell()
 				//selecting location
 				CurrentSequence = "";
 				bIsUIActivated = false;
-				DelayCast();
+				OnDeactivateCastingMenu.Broadcast();
 			}
 		}
 	}

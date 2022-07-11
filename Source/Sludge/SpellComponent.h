@@ -73,10 +73,6 @@ public:
 		FCastingDelegate OnActivateCastingMenu;
 	UPROPERTY(BlueprintAssignable)
 		FCastingDelegate OnDeactivateCastingMenu;
-	//UFUNCTION(BlueprintImplementableEvent)
-	//	void OnActivateCastingMenu();
-	//UFUNCTION(BlueprintImplementableEvent)
-	//	void OnDeactivateCastingMenu();
 
 	//Rune behaviour
 	UFUNCTION(BlueprintImplementableEvent)
@@ -95,8 +91,6 @@ public:
 	void CastSpell();
 	UFUNCTION(BlueprintImplementableEvent)
 		void ImmediatelyCast();
-	UFUNCTION(BlueprintImplementableEvent)
-		void DelayCast();
 
 	UFUNCTION(BlueprintCallable)
 	void CancelSelecting();
