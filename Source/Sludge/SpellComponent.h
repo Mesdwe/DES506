@@ -33,7 +33,7 @@ struct FSpell
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bHasAdditionalInput;
 };
-
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FCastingDelegate);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
 class SLUDGE_API USpellComponent : public UActorComponent
@@ -68,10 +68,13 @@ public:
 		void ResetCurrentSpell();
 	UFUNCTION(BlueprintImplementableEvent)
 		void InvalidSpell();
-	UFUNCTION(BlueprintImplementableEvent)
-		void OnActivateCastingMenu();
-	UFUNCTION(BlueprintImplementableEvent)
-		void OnDeactivateCastingMenu();
+
+	UPROPERTY(BlueprintAssignable)
+		FCastingDelegate OnActivateCastingMenu;
+	UPROPERTY(BlueprintAssignable)
+		FCastingDelegate OnDeactivateCastingMenu;
+
+	//Rune behaviour
 	UFUNCTION(BlueprintImplementableEvent)
 		void Rune1Behaviour();
 	UFUNCTION(BlueprintImplementableEvent)
@@ -80,13 +83,15 @@ public:
 		void Rune3Behaviour();	
 	UFUNCTION(BlueprintImplementableEvent)
 		void Rune4Behaviour();
+
 	void ReceiveInput(float Tone);
+
+	//Different modes of casting
 	UFUNCTION(BlueprintCallable)
 	void CastSpell();
 	UFUNCTION(BlueprintImplementableEvent)
 		void ImmediatelyCast();
-	UFUNCTION(BlueprintImplementableEvent)
-		void DelayCast();
+
 	UFUNCTION(BlueprintCallable)
 	void CancelSelecting();
 protected:

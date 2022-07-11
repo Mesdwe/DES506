@@ -48,11 +48,11 @@ void USpellComponent::ActivateSpellCasting()
 		bIsActivated = true;
 		bIsUIActivated = true;
 		//GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Activate Casting Menu"));
-		OnActivateCastingMenu();
+		OnActivateCastingMenu.Broadcast();
 	}
 	else
 	{
-		OnDeactivateCastingMenu();
+		OnDeactivateCastingMenu.Broadcast();
 		/*CurrentSequence = "";
 		bIsActivated = false;
 		GEngine->AddOnScreenDebugMessage(-1, 2.0f, FColor::Yellow, TEXT("Deactivate Casting Menu"));*/
@@ -86,7 +86,7 @@ void USpellComponent::ResetCurrentSpell()
 		bIsMenuActivated = false;
 
 		CurrentSpell = nullptr;
-		OnDeactivateCastingMenu();
+		OnDeactivateCastingMenu.Broadcast();
 
 		bIsCasting = false;
 }
@@ -113,7 +113,7 @@ void USpellComponent::CastSpell()
 				//selecting location
 				CurrentSequence = "";
 				bIsUIActivated = false;
-				DelayCast();
+				OnDeactivateCastingMenu.Broadcast();
 			}
 		}
 	}
