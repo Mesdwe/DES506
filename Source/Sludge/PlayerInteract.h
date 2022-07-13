@@ -34,4 +34,6 @@ public:
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 		void OnFocus();
+
+
 };
