@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{39B52AEE-8349-474B-BAA7-B7A45DD452F5}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{39B52AEE-8349-474B-BAA7-B7A45DD452F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

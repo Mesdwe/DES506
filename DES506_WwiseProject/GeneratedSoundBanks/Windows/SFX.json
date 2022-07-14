@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\",
+   "SourceFilesRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
+    "Language": "SFX",
+    "Hash": "1716400376",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2043403999",
+      "Name": "Rain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Rain",
+      "GUID": "{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}",
+      "DurationType": "OneShot",
+      "DurationMin": "123.000000",
+      "DurationMax": "123.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1009186357",
+        "Language": "SFX",
+        "ShortName": "sfx_Environment_Ambience_Rain.wav",
+        "Path": "SFX\\sfx_Environment_Ambience_Rain_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

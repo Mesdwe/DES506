@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2043403999	Rain			\Default Work Unit\Rain	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1009186357	sfx_Environment_Ambience_Rain	\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\sfx_Environment_Ambience_Rain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\sfx_Environment_Ambience_Rain		23616064
+

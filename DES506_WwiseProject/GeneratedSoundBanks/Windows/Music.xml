@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="3012300438">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

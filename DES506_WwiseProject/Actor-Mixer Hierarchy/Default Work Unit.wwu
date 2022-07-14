@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Environment" ID="{728CBE25-D413-4145-99F8-5F462D32BD04}" ShortID="557209451">
+					<ChildrenList>
+						<Sound Name="sfx_Environment_Ambience_Rain" ID="{081F6566-77AF-4A9C-B9AA-50A6EB08C208}" ShortID="1065177395">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sfx_Environment_Ambience_Rain" ID="{31FC20FB-5FB7-42C5-9B73-088D450D3F84}">
+									<Language>SFX</Language>
+									<AudioFile>sfx_Environment_Ambience_Rain.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1009186357"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="sfx_Environment_Ambience_Rain" ID="{31FC20FB-5FB7-42C5-9B73-088D450D3F84}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
