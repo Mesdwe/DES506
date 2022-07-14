@@ -72,3 +72,14 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+# Wwise Project
+DES506_WwiseProject/IncrementalSoundBankData.xml
+DES506_WwiseProject/.cache/
+DES506_WwiseProject/.backup/
+DES506_WwiseProject/*.akd
+DES506_WwiseProject/*.akpk
+DES506_WwiseProject/*.prof
+DES506_WwiseProject/*.validationcache
+DES506_WwiseProject/*.wsettings

@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+#include "SpellComponent.h"
 #include <Runtime/Engine/Classes/Engine/Engine.h>
 #include "Kismet/GameplayStatics.h"
-#include "SpellComponent.h"
+
 
 // Sets default values for this component's properties
 USpellComponent::USpellComponent()
