@@ -104,8 +104,10 @@ void USpellComponent::CastSpell()
 			SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 			CurrentSpell = Cast<ASpellClass>(GetWorld()->SpawnActor(Sp.SpellClass,&Loc, &Rot, SpawnInfo));
 			
+			OnDeactivateCastingMenu.Broadcast();
 			if (!Sp.bHasAdditionalInput)
 			{
+				
 				ImmediatelyCast();
 			}
 			else
@@ -113,12 +115,14 @@ void USpellComponent::CastSpell()
 				//selecting location
 				CurrentSequence = "";
 				bIsUIActivated = false;
-				OnDeactivateCastingMenu.Broadcast();
+				
 			}
 		}
 	}
 	if (CurrentSequence != "")
 	{
+		OnDeactivateCastingMenu.Broadcast();
+
 		InvalidSpell();
 	}
 }
