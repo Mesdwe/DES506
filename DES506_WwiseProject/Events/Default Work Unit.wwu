@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayAmbience" ID="{2F7A22FD-6438-4233-B72A-67641633C313}">
+					<ChildrenList>
+						<Action Name="" ID="{BA64AA6B-A2D2-451E-943B-732BE5348DC8}" ShortID="178187680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Background_Ambience_KipburyChasm" ID="{57DDE887-4B9B-44E6-9044-84902C39C489}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

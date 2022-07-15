@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\",
-   "SourceFilesRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "M:\\GitHub\\DES506\\DES506_WwiseProject\\",
+   "SourceFilesRoot": "M:\\GitHub\\DES506\\DES506_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "M:\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "M:\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "1716400376",
+    "Hash": "877056052",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",

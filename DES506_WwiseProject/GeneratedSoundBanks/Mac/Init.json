@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\",
-   "SourceFilesRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "M:\\GitHub\\DES506\\DES506_WwiseProject\\",
+   "SourceFilesRoot": "M:\\GitHub\\DES506\\DES506_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "M:\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "\\\\StuHomeOdd\\HomeDrive5$\\1702485\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "M:\\GitHub\\DES506\\DES506_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {

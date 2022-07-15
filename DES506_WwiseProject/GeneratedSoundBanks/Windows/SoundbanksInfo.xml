@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>M:\GitHub\DES506\DES506_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>\\StuHomeOdd\HomeDrive5$\1702485\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1716400376">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="877056052">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -31,10 +31,20 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="3012300438">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="4221347382">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1765704519" Name="PlayAmbience" ObjectPath="\Events\Default Work Unit\PlayAmbience" GUID="{2F7A22FD-6438-4233-B72A-67641633C313}" DurationType="OneShot" DurationMin="207.812500" DurationMax="207.812500">
+					<IncludedMemoryFiles>
+						<File Id="868099755" Language="SFX">
+							<ShortName>Music_Background_Ambience_KipburyChasm.wav</ShortName>
+							<Path>SFX\Music_Background_Ambience_KipburyChasm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

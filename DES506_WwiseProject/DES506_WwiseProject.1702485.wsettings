@@ -3,7 +3,8 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{2B571D06-2897-4915-8367-3CBBDE9E7B9C}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="M:\DES506\Audio\AlphaSamples\Environment\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="M:\DES506\Audio\AlphaSamples\"/>
+				<Property Name="Event Action List\{2F7A22FD-6438-4233-B72A-67641633C313}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -23,9 +24,10 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="pewLxatX3kmflZ+uYTzFZA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="cUoNXdbPNU2mELV+UoZd1+zftM0RrO1MmtAt1VVLcIM="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="7N+0zRGs7Uya0C3VVUtwg3FKDV3WzzVNphC1flKGXdc="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="mP2iGmRe+0q5l9GEOQUgTwECF+3/////BxpvBHAR+ka8ipY6Z84fswECF+3/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="mP2iGmRe+0q5l9GEOQUgTwECpun/////BxpvBHAR+ka8ipY6Z84fswECpun/////"/>
+				<Property Name="Interactive Music\x64_{57DDE887-4B9B-44E6-9044-84902C39C489} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/6qx/ZbjhNAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>

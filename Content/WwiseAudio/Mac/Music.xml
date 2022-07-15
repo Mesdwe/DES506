@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>M:\GitHub\DES506\DES506_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>M:\GitHub\DES506\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="943948344">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1765704519" Name="PlayAmbience" ObjectPath="\Events\Default Work Unit\PlayAmbience" GUID="{2F7A22FD-6438-4233-B72A-67641633C313}" DurationType="OneShot" DurationMin="207.812500" DurationMax="207.812500">
+					<IncludedMemoryFiles>
+						<File Id="868099755" Language="SFX">
+							<ShortName>Music_Background_Ambience_KipburyChasm.wav</ShortName>
+							<Path>SFX\Music_Background_Ambience_KipburyChasm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
