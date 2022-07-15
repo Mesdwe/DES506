@@ -11,12 +11,52 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="877056052">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1870930171">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2043403999" Name="Rain" ObjectPath="\Events\Default Work Unit\Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
+				<Event Id="1424467790" Name="sfx_Carnyx" ObjectPath="\Events\Default Work Unit\sfx_Carnyx" GUID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" DurationType="OneShot" DurationMin="72.248894" DurationMax="72.248894">
+					<IncludedMemoryFiles>
+						<File Id="148474242" Language="SFX">
+							<ShortName>sfx_Raider_Carnyx.wav</ShortName>
+							<Path>SFX\sfx_Raider_Carnyx_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4050951667" Name="sfx_Cart" ObjectPath="\Events\Default Work Unit\sfx_Cart" GUID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" DurationType="OneShot" DurationMin="86.099602" DurationMax="86.099602">
+					<IncludedMemoryFiles>
+						<File Id="223569691" Language="SFX">
+							<ShortName>Background_Opening_Cart.wav</ShortName>
+							<Path>SFX\Background_Opening_Cart_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="280264588" Name="sfx_Genhu_Purify_Genhu" ObjectPath="\Events\Default Work Unit\sfx_Genhu_Purify_Genhu" GUID="{EA84BA88-4554-4749-A5FF-F608681E502C}" DurationType="OneShot" DurationMin="3.460703" DurationMax="3.460703">
+					<IncludedMemoryFiles>
+						<File Id="427301792" Language="SFX">
+							<ShortName>sfx_Genhu_Purify_Genhu.wav</ShortName>
+							<Path>SFX\sfx_Genhu_Purify_Genhu_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2264332347" Name="sfx_Genhu_Teleportation_End" ObjectPath="\Events\Default Work Unit\sfx_Genhu_Teleportation_End" GUID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" DurationType="OneShot" DurationMin="1.880816" DurationMax="1.880816">
+					<IncludedMemoryFiles>
+						<File Id="299736928" Language="SFX">
+							<ShortName>sfx_Genhu_Teleportation_End.wav</ShortName>
+							<Path>SFX\sfx_Genhu_Teleportation_End_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3699556704" Name="sfx_Genhu_Teleportation_Start" ObjectPath="\Events\Default Work Unit\sfx_Genhu_Teleportation_Start" GUID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}" DurationType="OneShot" DurationMin="2.568000" DurationMax="2.568000">
+					<IncludedMemoryFiles>
+						<File Id="383862852" Language="SFX">
+							<ShortName>sfx_Genhu_Teleportation_Start.wav</ShortName>
+							<Path>SFX\sfx_Genhu_Teleportation_Start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1904851423" Name="sfx_Rain" ObjectPath="\Events\Default Work Unit\sfx_Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
 					<IncludedMemoryFiles>
 						<File Id="1009186357" Language="SFX">
 							<ShortName>sfx_Environment_Ambience_Rain.wav</ShortName>
