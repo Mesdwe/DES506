@@ -11,12 +11,20 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="877056052">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2689374717">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2043403999" Name="Rain" ObjectPath="\Events\Default Work Unit\Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
+				<Event Id="4050951667" Name="sfx_Cart" ObjectPath="\Events\Default Work Unit\sfx_Cart" GUID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" DurationType="OneShot" DurationMin="86.099602" DurationMax="86.099602">
+					<IncludedMemoryFiles>
+						<File Id="223569691" Language="SFX">
+							<ShortName>Background_Opening_Cart.wav</ShortName>
+							<Path>SFX\Background_Opening_Cart_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1904851423" Name="sfx_Rain" ObjectPath="\Events\Default Work Unit\sfx_Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
 					<IncludedMemoryFiles>
 						<File Id="1009186357" Language="SFX">
 							<ShortName>sfx_Environment_Ambience_Rain.wav</ShortName>

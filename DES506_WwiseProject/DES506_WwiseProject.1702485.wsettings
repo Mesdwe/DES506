@@ -6,6 +6,7 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="M:\DES506\Audio\AlphaSamples\"/>
 				<Property Name="Event Action List\{2F7A22FD-6438-4233-B72A-67641633C313}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{68676CFF-921B-4A05-AD04-CA83E8BAA88C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>

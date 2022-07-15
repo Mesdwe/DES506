@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}">
+				<Event Name="sfx_Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}">
 					<ChildrenList>
 						<Action Name="" ID="{92D00C7E-9E29-4EB7-88D6-2133B0D518DE}" ShortID="676204991">
 							<ReferenceList>
@@ -20,6 +20,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Music_Background_Ambience_KipburyChasm" ID="{57DDE887-4B9B-44E6-9044-84902C39C489}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Cart" ID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}">
+					<ChildrenList>
+						<Action Name="" ID="{9B0B9EA6-711A-46BC-809C-B75EFF46980B}" ShortID="642583790">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Background_Opening_Cart" ID="{6BCC5F43-A754-4DA2-BB47-2A8240546C44}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

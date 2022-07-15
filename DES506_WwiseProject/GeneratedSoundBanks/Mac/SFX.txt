@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2043403999	Rain			\Default Work Unit\Rain	
+	1904851423	sfx_Rain			\Default Work Unit\sfx_Rain	
+	4050951667	sfx_Cart			\Default Work Unit\sfx_Cart	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	223569691	sfx_Background_Opening_Cart	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\Background_Opening_Cart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Opening\sfx_Background_Opening_Cart		16531188
 	1009186357	sfx_Environment_Ambience_Rain	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\sfx_Environment_Ambience_Rain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\sfx_Environment_Ambience_Rain		23616064
 
