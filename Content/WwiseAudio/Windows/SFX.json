@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "1870930171",
+    "Hash": "3054350657",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -56,6 +56,23 @@
       ]
      },
      {
+      "Id": "3646062548",
+      "Name": "sfx_Footsteps_Stone",
+      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Footsteps_Stone",
+      "GUID": "{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.635646",
+      "DurationMax": "10.635646",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "857110300",
+        "Language": "SFX",
+        "ShortName": "sfx_Footsteps_Stone.wav",
+        "Path": "SFX\\sfx_Footsteps_Stone_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "280264588",
       "Name": "sfx_Genhu_Purify_Genhu",
       "ObjectPath": "\\Events\\Default Work Unit\\sfx_Genhu_Purify_Genhu",
@@ -69,6 +86,23 @@
         "Language": "SFX",
         "ShortName": "sfx_Genhu_Purify_Genhu.wav",
         "Path": "SFX\\sfx_Genhu_Purify_Genhu_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2498639818",
+      "Name": "sfx_Genhu_Purify_Water",
+      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Genhu_Purify_Water",
+      "GUID": "{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.159275",
+      "DurationMax": "4.159275",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "99062319",
+        "Language": "SFX",
+        "ShortName": "sfx_Genhu_Purify_Water.wav",
+        "Path": "SFX\\sfx_Genhu_Purify_Water_10C4C929.wem"
        }
       ]
      },
@@ -103,6 +137,23 @@
         "Language": "SFX",
         "ShortName": "sfx_Genhu_Teleportation_Start.wav",
         "Path": "SFX\\sfx_Genhu_Teleportation_Start_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "991804038",
+      "Name": "sfx_Parched_Groan",
+      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Parched_Groan",
+      "GUID": "{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.406641",
+      "DurationMax": "3.406641",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "826443704",
+        "Language": "SFX",
+        "ShortName": "sfx_Parched_Groan.wav",
+        "Path": "SFX\\sfx_Parched_Groan_10C4C929.wem"
        }
       ]
      },

@@ -4,12 +4,16 @@
 		<UserProjectSettings Name="" ID="{2B571D06-2897-4915-8367-3CBBDE9E7B9C}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="M:\DES506\Audio\AlphaSamples\Genhu\"/>
+				<Property Name="Event Action List\{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2F7A22FD-6438-4233-B72A-67641633C313}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{68676CFF-921B-4A05-AD04-CA83E8BAA88C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{83E02307-F8A7-4001-8EC3-D40792AAC3A2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{EA84BA88-4554-4749-A5FF-F608681E502C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
