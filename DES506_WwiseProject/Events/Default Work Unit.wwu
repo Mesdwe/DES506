@@ -36,6 +36,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}">
+					<ChildrenList>
+						<Action Name="" ID="{24161FA2-39FE-4C28-AEE5-972F0D1EAB84}" ShortID="1012909731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Raider_Carnyx" ID="{6EC07E47-1E36-4C03-8DB5-BC76FB0E5567}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Genhu_Teleportation_Start" ID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}">
+					<ChildrenList>
+						<Action Name="" ID="{7B830BFE-645E-4A04-9ED4-1D2FE699DBB7}" ShortID="327250556">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Genhu_Teleportation_Start" ID="{9F542B92-0A15-41F1-95F7-D9C873102E49}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Genhu_Teleportation_End" ID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}">
+					<ChildrenList>
+						<Action Name="" ID="{DD3395D7-DA83-4F5E-A03D-CE5F2FC89479}" ShortID="55016083">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Genhu_Teleportation_End" ID="{ABAF7D71-E878-4DF8-ABF1-5354E1CBC56B}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Genhu_Purify_Genhu" ID="{EA84BA88-4554-4749-A5FF-F608681E502C}">
+					<ChildrenList>
+						<Action Name="" ID="{34DAD98C-B73A-4CAA-B7BB-FE565318314F}" ShortID="363054877">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Genhu_Purify_Genhu" ID="{6F4A4DED-5F82-4370-ADA5-BB17A9334ECC}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
