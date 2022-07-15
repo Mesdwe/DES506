@@ -1,8 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
+	280264588	sfx_Genhu_Purify_Genhu			\Default Work Unit\sfx_Genhu_Purify_Genhu	
+	1424467790	sfx_Carnyx			\Default Work Unit\sfx_Carnyx	
 	1904851423	sfx_Rain			\Default Work Unit\sfx_Rain	
+	2264332347	sfx_Genhu_Teleportation_End			\Default Work Unit\sfx_Genhu_Teleportation_End	
+	3699556704	sfx_Genhu_Teleportation_Start			\Default Work Unit\sfx_Genhu_Teleportation_Start	
 	4050951667	sfx_Cart			\Default Work Unit\sfx_Cart	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	223569691	sfx_Background_Opening_Cart	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Background_Opening_Cart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Opening\sfx_Background_Opening_Cart		16531188
+	148474242	sfx_Raider_Carnyx	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Raider_Carnyx_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Act 3 + Ending\sfx_Raider_Carnyx		13871852
+	223569691	sfx_Background_Opening_Cart	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Background_Opening_Cart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Opening_Sequence\sfx_Background_Opening_Cart		16531188
+	299736928	sfx_Genhu_Teleportation_End	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Genhu_Teleportation_End_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Teleportation_End		331840
+	383862852	sfx_Genhu_Teleportation_Start	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Genhu_Teleportation_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Teleportation_Start		493120
+	427301792	sfx_Genhu_Purify_Genhu	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Genhu_Purify_Genhu_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Purify_Genhu		610532
 	1009186357	sfx_Environment_Ambience_Rain	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Environment_Ambience_Rain_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\sfx_Environment_Ambience_Rain		23616064
 

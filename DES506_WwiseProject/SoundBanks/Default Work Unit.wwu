@@ -5,8 +5,12 @@
 			<ChildrenList>
 				<SoundBank Name="SFX" ID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}">
 					<ObjectInclusionList>
+						<ObjectRef Name="sfx_Genhu_Teleportation_Start" ID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_Genhu_Purify_Genhu" ID="{EA84BA88-4554-4749-A5FF-F608681E502C}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Cart" ID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_Genhu_Teleportation_End" ID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
