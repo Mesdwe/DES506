@@ -85,7 +85,7 @@
 						<Action Name="" ID="{955B6E55-F05A-429A-AE59-BBE05135F73B}" ShortID="126510920">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sfx_Footsteps_Stone" ID="{AC9E0137-34F8-49F2-897D-D4B406FFA761}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+									<ObjectRef Name="sfx_Footsteps_Player_Stone" ID="{AC9E0137-34F8-49F2-897D-D4B406FFA761}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -108,6 +108,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="sfx_Genhu_Purify_Water" ID="{DA848A62-3FC0-4122-A70A-B8280AC0DC50}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Footsteps_Genhu_Stone" ID="{6C091851-6186-4884-94B0-D6994AECC352}">
+					<ChildrenList>
+						<Action Name="" ID="{3DADE7EE-291A-4867-89E7-7C0E1223A556}" ShortID="759655527">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Footsteps_Genhu_Stone" ID="{CB197284-B286-4A63-8EB6-6C55694A7200}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
