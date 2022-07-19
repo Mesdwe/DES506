@@ -31,9 +31,10 @@ ASludgeCharacter::ASludgeCharacter()
 
 	// Create a CameraComponent	
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
+	//Attach camera to head
 	FirstPersonCameraComponent->SetupAttachment(ACharacter::GetMesh());
 	FirstPersonCameraComponent->AttachTo(ACharacter::GetMesh(), "Head");
-	//FirstPersonCameraComponent->SetRelativeLocation(FVector(-39.56f, 1.75f, 64.f)); // Position the camera
+
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
 
@@ -48,7 +49,7 @@ ASludgeCharacter::ASludgeCharacter()
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
 
-	//Spell Component
+	//init Spell Component
 	Spell = nullptr;
 
 }
@@ -172,19 +173,20 @@ void ASludgeCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
+//Start casting mode
 void ASludgeCharacter::SpellCasting()
 {
 	if (bIsClimbing) return;
 	if (Spell != nullptr)
 		Spell->ActivateSpellCasting();
 }
+
 void ASludgeCharacter::Tone1Input()
 {
 	if (Spell != nullptr && Spell->bIsUIActivated)
 	{
 		Spell->ReceiveInput(1.0f);
 		CurrentTone = 1.0f;
-		//bIsCasting = true;
 	}
 }
 void ASludgeCharacter::Tone2Input()
@@ -192,11 +194,6 @@ void ASludgeCharacter::Tone2Input()
 	if (Spell != nullptr && Spell->bIsUIActivated)
 	{
 		Spell->ReceiveInput(2.0f);
-
-
-		//CurrentTone = 2.0f;
-		//bIsCasting = true;
-
 	}
 }
 void ASludgeCharacter::Tone3Input()
@@ -204,9 +201,6 @@ void ASludgeCharacter::Tone3Input()
 	if (Spell != nullptr && Spell->bIsUIActivated)
 	{
 		Spell->ReceiveInput(3.0f);
-		//CurrentTone = 3.0f;
-		//bIsCasting = true;
-
 	}
 }
 void ASludgeCharacter::Tone4Input()
@@ -214,9 +208,6 @@ void ASludgeCharacter::Tone4Input()
 	if (Spell != nullptr && Spell->bIsUIActivated)
 	{
 		Spell->ReceiveInput(4.0f);
-		//CurrentTone = 4.0f;
-		//bIsCasting = true;
-
 	}
 }
 
@@ -243,19 +234,16 @@ void ASludgeCharacter::InteractLineTrace()
 	{
 		if (Spell != nullptr && Spell->bIsMenuActivated) return;
 		ASludgeCharacter::ClimbingEdgeCheck();
-		//this->SetActorRotation(FRotator(0.0f, 0.0f, Hit.Normal.Rotation().Vector().Z));
-		
+
 		ClimbMeshBehaviour(Hit.Normal,Hit.Location);
 		if (!bIsClimbing)
 		{
 			bIsClimbing = true;
 			ClimbBehaviour(true);
-			/*DrawDebugLine(GetWorld(), StartP, EndP, FColor::Green, false, 0.2f);*/
 
 			GetCharacterMovement()->Velocity = FVector(0.0f, 0.0f, 0.0f);
 			GetCharacterMovement()->MovementMode = MOVE_Flying;
 
-			//GetCharacterMovement()->bOrientRotationToMovement = false;
 			return;
 
 		}
@@ -267,9 +255,6 @@ void ASludgeCharacter::InteractLineTrace()
 
 		GetCharacterMovement()->MovementMode = MOVE_Walking;
 	}
-	//DrawDebugLine(GetWorld(), StartP, EndP, FColor::Red, false, 0.2f);
-
-	
 }
 
 void ASludgeCharacter::ClimbingEdgeCheck()

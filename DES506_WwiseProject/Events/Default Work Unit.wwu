@@ -113,12 +113,87 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="sfx_Footsteps_Genhu_Stone" ID="{6C091851-6186-4884-94B0-D6994AECC352}">
+				<Event Name="sfx_Footsteps_Genhu_Stone" ID="{EDD6EDBF-51FA-4770-8312-3999C7858722}">
 					<ChildrenList>
-						<Action Name="" ID="{3DADE7EE-291A-4867-89E7-7C0E1223A556}" ShortID="759655527">
+						<Action Name="" ID="{ABD2ED6E-F759-48D2-A53B-DB70B78E4715}" ShortID="229407785">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{01085878-561D-4E03-93C6-08E2D4A342CE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sfx_Footsteps_Genhu_Stone" ID="{CB197284-B286-4A63-8EB6-6C55694A7200}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+									<ObjectRef Name="sfx_Footsteps_Genhu_Stone" ID="{6F93004D-184F-4B1C-ABD1-AEDFBC5B8874}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Footsteps_Player_Sludge" ID="{9092ADCA-DE2F-423E-94FC-DAC0916FF15C}">
+					<ChildrenList>
+						<Action Name="" ID="{3061A331-FB2C-44EB-97B4-1518B7330BD6}" ShortID="1026302875">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CD394A10-3431-48FF-AB6F-358D995F0FCF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Footsteps_Player_Sludge" ID="{354FD7D3-07A6-45BD-888E-8EC68BEDDAEE}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_Footsteps_Genhu_Sludge" ID="{512552AC-95C9-4171-8EAD-D2F15F6A993A}">
+					<ChildrenList>
+						<Action Name="" ID="{D0991311-D1C0-4A3D-8AA5-25DCD187BF9A}" ShortID="257736044">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3D9DE0BC-AF8F-4611-A9FC-5AED4EDCA22B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_Footsteps_Genhu_Sludge" ID="{AB8F194D-49D2-40A8-9B83-1DD0E671B385}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_UI_EntryAdded" ID="{585A58B5-7155-46B7-998E-CBC0EAD60849}">
+					<ChildrenList>
+						<Action Name="" ID="{D8ACF505-0A19-4740-BA5A-03E4CE65FB58}" ShortID="590727308">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_UI_EntryAdded" ID="{243F7CB6-6AA0-46C0-B24E-7F2906CA3BB0}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
