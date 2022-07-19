@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{38E87E74-B385-4321-88F5-9F246EB0379E}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{38E87E74-B385-4321-88F5-9F246EB0379E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{38E87E74-B385-4321-88F5-9F246EB0379E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="sfx_Footsteps_Genhu_Material" ID="{588667B8-2BC3-4259-B4B1-DCB8C846A401}">
+					<ChildrenList>
+						<Switch Name="Stone" ID="{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}"/>
+						<Switch Name="Sludge" ID="{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
