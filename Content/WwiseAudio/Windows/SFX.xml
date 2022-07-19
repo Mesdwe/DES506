@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1417181845">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="3159531892">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -29,11 +29,51 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1904074290" Name="sfx_Footsteps_Genhu_Stone" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Genhu_Stone" GUID="{6C091851-6186-4884-94B0-D6994AECC352}" DurationType="OneShot" DurationMin="25.758865" DurationMax="25.758865">
+				<Event Id="2853629381" Name="sfx_Footsteps_Genhu_Sludge" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Genhu_Sludge" GUID="{512552AC-95C9-4171-8EAD-D2F15F6A993A}" DurationType="OneShot" DurationMin="0.838136" DurationMax="1.112260">
 					<IncludedMemoryFiles>
-						<File Id="916271195" Language="SFX">
-							<ShortName>sfx_Footsteps_Genhu.wav</ShortName>
-							<Path>SFX\sfx_Footsteps_Genhu_10C4C929.wem</Path>
+						<File Id="190558273" Language="SFX">
+							<ShortName>Giant_Sludge_2.wav</ShortName>
+							<Path>SFX\Giant_Sludge_2_10C4C929.wem</Path>
+						</File>
+						<File Id="505186767" Language="SFX">
+							<ShortName>Giant_Sludge_3.wav</ShortName>
+							<Path>SFX\Giant_Sludge_3_10C4C929.wem</Path>
+						</File>
+						<File Id="955998453" Language="SFX">
+							<ShortName>Giant_Sludge_1.wav</ShortName>
+							<Path>SFX\Giant_Sludge_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1904074290" Name="sfx_Footsteps_Genhu_Stone" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Genhu_Stone" GUID="{EDD6EDBF-51FA-4770-8312-3999C7858722}" DurationType="OneShot" DurationMin="0.385870" DurationMax="0.530971">
+					<IncludedMemoryFiles>
+						<File Id="32840511" Language="SFX">
+							<ShortName>Big_Stone_Step_2.wav</ShortName>
+							<Path>SFX\Big_Stone_Step_2_10C4C929.wem</Path>
+						</File>
+						<File Id="204369387" Language="SFX">
+							<ShortName>Big_Stone_Step_1.wav</ShortName>
+							<Path>SFX\Big_Stone_Step_1_10C4C929.wem</Path>
+						</File>
+						<File Id="366046980" Language="SFX">
+							<ShortName>Big_Stone_Step_3.wav</ShortName>
+							<Path>SFX\Big_Stone_Step_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1868351355" Name="sfx_Footsteps_Player_Sludge" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Player_Sludge" GUID="{9092ADCA-DE2F-423E-94FC-DAC0916FF15C}" DurationType="OneShot" DurationMin="0.818441" DurationMax="1.096157">
+					<IncludedMemoryFiles>
+						<File Id="100710372" Language="SFX">
+							<ShortName>Player_Sludge_2.wav</ShortName>
+							<Path>SFX\Player_Sludge_2_10C4C929.wem</Path>
+						</File>
+						<File Id="505039938" Language="SFX">
+							<ShortName>Player_Sludge_1.wav</ShortName>
+							<Path>SFX\Player_Sludge_1_10C4C929.wem</Path>
+						</File>
+						<File Id="692045615" Language="SFX">
+							<ShortName>Player_Sludge_3.wav</ShortName>
+							<Path>SFX\Player_Sludge_3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
