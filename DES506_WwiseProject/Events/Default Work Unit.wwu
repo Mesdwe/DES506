@@ -188,6 +188,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="sfx_UI_EntryAdded" ID="{585A58B5-7155-46B7-998E-CBC0EAD60849}">
+					<ChildrenList>
+						<Action Name="" ID="{D8ACF505-0A19-4740-BA5A-03E4CE65FB58}" ShortID="590727308">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_UI_EntryAdded" ID="{243F7CB6-6AA0-46C0-B24E-7F2906CA3BB0}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

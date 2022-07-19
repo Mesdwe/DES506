@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2264332347	sfx_Genhu_Teleportation_End			\Default Work Unit\sfx_Genhu_Teleportation_End	
 	2498639818	sfx_Genhu_Purify_Water			\Default Work Unit\sfx_Genhu_Purify_Water	
 	2853629381	sfx_Footsteps_Genhu_Sludge			\Default Work Unit\sfx_Footsteps_Genhu_Sludge	
+	3279398580	sfx_UI_EntryAdded			\Default Work Unit\sfx_UI_EntryAdded	
 	3646062548	sfx_Footsteps_Stone			\Default Work Unit\sfx_Footsteps_Stone	
 	3699556704	sfx_Genhu_Teleportation_Start			\Default Work Unit\sfx_Genhu_Teleportation_Start	
 	4050951667	sfx_Cart			\Default Work Unit\sfx_Cart	
@@ -27,6 +28,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	505039938	Player_Sludge_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Player_Sludge_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\sfx_Footsteps_Player_Sludge\Player_Sludge_1		136940
 	505186767	Giant_Sludge_3	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Giant_Sludge_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\sfx_Footsteps_Genhu_Sludge\Giant_Sludge_3		136036
 	692045615	Player_Sludge_3	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Player_Sludge_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\sfx_Footsteps_Player_Sludge\Player_Sludge_3		132408
+	747815982	sfx_UI_EntryAdded	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Journal_Entry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\sfx_UI_EntryAdded		218956
 	826443704	sfx_Parched_Groan	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Parched_Groan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheParched\sfx_Parched_Groan		496704
 	857110300	sfx_Footsteps_Player_Stone	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Footsteps_Stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\sfx_Footsteps_Player_Stone		1876192
 	955998453	Giant_Sludge_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Giant_Sludge_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\sfx_Footsteps_Genhu_Sludge\Giant_Sludge_1		137848

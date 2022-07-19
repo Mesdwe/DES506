@@ -9,6 +9,7 @@
 						<ObjectRef Name="sfx_Footsteps_Genhu_Sludge" ID="{512552AC-95C9-4171-8EAD-D2F15F6A993A}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="" ID="{3061A331-FB2C-44EB-97B4-1518B7330BD6}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Genhu_Purify_Water" ID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_UI_EntryAdded" ID="{585A58B5-7155-46B7-998E-CBC0EAD60849}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Genhu_Purify_Genhu" ID="{EA84BA88-4554-4749-A5FF-F608681E502C}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Footsteps_Genhu_Stone" ID="{EDD6EDBF-51FA-4770-8312-3999C7858722}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Cart" ID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>

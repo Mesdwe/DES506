@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "3159531892",
+    "Hash": "3895355394",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -258,6 +258,23 @@
         "Language": "SFX",
         "ShortName": "sfx_Environment_Ambience_Rain.wav",
         "Path": "SFX\\sfx_Environment_Ambience_Rain_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3279398580",
+      "Name": "sfx_UI_EntryAdded",
+      "ObjectPath": "\\Events\\Default Work Unit\\sfx_UI_EntryAdded",
+      "GUID": "{585A58B5-7155-46B7-998E-CBC0EAD60849}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.240884",
+      "DurationMax": "1.240884",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "747815982",
+        "Language": "SFX",
+        "ShortName": "Journal_Entry.wav",
+        "Path": "SFX\\Journal_Entry_10C4C929.wem"
        }
       ]
      }
