@@ -209,117 +209,6 @@
 								<ActiveSource Name="sfx_Footsteps_Stone" ID="{951A726C-614F-4074-BD44-92F6AD49C6F7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<RandomSequenceContainer Name="sfx_Footsteps_Genhu_Stone" ID="{6F93004D-184F-4B1C-ABD1-AEDFBC5B8874}" ShortID="329659198">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{25C05412-0698-4B05-BC51-3BAAD300B81D}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="75"/>
-													<Property Name="Min" Type="Real64" Value="-75"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Big_Stone_Step_1" ID="{B05D8367-1DC7-4B77-8EA4-20363FA7B8C9}" ShortID="695212340">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{548D3DD5-D7E9-476A-9F9A-1CAAB6164947}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="25"/>
-															<Property Name="Min" Type="Real64" Value="-75"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Big_Stone_Step_1" ID="{C4CFD7CA-0A58-46ED-BB0F-E7295301D2CB}">
-											<Language>SFX</Language>
-											<AudioFile>Big_Stone_Step_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="204369387"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Big_Stone_Step_1" ID="{C4CFD7CA-0A58-46ED-BB0F-E7295301D2CB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Big_Stone_Step_2" ID="{E921C4FB-EDF5-4902-9FF0-B7DED9EDE189}" ShortID="932459239">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Big_Stone_Step_2" ID="{A0A14243-6496-4C98-901A-C886354E8600}">
-											<Language>SFX</Language>
-											<AudioFile>Big_Stone_Step_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="32840511"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Big_Stone_Step_2" ID="{A0A14243-6496-4C98-901A-C886354E8600}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Big_Stone_Step_3" ID="{AD62C25F-ABB3-4081-B841-F8DE436ABDB9}" ShortID="517491799">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Big_Stone_Step_3" ID="{9379C0FB-4CA9-4BE6-AC44-364A0A6269BB}">
-											<Language>SFX</Language>
-											<AudioFile>Big_Stone_Step_3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="366046980"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Big_Stone_Step_3" ID="{9379C0FB-4CA9-4BE6-AC44-364A0A6269BB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists/>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="sfx_Footsteps_Player_Sludge" ID="{354FD7D3-07A6-45BD-888E-8EC68BEDDAEE}" ShortID="311819857">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
@@ -417,32 +306,38 @@
 							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="sfx_Footsteps_Genhu_Sludge" ID="{AB8F194D-49D2-40A8-9B83-1DD0E671B385}" ShortID="525572135">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{5356872D-BDBD-4032-BD4F-52B2972BE6B0}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="75"/>
-													<Property Name="Min" Type="Real64" Value="-75"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
+						<SwitchContainer Name="GenhuFootstepMaterialContainer" ID="{04796C46-C688-40B6-8BCC-FA78BC809A6B}" ShortID="855467300">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
 								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Stone" ID="{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}" WorkUnitID="{38E87E74-B385-4321-88F5-9F246EB0379E}"/>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
 								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="sfx_Footsteps_Genhu_Material" ID="{588667B8-2BC3-4259-B4B1-DCB8C846A401}" WorkUnitID="{38E87E74-B385-4321-88F5-9F246EB0379E}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Giant_Sludge_1" ID="{E227E464-281C-4B79-9EBD-DF21B967B0CE}" ShortID="351376588">
+								<RandomSequenceContainer Name="sfx_Footsteps_Genhu_Stone" ID="{6F93004D-184F-4B1C-ABD1-AEDFBC5B8874}" ShortID="329659198">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{25C05412-0698-4B05-BC51-3BAAD300B81D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
@@ -452,20 +347,108 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Giant_Sludge_1" ID="{061B3BA9-36EC-44DB-8DE3-4C477602571E}">
-											<Language>SFX</Language>
-											<AudioFile>Giant_Sludge_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="955998453"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Big_Stone_Step_1" ID="{B05D8367-1DC7-4B77-8EA4-20363FA7B8C9}" ShortID="695212340">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{548D3DD5-D7E9-476A-9F9A-1CAAB6164947}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="25"/>
+																	<Property Name="Min" Type="Real64" Value="-75"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big_Stone_Step_1" ID="{C4CFD7CA-0A58-46ED-BB0F-E7295301D2CB}">
+													<Language>SFX</Language>
+													<AudioFile>Big_Stone_Step_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="204369387"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Big_Stone_Step_1" ID="{C4CFD7CA-0A58-46ED-BB0F-E7295301D2CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big_Stone_Step_2" ID="{E921C4FB-EDF5-4902-9FF0-B7DED9EDE189}" ShortID="932459239">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big_Stone_Step_2" ID="{A0A14243-6496-4C98-901A-C886354E8600}">
+													<Language>SFX</Language>
+													<AudioFile>Big_Stone_Step_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="32840511"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Big_Stone_Step_2" ID="{A0A14243-6496-4C98-901A-C886354E8600}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Big_Stone_Step_3" ID="{AD62C25F-ABB3-4081-B841-F8DE436ABDB9}" ShortID="517491799">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Big_Stone_Step_3" ID="{9379C0FB-4CA9-4BE6-AC44-364A0A6269BB}">
+													<Language>SFX</Language>
+													<AudioFile>Big_Stone_Step_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="366046980"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Big_Stone_Step_3" ID="{9379C0FB-4CA9-4BE6-AC44-364A0A6269BB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Giant_Sludge_1" ID="{061B3BA9-36EC-44DB-8DE3-4C477602571E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Giant_Sludge_2" ID="{1989B8CD-F82F-4314-9EE9-65491FC9590D}" ShortID="247284318">
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="sfx_Footsteps_Genhu_Sludge" ID="{AB8F194D-49D2-40A8-9B83-1DD0E671B385}" ShortID="525572135">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5356872D-BDBD-4032-BD4F-52B2972BE6B0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="75"/>
+															<Property Name="Min" Type="Real64" Value="-75"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
@@ -475,45 +458,91 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Giant_Sludge_2" ID="{D69D0B66-3978-4676-BAD9-CD72E587E811}">
-											<Language>SFX</Language>
-											<AudioFile>Giant_Sludge_2.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="190558273"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Giant_Sludge_1" ID="{E227E464-281C-4B79-9EBD-DF21B967B0CE}" ShortID="351376588">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Giant_Sludge_1" ID="{061B3BA9-36EC-44DB-8DE3-4C477602571E}">
+													<Language>SFX</Language>
+													<AudioFile>Giant_Sludge_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="955998453"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Giant_Sludge_1" ID="{061B3BA9-36EC-44DB-8DE3-4C477602571E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Giant_Sludge_2" ID="{1989B8CD-F82F-4314-9EE9-65491FC9590D}" ShortID="247284318">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Giant_Sludge_2" ID="{D69D0B66-3978-4676-BAD9-CD72E587E811}">
+													<Language>SFX</Language>
+													<AudioFile>Giant_Sludge_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="190558273"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Giant_Sludge_2" ID="{D69D0B66-3978-4676-BAD9-CD72E587E811}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Giant_Sludge_3" ID="{A193E3D7-74B3-4148-AA31-8E9E43B525D5}" ShortID="182557565">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Giant_Sludge_3" ID="{88F42F81-E4A9-44C4-91AC-DAA78DD31F30}">
+													<Language>SFX</Language>
+													<AudioFile>Giant_Sludge_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="505186767"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Giant_Sludge_3" ID="{88F42F81-E4A9-44C4-91AC-DAA78DD31F30}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Giant_Sludge_2" ID="{D69D0B66-3978-4676-BAD9-CD72E587E811}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Giant_Sludge_3" ID="{A193E3D7-74B3-4148-AA31-8E9E43B525D5}" ShortID="182557565">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Giant_Sludge_3" ID="{88F42F81-E4A9-44C4-91AC-DAA78DD31F30}">
-											<Language>SFX</Language>
-											<AudioFile>Giant_Sludge_3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="505186767"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Giant_Sludge_3" ID="{88F42F81-E4A9-44C4-91AC-DAA78DD31F30}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<ObjectLists/>
-						</RandomSequenceContainer>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="sfx_Footsteps_Genhu_Stone" ID="{6F93004D-184F-4B1C-ABD1-AEDFBC5B8874}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="sfx_Footsteps_Genhu_Sludge" ID="{AB8F194D-49D2-40A8-9B83-1DD0E671B385}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="TheParched" ID="{691CCBD6-DC28-42E2-9100-D9850331A773}" ShortID="650812056">
