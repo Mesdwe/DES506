@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "3895355394",
+    "Hash": "4293075320",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -59,48 +59,25 @@
       ]
      },
      {
-      "Id": "2853629381",
-      "Name": "sfx_Footsteps_Genhu_Sludge",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Footsteps_Genhu_Sludge",
-      "GUID": "{512552AC-95C9-4171-8EAD-D2F15F6A993A}",
+      "Id": "4026805620",
+      "Name": "sfx_Footsteps_Genhu",
+      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Footsteps_Genhu",
+      "GUID": "{876EE255-82C7-4037-9055-635FED585C13}",
       "DurationType": "OneShot",
-      "DurationMin": "0.838136",
-      "DurationMax": "1.112260",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "190558273",
-        "Language": "SFX",
-        "ShortName": "Giant_Sludge_2.wav",
-        "Path": "SFX\\Giant_Sludge_2_10C4C929.wem"
-       },
-       {
-        "Id": "505186767",
-        "Language": "SFX",
-        "ShortName": "Giant_Sludge_3.wav",
-        "Path": "SFX\\Giant_Sludge_3_10C4C929.wem"
-       },
-       {
-        "Id": "955998453",
-        "Language": "SFX",
-        "ShortName": "Giant_Sludge_1.wav",
-        "Path": "SFX\\Giant_Sludge_1_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1904074290",
-      "Name": "sfx_Footsteps_Genhu_Stone",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Footsteps_Genhu_Stone",
-      "GUID": "{EDD6EDBF-51FA-4770-8312-3999C7858722}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.385870",
-      "DurationMax": "0.530971",
+      "DurationMin": "0.738136",
+      "DurationMax": "0.912260",
       "IncludedMemoryFiles": [
        {
         "Id": "32840511",
         "Language": "SFX",
         "ShortName": "Big_Stone_Step_2.wav",
         "Path": "SFX\\Big_Stone_Step_2_10C4C929.wem"
+       },
+       {
+        "Id": "190558273",
+        "Language": "SFX",
+        "ShortName": "Giant_Sludge_2.wav",
+        "Path": "SFX\\Giant_Sludge_2_10C4C929.wem"
        },
        {
         "Id": "204369387",
@@ -113,6 +90,18 @@
         "Language": "SFX",
         "ShortName": "Big_Stone_Step_3.wav",
         "Path": "SFX\\Big_Stone_Step_3_10C4C929.wem"
+       },
+       {
+        "Id": "505186767",
+        "Language": "SFX",
+        "ShortName": "Giant_Sludge_3.wav",
+        "Path": "SFX\\Giant_Sludge_3_10C4C929.wem"
+       },
+       {
+        "Id": "955998453",
+        "Language": "SFX",
+        "ShortName": "Giant_Sludge_1.wav",
+        "Path": "SFX\\Giant_Sludge_1_10C4C929.wem"
        }
       ]
      },
@@ -278,6 +267,28 @@
         "Language": "SFX",
         "ShortName": "Journal_Entry.wav",
         "Path": "SFX\\Journal_Entry_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4210236156",
+      "Name": "sfx_Footsteps_Genhu_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\sfx_Footsteps_Genhu_Material",
+      "GUID": "{588667B8-2BC3-4259-B4B1-DCB8C846A401}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\sfx_Footsteps_Genhu_Material\\Stone",
+        "GUID": "{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}"
+       },
+       {
+        "Id": "2269319855",
+        "Name": "Sludge",
+        "ObjectPath": "\\Switches\\Default Work Unit\\sfx_Footsteps_Genhu_Material\\Sludge",
+        "GUID": "{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}"
        }
       ]
      }
