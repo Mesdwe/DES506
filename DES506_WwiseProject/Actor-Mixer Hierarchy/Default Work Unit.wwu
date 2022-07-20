@@ -541,6 +541,20 @@
 										<ItemRef Name="sfx_Footsteps_Genhu_Sludge" ID="{AB8F194D-49D2-40A8-9B83-1DD0E671B385}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Stone" ID="{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}"/>
+										<ItemList>
+											<ItemRef Name="sfx_Footsteps_Genhu_Stone" ID="{6F93004D-184F-4B1C-ABD1-AEDFBC5B8874}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Sludge" ID="{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}"/>
+										<ItemList>
+											<ItemRef Name="sfx_Footsteps_Genhu_Sludge" ID="{AB8F194D-49D2-40A8-9B83-1DD0E671B385}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>
