@@ -151,17 +151,10 @@
 				</Event>
 				<Event Name="sfx_Footsteps_Genhu" ID="{876EE255-82C7-4037-9055-635FED585C13}">
 					<ChildrenList>
-						<Action Name="" ID="{0694010F-A5BA-46AE-AF3E-2D0608779F0A}" ShortID="792217728">
+						<Action Name="" ID="{5801ACB5-0F0D-4824-8BE8-9BF038D1C6B8}" ShortID="173523469">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sfx_Footsteps_Genhu_Stone" ID="{6F93004D-184F-4B1C-ABD1-AEDFBC5B8874}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B628CE00-1D53-43DB-8C34-2793C780817D}" ShortID="384056736">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Footsteps_Genhu_Sludge" ID="{AB8F194D-49D2-40A8-9B83-1DD0E671B385}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+									<ObjectRef Name="GenhuFootstepMaterialContainer" ID="{04796C46-C688-40B6-8BCC-FA78BC809A6B}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

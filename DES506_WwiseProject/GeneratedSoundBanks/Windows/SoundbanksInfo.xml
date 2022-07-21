@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="961094958">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2512576094">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -32,7 +32,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" DurationType="OneShot" DurationMin="0.738136" DurationMax="0.912260">
+				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" DurationType="OneShot" DurationMin="0.285870" DurationMax="0.912260">
 					<IncludedMemoryFiles>
 						<File Id="32840511" Language="SFX">
 							<ShortName>Big_Stone_Step_2.wav</ShortName>
@@ -59,6 +59,23 @@
 							<Path>SFX\Giant_Sludge_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}">
+							<Media>
+								<File Id="32840511"/>
+								<File Id="204369387"/>
+								<File Id="366046980"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}">
+							<Media>
+								<File Id="190558273"/>
+								<File Id="505186767"/>
+								<File Id="955998453"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="3646062548" Name="sfx_Footsteps_Stone" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Stone" GUID="{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}" DurationType="OneShot" DurationMin="10.635646" DurationMax="10.635646">
 					<IncludedMemoryFiles>

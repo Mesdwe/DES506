@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "4293075320",
+    "Hash": "1793154387",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -64,7 +64,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\sfx_Footsteps_Genhu",
       "GUID": "{876EE255-82C7-4037-9055-635FED585C13}",
       "DurationType": "OneShot",
-      "DurationMin": "0.738136",
+      "DurationMin": "0.285870",
       "DurationMax": "0.912260",
       "IncludedMemoryFiles": [
        {
@@ -102,6 +102,37 @@
         "Language": "SFX",
         "ShortName": "Giant_Sludge_1.wav",
         "Path": "SFX\\Giant_Sludge_1_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}",
+        "Media": [
+         {
+          "Id": "32840511"
+         },
+         {
+          "Id": "204369387"
+         },
+         {
+          "Id": "366046980"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}",
+        "Media": [
+         {
+          "Id": "190558273"
+         },
+         {
+          "Id": "505186767"
+         },
+         {
+          "Id": "955998453"
+         }
+        ]
        }
       ]
      },
