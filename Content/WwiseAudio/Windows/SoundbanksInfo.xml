@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1793154387">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1377754074">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1424467790" Name="sfx_Carnyx" ObjectPath="\Events\Default Work Unit\sfx_Carnyx" GUID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" DurationType="OneShot" DurationMin="72.248894" DurationMax="72.248894">
+				<Event Id="1424467790" Name="sfx_Carnyx" ObjectPath="\Events\Default Work Unit\Act3SFX\sfx_Carnyx" GUID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" DurationType="OneShot" DurationMin="72.248894" DurationMax="72.248894">
 					<IncludedMemoryFiles>
 						<File Id="148474242" Language="SFX">
 							<ShortName>sfx_Raider_Carnyx.wav</ShortName>
@@ -24,7 +24,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4050951667" Name="sfx_Cart" ObjectPath="\Events\Default Work Unit\sfx_Cart" GUID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" DurationType="OneShot" DurationMin="86.099602" DurationMax="86.099602">
+				<Event Id="4050951667" Name="sfx_Cart" ObjectPath="\Events\Default Work Unit\IntroSFX\sfx_Cart" GUID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" DurationType="OneShot" DurationMin="86.099602" DurationMax="86.099602">
 					<IncludedMemoryFiles>
 						<File Id="223569691" Language="SFX">
 							<ShortName>Background_Opening_Cart.wav</ShortName>
@@ -32,7 +32,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" DurationType="OneShot" DurationMin="0.285870" DurationMax="0.912260">
+				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" DurationType="OneShot" DurationMin="0.285870" DurationMax="0.912260">
 					<IncludedMemoryFiles>
 						<File Id="32840511" Language="SFX">
 							<ShortName>Big_Stone_Step_2.wav</ShortName>
@@ -77,7 +77,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1868351355" Name="sfx_Footsteps_Player_Sludge" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Player_Sludge" GUID="{9092ADCA-DE2F-423E-94FC-DAC0916FF15C}" DurationType="OneShot" DurationMin="0.818441" DurationMax="1.096157">
+				<Event Id="1868351355" Name="sfx_Footsteps_Player_Sludge" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Player_Sludge" GUID="{9092ADCA-DE2F-423E-94FC-DAC0916FF15C}" DurationType="OneShot" DurationMin="0.818441" DurationMax="1.096157">
 					<IncludedMemoryFiles>
 						<File Id="100710372" Language="SFX">
 							<ShortName>Player_Sludge_2.wav</ShortName>
@@ -93,7 +93,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3646062548" Name="sfx_Footsteps_Stone" ObjectPath="\Events\Default Work Unit\sfx_Footsteps_Stone" GUID="{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}" DurationType="OneShot" DurationMin="10.635646" DurationMax="10.635646">
+				<Event Id="3646062548" Name="sfx_Footsteps_Stone" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Stone" GUID="{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}" DurationType="OneShot" DurationMin="10.635646" DurationMax="10.635646">
 					<IncludedMemoryFiles>
 						<File Id="857110300" Language="SFX">
 							<ShortName>sfx_Footsteps_Stone.wav</ShortName>
@@ -101,7 +101,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="280264588" Name="sfx_Genhu_Purify_Genhu" ObjectPath="\Events\Default Work Unit\sfx_Genhu_Purify_Genhu" GUID="{EA84BA88-4554-4749-A5FF-F608681E502C}" DurationType="OneShot" DurationMin="3.460703" DurationMax="3.460703">
+				<Event Id="2630622802" Name="sfx_Genhu_Call_Affirmative" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative" GUID="{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000">
+					<IncludedMemoryFiles>
+						<File Id="582455103" Language="SFX">
+							<ShortName>genhu-sound_affirmative.wav</ShortName>
+							<Path>SFX\genhu-sound_affirmative_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2445943459" Name="sfx_Genhu_Call_Confused" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Confused" GUID="{5EB18133-7D46-4BA8-A79C-51A290F31256}" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000">
+					<IncludedMemoryFiles>
+						<File Id="903052459" Language="SFX">
+							<ShortName>genhu-sound_confused.wav</ShortName>
+							<Path>SFX\genhu-sound_confused_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="280264588" Name="sfx_Genhu_Purify_Genhu" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Purify_Genhu" GUID="{EA84BA88-4554-4749-A5FF-F608681E502C}" DurationType="OneShot" DurationMin="3.460703" DurationMax="3.460703">
 					<IncludedMemoryFiles>
 						<File Id="427301792" Language="SFX">
 							<ShortName>sfx_Genhu_Purify_Genhu.wav</ShortName>
@@ -109,7 +125,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2498639818" Name="sfx_Genhu_Purify_Water" ObjectPath="\Events\Default Work Unit\sfx_Genhu_Purify_Water" GUID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}" DurationType="OneShot" DurationMin="4.159275" DurationMax="4.159275">
+				<Event Id="2498639818" Name="sfx_Genhu_Purify_Water" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Purify_Water" GUID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}" DurationType="OneShot" DurationMin="4.159275" DurationMax="4.159275">
 					<IncludedMemoryFiles>
 						<File Id="99062319" Language="SFX">
 							<ShortName>sfx_Genhu_Purify_Water.wav</ShortName>
@@ -117,7 +133,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2264332347" Name="sfx_Genhu_Teleportation_End" ObjectPath="\Events\Default Work Unit\sfx_Genhu_Teleportation_End" GUID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" DurationType="OneShot" DurationMin="1.880816" DurationMax="1.880816">
+				<Event Id="2264332347" Name="sfx_Genhu_Teleportation_End" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_End" GUID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" DurationType="OneShot" DurationMin="1.880816" DurationMax="1.880816">
 					<IncludedMemoryFiles>
 						<File Id="299736928" Language="SFX">
 							<ShortName>sfx_Genhu_Teleportation_End.wav</ShortName>
@@ -125,7 +141,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3699556704" Name="sfx_Genhu_Teleportation_Start" ObjectPath="\Events\Default Work Unit\sfx_Genhu_Teleportation_Start" GUID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}" DurationType="OneShot" DurationMin="2.568000" DurationMax="2.568000">
+				<Event Id="3699556704" Name="sfx_Genhu_Teleportation_Start" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_Start" GUID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}" DurationType="OneShot" DurationMin="2.568000" DurationMax="2.568000">
 					<IncludedMemoryFiles>
 						<File Id="383862852" Language="SFX">
 							<ShortName>sfx_Genhu_Teleportation_Start.wav</ShortName>
@@ -133,7 +149,39 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="991804038" Name="sfx_Parched_Groan" ObjectPath="\Events\Default Work Unit\sfx_Parched_Groan" GUID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" DurationType="OneShot" DurationMin="3.406641" DurationMax="3.406641">
+				<Event Id="3254559700" Name="sfx_Invoking_1" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_1" GUID="{46FC202A-52E4-4500-8B89-C5554D8758E5}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274">
+					<IncludedMemoryFiles>
+						<File Id="928158904" Language="SFX">
+							<ShortName>tuning-fork_tone-1.wav</ShortName>
+							<Path>SFX\tuning-fork_tone-1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3254559703" Name="sfx_Invoking_2" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_2" GUID="{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274">
+					<IncludedMemoryFiles>
+						<File Id="6964705" Language="SFX">
+							<ShortName>tuning-fork_tone-2.wav</ShortName>
+							<Path>SFX\tuning-fork_tone-2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3254559702" Name="sfx_Invoking_3" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_3" GUID="{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274">
+					<IncludedMemoryFiles>
+						<File Id="284070227" Language="SFX">
+							<ShortName>tuning-fork_tone-3.wav</ShortName>
+							<Path>SFX\tuning-fork_tone-3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3254559697" Name="sfx_Invoking_4" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_4" GUID="{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274">
+					<IncludedMemoryFiles>
+						<File Id="868511091" Language="SFX">
+							<ShortName>tuning-fork_tone-4.wav</ShortName>
+							<Path>SFX\tuning-fork_tone-4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="991804038" Name="sfx_Parched_Groan" ObjectPath="\Events\Default Work Unit\Parched\sfx_Parched_Groan" GUID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" DurationType="OneShot" DurationMin="3.406641" DurationMax="3.406641">
 					<IncludedMemoryFiles>
 						<File Id="826443704" Language="SFX">
 							<ShortName>sfx_Parched_Groan.wav</ShortName>
@@ -141,7 +189,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1904851423" Name="sfx_Rain" ObjectPath="\Events\Default Work Unit\sfx_Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
+				<Event Id="1904851423" Name="sfx_Rain" ObjectPath="\Events\Default Work Unit\Weather\sfx_Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
 					<IncludedMemoryFiles>
 						<File Id="1009186357" Language="SFX">
 							<ShortName>sfx_Environment_Ambience_Rain.wav</ShortName>
@@ -149,7 +197,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3279398580" Name="sfx_UI_EntryAdded" ObjectPath="\Events\Default Work Unit\sfx_UI_EntryAdded" GUID="{585A58B5-7155-46B7-998E-CBC0EAD60849}" DurationType="OneShot" DurationMin="1.240884" DurationMax="1.240884">
+				<Event Id="3279398580" Name="sfx_UI_EntryAdded" ObjectPath="\Events\Default Work Unit\UI\sfx_UI_EntryAdded" GUID="{585A58B5-7155-46B7-998E-CBC0EAD60849}" DurationType="OneShot" DurationMin="1.240884" DurationMax="1.240884">
 					<IncludedMemoryFiles>
 						<File Id="747815982" Language="SFX">
 							<ShortName>Journal_Entry.wav</ShortName>
@@ -158,6 +206,32 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="6964705" Language="SFX">
+					<ShortName>tuning-fork_tone-2.wav</ShortName>
+					<Path>SFX\tuning-fork_tone-2_10C4C929.wem</Path>
+				</File>
+				<File Id="284070227" Language="SFX">
+					<ShortName>tuning-fork_tone-3.wav</ShortName>
+					<Path>SFX\tuning-fork_tone-3_10C4C929.wem</Path>
+				</File>
+				<File Id="582455103" Language="SFX">
+					<ShortName>genhu-sound_affirmative.wav</ShortName>
+					<Path>SFX\genhu-sound_affirmative_10C4C929.wem</Path>
+				</File>
+				<File Id="868511091" Language="SFX">
+					<ShortName>tuning-fork_tone-4.wav</ShortName>
+					<Path>SFX\tuning-fork_tone-4_10C4C929.wem</Path>
+				</File>
+				<File Id="903052459" Language="SFX">
+					<ShortName>genhu-sound_confused.wav</ShortName>
+					<Path>SFX\genhu-sound_confused_10C4C929.wem</Path>
+				</File>
+				<File Id="928158904" Language="SFX">
+					<ShortName>tuning-fork_tone-1.wav</ShortName>
+					<Path>SFX\tuning-fork_tone-1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 			<SwitchGroups>
 				<SwitchGroup Id="4210236156" Name="sfx_Footsteps_Genhu_Material" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Genhu_Material" GUID="{588667B8-2BC3-4259-B4B1-DCB8C846A401}">
 					<Switches>
@@ -177,7 +251,7 @@
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1765704519" Name="PlayAmbience" ObjectPath="\Events\Default Work Unit\PlayAmbience" GUID="{2F7A22FD-6438-4233-B72A-67641633C313}" DurationType="OneShot" DurationMin="207.812500" DurationMax="207.812500">
+				<Event Id="1765704519" Name="PlayAmbience" ObjectPath="\Events\Default Work Unit\Music\PlayAmbience" GUID="{2F7A22FD-6438-4233-B72A-67641633C313}" DurationType="OneShot" DurationMin="207.812500" DurationMax="207.812500">
 					<IncludedMemoryFiles>
 						<File Id="868099755" Language="SFX">
 							<ShortName>Music_Background_Ambience_KipburyChasm.wav</ShortName>
