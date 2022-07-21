@@ -3,170 +3,265 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="sfx_Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}">
+				<Folder Name="Music" ID="{7E03BAB3-7420-4A52-92CF-DCDB96BEBF6C}" ShortID="871103070">
 					<ChildrenList>
-						<Action Name="" ID="{92D00C7E-9E29-4EB7-88D6-2133B0D518DE}" ShortID="676204991">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Environment_Ambience_Rain" ID="{081F6566-77AF-4A9C-B9AA-50A6EB08C208}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="PlayAmbience" ID="{2F7A22FD-6438-4233-B72A-67641633C313}">
+							<ChildrenList>
+								<Action Name="" ID="{BA64AA6B-A2D2-451E-943B-732BE5348DC8}" ShortID="178187680">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Background_Ambience_KipburyChasm" ID="{57DDE887-4B9B-44E6-9044-84902C39C489}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="PlayAmbience" ID="{2F7A22FD-6438-4233-B72A-67641633C313}">
+				</Folder>
+				<Folder Name="Act3SFX" ID="{E0B5E5E6-3B83-4A47-97CB-7A4276E0C390}" ShortID="541767797">
 					<ChildrenList>
-						<Action Name="" ID="{BA64AA6B-A2D2-451E-943B-732BE5348DC8}" ShortID="178187680">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_Background_Ambience_KipburyChasm" ID="{57DDE887-4B9B-44E6-9044-84902C39C489}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}">
+							<ChildrenList>
+								<Action Name="" ID="{24161FA2-39FE-4C28-AEE5-972F0D1EAB84}" ShortID="1012909731">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Raider_Carnyx" ID="{6EC07E47-1E36-4C03-8DB5-BC76FB0E5567}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Cart" ID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}">
+				</Folder>
+				<Folder Name="IntroSFX" ID="{A14FFAA3-FD65-4BC3-AF73-1B3A98E1B611}" ShortID="6600226">
 					<ChildrenList>
-						<Action Name="" ID="{9B0B9EA6-711A-46BC-809C-B75EFF46980B}" ShortID="642583790">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Background_Opening_Cart" ID="{6BCC5F43-A754-4DA2-BB47-2A8240546C44}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="sfx_Cart" ID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}">
+							<ChildrenList>
+								<Action Name="" ID="{9B0B9EA6-711A-46BC-809C-B75EFF46980B}" ShortID="642583790">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Background_Opening_Cart" ID="{6BCC5F43-A754-4DA2-BB47-2A8240546C44}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}">
+				</Folder>
+				<Folder Name="Footsteps" ID="{2274F6D8-2EC3-4EFE-B15B-550F09BB709A}" ShortID="51628011">
 					<ChildrenList>
-						<Action Name="" ID="{24161FA2-39FE-4C28-AEE5-972F0D1EAB84}" ShortID="1012909731">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Raider_Carnyx" ID="{6EC07E47-1E36-4C03-8DB5-BC76FB0E5567}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="sfx_Footsteps_Stone" ID="{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}">
+							<ChildrenList>
+								<Action Name="" ID="{955B6E55-F05A-429A-AE59-BBE05135F73B}" ShortID="126510920">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Footsteps_Player_Stone" ID="{AC9E0137-34F8-49F2-897D-D4B406FFA761}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Footsteps_Genhu" ID="{876EE255-82C7-4037-9055-635FED585C13}">
+							<ChildrenList>
+								<Action Name="" ID="{5801ACB5-0F0D-4824-8BE8-9BF038D1C6B8}" ShortID="173523469">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GenhuFootstepMaterialContainer" ID="{04796C46-C688-40B6-8BCC-FA78BC809A6B}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Footsteps_Player_Sludge" ID="{9092ADCA-DE2F-423E-94FC-DAC0916FF15C}">
+							<ChildrenList>
+								<Action Name="" ID="{3061A331-FB2C-44EB-97B4-1518B7330BD6}" ShortID="1026302875">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.1">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CD394A10-3431-48FF-AB6F-358D995F0FCF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Footsteps_Player_Sludge" ID="{354FD7D3-07A6-45BD-888E-8EC68BEDDAEE}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Genhu_Teleportation_Start" ID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}">
+				</Folder>
+				<Folder Name="Genhu" ID="{99788801-A04D-4DA7-BC71-EEFB21FD7A80}" ShortID="173853908">
 					<ChildrenList>
-						<Action Name="" ID="{7B830BFE-645E-4A04-9ED4-1D2FE699DBB7}" ShortID="327250556">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Genhu_Teleportation_Start" ID="{9F542B92-0A15-41F1-95F7-D9C873102E49}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="sfx_Genhu_Call_Confused" ID="{5EB18133-7D46-4BA8-A79C-51A290F31256}">
+							<ChildrenList>
+								<Action Name="" ID="{EA5DA202-DC55-4788-891D-F6EB4D646B51}" ShortID="794933812">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Genhu_Call_Confused" ID="{6D4BC654-D4DA-41B2-9F37-FF3A7F69A2F4}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Genhu_Teleportation_End" ID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}">
+							<ChildrenList>
+								<Action Name="" ID="{DD3395D7-DA83-4F5E-A03D-CE5F2FC89479}" ShortID="55016083">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Genhu_Teleportation_End" ID="{ABAF7D71-E878-4DF8-ABF1-5354E1CBC56B}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Genhu_Purify_Genhu" ID="{EA84BA88-4554-4749-A5FF-F608681E502C}">
+							<ChildrenList>
+								<Action Name="" ID="{34DAD98C-B73A-4CAA-B7BB-FE565318314F}" ShortID="363054877">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Genhu_Purify_Genhu" ID="{6F4A4DED-5F82-4370-ADA5-BB17A9334ECC}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Genhu_Teleportation_Start" ID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}">
+							<ChildrenList>
+								<Action Name="" ID="{7B830BFE-645E-4A04-9ED4-1D2FE699DBB7}" ShortID="327250556">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Genhu_Teleportation_Start" ID="{9F542B92-0A15-41F1-95F7-D9C873102E49}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Genhu_Purify_Water" ID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}">
+							<ChildrenList>
+								<Action Name="" ID="{A5FB2149-4A48-420F-A269-F34B4D22E2B3}" ShortID="348123201">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Genhu_Purify_Water" ID="{DA848A62-3FC0-4122-A70A-B8280AC0DC50}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Genhu_Call_Affirmative" ID="{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}">
+							<ChildrenList>
+								<Action Name="" ID="{C0371839-2189-41FA-8F58-67A03AD0777D}" ShortID="867206788">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Genhu_Call_Affirmative" ID="{C589B7CA-23C2-44B2-8D89-13C055414E12}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Genhu_Teleportation_End" ID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}">
+				</Folder>
+				<Folder Name="Parched" ID="{EA06ABCF-19D2-4E57-A388-7327EFEDB453}" ShortID="886252342">
 					<ChildrenList>
-						<Action Name="" ID="{DD3395D7-DA83-4F5E-A03D-CE5F2FC89479}" ShortID="55016083">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Genhu_Teleportation_End" ID="{ABAF7D71-E878-4DF8-ABF1-5354E1CBC56B}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="sfx_Parched_Groan" ID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}">
+							<ChildrenList>
+								<Action Name="" ID="{912C27D6-3883-4335-8A03-E0284417E808}" ShortID="164739352">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Parched_Groan" ID="{E03B4CFC-1F69-4A1D-9B0F-AC90FBC3BEFE}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Genhu_Purify_Genhu" ID="{EA84BA88-4554-4749-A5FF-F608681E502C}">
+				</Folder>
+				<Folder Name="Weather" ID="{B69F4D8D-7554-4C89-B496-FDA71C1DFAE1}" ShortID="338210365">
 					<ChildrenList>
-						<Action Name="" ID="{34DAD98C-B73A-4CAA-B7BB-FE565318314F}" ShortID="363054877">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Genhu_Purify_Genhu" ID="{6F4A4DED-5F82-4370-ADA5-BB17A9334ECC}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="sfx_Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}">
+							<ChildrenList>
+								<Action Name="" ID="{92D00C7E-9E29-4EB7-88D6-2133B0D518DE}" ShortID="676204991">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Environment_Ambience_Rain" ID="{081F6566-77AF-4A9C-B9AA-50A6EB08C208}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Footsteps_Stone" ID="{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}">
+				</Folder>
+				<Folder Name="UI" ID="{71C041DE-1FE8-4CF5-8E76-C3B47A96A06E}" ShortID="79869864">
 					<ChildrenList>
-						<Action Name="" ID="{955B6E55-F05A-429A-AE59-BBE05135F73B}" ShortID="126510920">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Footsteps_Player_Stone" ID="{AC9E0137-34F8-49F2-897D-D4B406FFA761}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="sfx_UI_EntryAdded" ID="{585A58B5-7155-46B7-998E-CBC0EAD60849}">
+							<ChildrenList>
+								<Action Name="" ID="{D8ACF505-0A19-4740-BA5A-03E4CE65FB58}" ShortID="590727308">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_UI_EntryAdded" ID="{243F7CB6-6AA0-46C0-B24E-7F2906CA3BB0}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Parched_Groan" ID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}">
+				</Folder>
+				<Folder Name="Invocation" ID="{AECDC240-59AD-4B89-8C11-634F7085E25E}" ShortID="6680552">
 					<ChildrenList>
-						<Action Name="" ID="{912C27D6-3883-4335-8A03-E0284417E808}" ShortID="164739352">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Parched_Groan" ID="{E03B4CFC-1F69-4A1D-9B0F-AC90FBC3BEFE}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="sfx_Invoking_1" ID="{46FC202A-52E4-4500-8B89-C5554D8758E5}">
+							<ChildrenList>
+								<Action Name="" ID="{C37B7506-CA69-48EF-A49B-749961CFF640}" ShortID="1021051884">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Invoking_Hit_1" ID="{A33A589D-AE80-4473-9B01-16C7301A554C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Invoking_2" ID="{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}">
+							<ChildrenList>
+								<Action Name="" ID="{58A797B2-20E2-4A89-8DA2-E2A0D440BCB3}" ShortID="369193622">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Invoking_Hit_2" ID="{2E7D06C9-2D7F-441C-B229-4DF87C70E09C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Invoking_3" ID="{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}">
+							<ChildrenList>
+								<Action Name="" ID="{546F9ECF-54FC-4B60-8336-2C578D33AF2F}" ShortID="481486003">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Invoking_Hit_3" ID="{F0103F9F-CB67-4A28-A6BA-513B27B6755F}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="sfx_Invoking_4" ID="{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}">
+							<ChildrenList>
+								<Action Name="" ID="{0840C4C6-8CC4-4137-B36A-67C406592906}" ShortID="132957391">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Invoking_Hit_4" ID="{380D58E0-6635-4E65-AA53-6B2D838B9B66}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Genhu_Purify_Water" ID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}">
-					<ChildrenList>
-						<Action Name="" ID="{A5FB2149-4A48-420F-A269-F34B4D22E2B3}" ShortID="348123201">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Genhu_Purify_Water" ID="{DA848A62-3FC0-4122-A70A-B8280AC0DC50}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Footsteps_Player_Sludge" ID="{9092ADCA-DE2F-423E-94FC-DAC0916FF15C}">
-					<ChildrenList>
-						<Action Name="" ID="{3061A331-FB2C-44EB-97B4-1518B7330BD6}" ShortID="1026302875">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.1">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{CD394A10-3431-48FF-AB6F-358D995F0FCF}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="0.1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Footsteps_Player_Sludge" ID="{354FD7D3-07A6-45BD-888E-8EC68BEDDAEE}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="sfx_UI_EntryAdded" ID="{585A58B5-7155-46B7-998E-CBC0EAD60849}">
-					<ChildrenList>
-						<Action Name="" ID="{D8ACF505-0A19-4740-BA5A-03E4CE65FB58}" ShortID="590727308">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_UI_EntryAdded" ID="{243F7CB6-6AA0-46C0-B24E-7F2906CA3BB0}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="sfx_Footsteps_Genhu" ID="{876EE255-82C7-4037-9055-635FED585C13}">
-					<ChildrenList>
-						<Action Name="" ID="{0694010F-A5BA-46AE-AF3E-2D0608779F0A}" ShortID="792217728">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Footsteps_Genhu_Stone" ID="{6F93004D-184F-4B1C-ABD1-AEDFBC5B8874}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B628CE00-1D53-43DB-8C34-2793C780817D}" ShortID="384056736">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sfx_Footsteps_Genhu_Sludge" ID="{AB8F194D-49D2-40A8-9B83-1DD0E671B385}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

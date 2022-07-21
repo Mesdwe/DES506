@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "4293075320",
+    "Hash": "1377754074",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -27,7 +27,7 @@
      {
       "Id": "1424467790",
       "Name": "sfx_Carnyx",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Carnyx",
+      "ObjectPath": "\\Events\\Default Work Unit\\Act3SFX\\sfx_Carnyx",
       "GUID": "{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}",
       "DurationType": "OneShot",
       "DurationMin": "72.248894",
@@ -44,7 +44,7 @@
      {
       "Id": "4050951667",
       "Name": "sfx_Cart",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Cart",
+      "ObjectPath": "\\Events\\Default Work Unit\\IntroSFX\\sfx_Cart",
       "GUID": "{68676CFF-921B-4A05-AD04-CA83E8BAA88C}",
       "DurationType": "OneShot",
       "DurationMin": "86.099602",
@@ -61,10 +61,10 @@
      {
       "Id": "4026805620",
       "Name": "sfx_Footsteps_Genhu",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Footsteps_Genhu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\sfx_Footsteps_Genhu",
       "GUID": "{876EE255-82C7-4037-9055-635FED585C13}",
       "DurationType": "OneShot",
-      "DurationMin": "0.738136",
+      "DurationMin": "0.285870",
       "DurationMax": "0.912260",
       "IncludedMemoryFiles": [
        {
@@ -103,12 +103,43 @@
         "ShortName": "Giant_Sludge_1.wav",
         "Path": "SFX\\Giant_Sludge_1_10C4C929.wem"
        }
+      ],
+      "DefaultSwitchValue": "{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}",
+        "Media": [
+         {
+          "Id": "32840511"
+         },
+         {
+          "Id": "204369387"
+         },
+         {
+          "Id": "366046980"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}",
+        "Media": [
+         {
+          "Id": "190558273"
+         },
+         {
+          "Id": "505186767"
+         },
+         {
+          "Id": "955998453"
+         }
+        ]
+       }
       ]
      },
      {
       "Id": "1868351355",
       "Name": "sfx_Footsteps_Player_Sludge",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Footsteps_Player_Sludge",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\sfx_Footsteps_Player_Sludge",
       "GUID": "{9092ADCA-DE2F-423E-94FC-DAC0916FF15C}",
       "DurationType": "OneShot",
       "DurationMin": "0.818441",
@@ -137,7 +168,7 @@
      {
       "Id": "3646062548",
       "Name": "sfx_Footsteps_Stone",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Footsteps_Stone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\sfx_Footsteps_Stone",
       "GUID": "{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}",
       "DurationType": "OneShot",
       "DurationMin": "10.635646",
@@ -152,9 +183,43 @@
       ]
      },
      {
+      "Id": "2630622802",
+      "Name": "sfx_Genhu_Call_Affirmative",
+      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Call_Affirmative",
+      "GUID": "{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.200000",
+      "DurationMax": "1.200000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "582455103",
+        "Language": "SFX",
+        "ShortName": "genhu-sound_affirmative.wav",
+        "Path": "SFX\\genhu-sound_affirmative_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2445943459",
+      "Name": "sfx_Genhu_Call_Confused",
+      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Call_Confused",
+      "GUID": "{5EB18133-7D46-4BA8-A79C-51A290F31256}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.200000",
+      "DurationMax": "1.200000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "903052459",
+        "Language": "SFX",
+        "ShortName": "genhu-sound_confused.wav",
+        "Path": "SFX\\genhu-sound_confused_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "280264588",
       "Name": "sfx_Genhu_Purify_Genhu",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Genhu_Purify_Genhu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Purify_Genhu",
       "GUID": "{EA84BA88-4554-4749-A5FF-F608681E502C}",
       "DurationType": "OneShot",
       "DurationMin": "3.460703",
@@ -171,7 +236,7 @@
      {
       "Id": "2498639818",
       "Name": "sfx_Genhu_Purify_Water",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Genhu_Purify_Water",
+      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Purify_Water",
       "GUID": "{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}",
       "DurationType": "OneShot",
       "DurationMin": "4.159275",
@@ -188,7 +253,7 @@
      {
       "Id": "2264332347",
       "Name": "sfx_Genhu_Teleportation_End",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Genhu_Teleportation_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Teleportation_End",
       "GUID": "{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}",
       "DurationType": "OneShot",
       "DurationMin": "1.880816",
@@ -205,7 +270,7 @@
      {
       "Id": "3699556704",
       "Name": "sfx_Genhu_Teleportation_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Genhu_Teleportation_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Teleportation_Start",
       "GUID": "{83E02307-F8A7-4001-8EC3-D40792AAC3A2}",
       "DurationType": "OneShot",
       "DurationMin": "2.568000",
@@ -220,9 +285,77 @@
       ]
      },
      {
+      "Id": "3254559700",
+      "Name": "sfx_Invoking_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_1",
+      "GUID": "{46FC202A-52E4-4500-8B89-C5554D8758E5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.179274",
+      "DurationMax": "1.179274",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "928158904",
+        "Language": "SFX",
+        "ShortName": "tuning-fork_tone-1.wav",
+        "Path": "SFX\\tuning-fork_tone-1_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3254559703",
+      "Name": "sfx_Invoking_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_2",
+      "GUID": "{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.179274",
+      "DurationMax": "1.179274",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "6964705",
+        "Language": "SFX",
+        "ShortName": "tuning-fork_tone-2.wav",
+        "Path": "SFX\\tuning-fork_tone-2_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3254559702",
+      "Name": "sfx_Invoking_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_3",
+      "GUID": "{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.179274",
+      "DurationMax": "1.179274",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "284070227",
+        "Language": "SFX",
+        "ShortName": "tuning-fork_tone-3.wav",
+        "Path": "SFX\\tuning-fork_tone-3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3254559697",
+      "Name": "sfx_Invoking_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_4",
+      "GUID": "{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.179274",
+      "DurationMax": "1.179274",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "868511091",
+        "Language": "SFX",
+        "ShortName": "tuning-fork_tone-4.wav",
+        "Path": "SFX\\tuning-fork_tone-4_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "991804038",
       "Name": "sfx_Parched_Groan",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Parched_Groan",
+      "ObjectPath": "\\Events\\Default Work Unit\\Parched\\sfx_Parched_Groan",
       "GUID": "{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}",
       "DurationType": "OneShot",
       "DurationMin": "3.406641",
@@ -239,7 +372,7 @@
      {
       "Id": "1904851423",
       "Name": "sfx_Rain",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_Rain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weather\\sfx_Rain",
       "GUID": "{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}",
       "DurationType": "OneShot",
       "DurationMin": "123.000000",
@@ -256,7 +389,7 @@
      {
       "Id": "3279398580",
       "Name": "sfx_UI_EntryAdded",
-      "ObjectPath": "\\Events\\Default Work Unit\\sfx_UI_EntryAdded",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\sfx_UI_EntryAdded",
       "GUID": "{585A58B5-7155-46B7-998E-CBC0EAD60849}",
       "DurationType": "OneShot",
       "DurationMin": "1.240884",
@@ -269,6 +402,44 @@
         "Path": "SFX\\Journal_Entry_10C4C929.wem"
        }
       ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "6964705",
+      "Language": "SFX",
+      "ShortName": "tuning-fork_tone-2.wav",
+      "Path": "SFX\\tuning-fork_tone-2_10C4C929.wem"
+     },
+     {
+      "Id": "284070227",
+      "Language": "SFX",
+      "ShortName": "tuning-fork_tone-3.wav",
+      "Path": "SFX\\tuning-fork_tone-3_10C4C929.wem"
+     },
+     {
+      "Id": "582455103",
+      "Language": "SFX",
+      "ShortName": "genhu-sound_affirmative.wav",
+      "Path": "SFX\\genhu-sound_affirmative_10C4C929.wem"
+     },
+     {
+      "Id": "868511091",
+      "Language": "SFX",
+      "ShortName": "tuning-fork_tone-4.wav",
+      "Path": "SFX\\tuning-fork_tone-4_10C4C929.wem"
+     },
+     {
+      "Id": "903052459",
+      "Language": "SFX",
+      "ShortName": "genhu-sound_confused.wav",
+      "Path": "SFX\\genhu-sound_confused_10C4C929.wem"
+     },
+     {
+      "Id": "928158904",
+      "Language": "SFX",
+      "ShortName": "tuning-fork_tone-1.wav",
+      "Path": "SFX\\tuning-fork_tone-1_10C4C929.wem"
      }
     ],
     "SwitchGroups": [
@@ -315,7 +486,7 @@
      {
       "Id": "1765704519",
       "Name": "PlayAmbience",
-      "ObjectPath": "\\Events\\Default Work Unit\\PlayAmbience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\PlayAmbience",
       "GUID": "{2F7A22FD-6438-4233-B72A-67641633C313}",
       "DurationType": "OneShot",
       "DurationMin": "207.812500",

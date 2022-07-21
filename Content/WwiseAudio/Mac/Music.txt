@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1765704519	PlayAmbience			\Default Work Unit\PlayAmbience	
+	1765704519	PlayAmbience			\Default Work Unit\Music\PlayAmbience	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	868099755	Music_Background_Ambience_KipburyChasm	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\Music_Background_Ambience_KipburyChasm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Background_Ambience\KipburyChasm\Music_Background_Ambience_KipburyChasm\Music_Background_Ambience_KipburyChasm		36658188
+	868099755	Music_Background_Ambience_KipburyChasm	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\Music_Background_Ambience_KipburyChasm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Background_Ambience\KipburyChasmFull\Music_Background_Ambience_KipburyChasm\Music_Background_Ambience_KipburyChasm		36658188
 

@@ -46,6 +46,8 @@ ASludgeCharacter::ASludgeCharacter()
 
 	Mesh1P->bCastDynamicShadow = false;
 	Mesh1P->CastShadow = false;
+
+
 	Mesh1P->SetRelativeRotation(FRotator(1.9f, -19.19f, 5.2f));
 	Mesh1P->SetRelativeLocation(FVector(-0.5f, -4.4f, -155.7f));
 
@@ -59,6 +61,8 @@ void ASludgeCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+
+	PlayerController = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 }
 
 void ASludgeCharacter::Tick(float DeltaTime)
@@ -155,14 +159,27 @@ void ASludgeCharacter::MoveRight(float Value)
 void ASludgeCharacter::TurnAtRate(float Rate)
 {
 
-	/*if(!bIsClimbing)*/
+	if (bIsClimbing)
+	{
+		float RotationYaw = ACharacter::GetActorRotation().Yaw;
+		PlayerController->PlayerCameraManager->ViewYawMax = RotationYaw+80.0f;
+		PlayerController->PlayerCameraManager->ViewYawMin = RotationYaw -80.0f;
+	}
 	// calculate delta for this frame from the rate information
+
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
 void ASludgeCharacter::TurnMouse(float Rate)
 {
+	if (bIsClimbing)
+	{
+		float RotationYaw = ACharacter::GetActorRotation().Yaw;
+		PlayerController->PlayerCameraManager->ViewYawMax = RotationYaw + 80.0f;
+		PlayerController->PlayerCameraManager->ViewYawMin = RotationYaw - 80.0f;
 
-	/*if (!bIsClimbing)*/
+		
+	}
+
 		// calculate delta for this frame from the rate information
 		AddControllerYawInput(Rate);
 }
