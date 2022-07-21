@@ -47,6 +47,8 @@ public:
 		bool bIsCasting;
 	//UPROPERTY(EditDefaultOnly)
 		//USpellComponentTemplate
+
+	APlayerController* PlayerController;
 protected:
 	virtual void BeginPlay();
 	virtual void Tick(float DeltaTime);
