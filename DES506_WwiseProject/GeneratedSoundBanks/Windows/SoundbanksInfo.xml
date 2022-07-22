@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="4178912687">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2768475181">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -77,13 +77,50 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3646062548" Name="sfx_Footsteps_Stone" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Stone" GUID="{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}" DurationType="OneShot" DurationMin="10.635646" DurationMax="10.635646">
+				<Event Id="1255872818" Name="sfx_Footsteps_Player" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Player" GUID="{24A4C0F2-2305-410B-ADE8-121366B57CEE}" DurationType="OneShot" DurationMin="0.269041" DurationMax="0.896157">
 					<IncludedMemoryFiles>
-						<File Id="857110300" Language="SFX">
-							<ShortName>sfx_Footsteps_Stone.wav</ShortName>
-							<Path>SFX\sfx_Footsteps_Stone_10C4C929.wem</Path>
+						<File Id="100710372" Language="SFX">
+							<ShortName>Player_Sludge_2.wav</ShortName>
+							<Path>SFX\Player_Sludge_2_10C4C929.wem</Path>
+						</File>
+						<File Id="505039938" Language="SFX">
+							<ShortName>Player_Sludge_1.wav</ShortName>
+							<Path>SFX\Player_Sludge_1_10C4C929.wem</Path>
+						</File>
+						<File Id="641403689" Language="SFX">
+							<ShortName>Player_Footstep_3.wav</ShortName>
+							<Path>SFX\Player_Footstep_3_10C4C929.wem</Path>
+						</File>
+						<File Id="692045615" Language="SFX">
+							<ShortName>Player_Sludge_3.wav</ShortName>
+							<Path>SFX\Player_Sludge_3_10C4C929.wem</Path>
+						</File>
+						<File Id="713687476" Language="SFX">
+							<ShortName>Player_Footstep_2.wav</ShortName>
+							<Path>SFX\Player_Footstep_2_10C4C929.wem</Path>
+						</File>
+						<File Id="962641060" Language="SFX">
+							<ShortName>Player_Footstep_1.wav</ShortName>
+							<Path>SFX\Player_Footstep_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{BE3C6CA4-8163-4012-966D-0333D6B80798}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{FF978EC6-7DC6-43F7-B4FE-DA8357344CFC}">
+							<Media>
+								<File Id="100710372"/>
+								<File Id="505039938"/>
+								<File Id="692045615"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BE3C6CA4-8163-4012-966D-0333D6B80798}">
+							<Media>
+								<File Id="641403689"/>
+								<File Id="713687476"/>
+								<File Id="962641060"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="2630622802" Name="sfx_Genhu_Call_Affirmative" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative" GUID="{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000"/>
 				<Event Id="2445943459" Name="sfx_Genhu_Call_Confused" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Confused" GUID="{5EB18133-7D46-4BA8-A79C-51A290F31256}" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000"/>
@@ -179,6 +216,12 @@
 					<Switches>
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Genhu_Material\Stone" GUID="{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}"/>
 						<Switch Id="2269319855" Name="Sludge" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Genhu_Material\Sludge" GUID="{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4242414310" Name="sfx_Footsteps_Player_Material" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Player_Material" GUID="{8069F3A1-C043-4F6B-9EDD-E24AF55B3D26}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Player_Material\Stone" GUID="{BE3C6CA4-8163-4012-966D-0333D6B80798}"/>
+						<Switch Id="2269319855" Name="Sludge" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Player_Material\Sludge" GUID="{FF978EC6-7DC6-43F7-B4FE-DA8357344CFC}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
