@@ -8,12 +8,20 @@
 		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2689374717">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1643055994">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4050951667" Name="sfx_Cart" ObjectPath="\Events\Default Work Unit\sfx_Cart" GUID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" DurationType="OneShot" DurationMin="86.099602" DurationMax="86.099602">
+				<Event Id="1424467790" Name="sfx_Carnyx" ObjectPath="\Events\Default Work Unit\Act3SFX\sfx_Carnyx" GUID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" DurationType="OneShot" DurationMin="72.248894" DurationMax="72.248894">
+					<IncludedMemoryFiles>
+						<File Id="148474242" Language="SFX">
+							<ShortName>sfx_Raider_Carnyx.wav</ShortName>
+							<Path>SFX\sfx_Raider_Carnyx_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4050951667" Name="sfx_Cart" ObjectPath="\Events\Default Work Unit\IntroSFX\sfx_Cart" GUID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" DurationType="OneShot" DurationMin="86.099602" DurationMax="86.099602">
 					<IncludedMemoryFiles>
 						<File Id="223569691" Language="SFX">
 							<ShortName>Background_Opening_Cart.wav</ShortName>
@@ -21,7 +29,143 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1904851423" Name="sfx_Rain" ObjectPath="\Events\Default Work Unit\sfx_Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
+				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" DurationType="OneShot" DurationMin="0.285870" DurationMax="0.912260">
+					<IncludedMemoryFiles>
+						<File Id="32840511" Language="SFX">
+							<ShortName>Big_Stone_Step_2.wav</ShortName>
+							<Path>SFX\Big_Stone_Step_2_10C4C929.wem</Path>
+						</File>
+						<File Id="190558273" Language="SFX">
+							<ShortName>Giant_Sludge_2.wav</ShortName>
+							<Path>SFX\Giant_Sludge_2_10C4C929.wem</Path>
+						</File>
+						<File Id="204369387" Language="SFX">
+							<ShortName>Big_Stone_Step_1.wav</ShortName>
+							<Path>SFX\Big_Stone_Step_1_10C4C929.wem</Path>
+						</File>
+						<File Id="366046980" Language="SFX">
+							<ShortName>Big_Stone_Step_3.wav</ShortName>
+							<Path>SFX\Big_Stone_Step_3_10C4C929.wem</Path>
+						</File>
+						<File Id="505186767" Language="SFX">
+							<ShortName>Giant_Sludge_3.wav</ShortName>
+							<Path>SFX\Giant_Sludge_3_10C4C929.wem</Path>
+						</File>
+						<File Id="955998453" Language="SFX">
+							<ShortName>Giant_Sludge_1.wav</ShortName>
+							<Path>SFX\Giant_Sludge_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}">
+							<Media>
+								<File Id="32840511"/>
+								<File Id="204369387"/>
+								<File Id="366046980"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}">
+							<Media>
+								<File Id="190558273"/>
+								<File Id="505186767"/>
+								<File Id="955998453"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1255872818" Name="sfx_Footsteps_Player" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Player" GUID="{24A4C0F2-2305-410B-ADE8-121366B57CEE}" DurationType="OneShot" DurationMin="0.269041" DurationMax="0.896157">
+					<IncludedMemoryFiles>
+						<File Id="100710372" Language="SFX">
+							<ShortName>Player_Sludge_2.wav</ShortName>
+							<Path>SFX\Player_Sludge_2_10C4C929.wem</Path>
+						</File>
+						<File Id="505039938" Language="SFX">
+							<ShortName>Player_Sludge_1.wav</ShortName>
+							<Path>SFX\Player_Sludge_1_10C4C929.wem</Path>
+						</File>
+						<File Id="641403689" Language="SFX">
+							<ShortName>Player_Footstep_3.wav</ShortName>
+							<Path>SFX\Player_Footstep_3_10C4C929.wem</Path>
+						</File>
+						<File Id="692045615" Language="SFX">
+							<ShortName>Player_Sludge_3.wav</ShortName>
+							<Path>SFX\Player_Sludge_3_10C4C929.wem</Path>
+						</File>
+						<File Id="713687476" Language="SFX">
+							<ShortName>Player_Footstep_2.wav</ShortName>
+							<Path>SFX\Player_Footstep_2_10C4C929.wem</Path>
+						</File>
+						<File Id="962641060" Language="SFX">
+							<ShortName>Player_Footstep_1.wav</ShortName>
+							<Path>SFX\Player_Footstep_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{BE3C6CA4-8163-4012-966D-0333D6B80798}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{FF978EC6-7DC6-43F7-B4FE-DA8357344CFC}">
+							<Media>
+								<File Id="100710372"/>
+								<File Id="505039938"/>
+								<File Id="692045615"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BE3C6CA4-8163-4012-966D-0333D6B80798}">
+							<Media>
+								<File Id="641403689"/>
+								<File Id="713687476"/>
+								<File Id="962641060"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2630622802" Name="sfx_Genhu_Call_Affirmative" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative" GUID="{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000"/>
+				<Event Id="2445943459" Name="sfx_Genhu_Call_Confused" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Confused" GUID="{5EB18133-7D46-4BA8-A79C-51A290F31256}" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000"/>
+				<Event Id="280264588" Name="sfx_Genhu_Purify_Genhu" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Purify_Genhu" GUID="{EA84BA88-4554-4749-A5FF-F608681E502C}" DurationType="OneShot" DurationMin="3.460703" DurationMax="3.460703">
+					<IncludedMemoryFiles>
+						<File Id="427301792" Language="SFX">
+							<ShortName>sfx_Genhu_Purify_Genhu.wav</ShortName>
+							<Path>SFX\sfx_Genhu_Purify_Genhu_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2498639818" Name="sfx_Genhu_Purify_Water" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Purify_Water" GUID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}" DurationType="OneShot" DurationMin="4.159275" DurationMax="4.159275">
+					<IncludedMemoryFiles>
+						<File Id="99062319" Language="SFX">
+							<ShortName>sfx_Genhu_Purify_Water.wav</ShortName>
+							<Path>SFX\sfx_Genhu_Purify_Water_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2264332347" Name="sfx_Genhu_Teleportation_End" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_End" GUID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" DurationType="OneShot" DurationMin="1.880816" DurationMax="1.880816">
+					<IncludedMemoryFiles>
+						<File Id="299736928" Language="SFX">
+							<ShortName>sfx_Genhu_Teleportation_End.wav</ShortName>
+							<Path>SFX\sfx_Genhu_Teleportation_End_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3699556704" Name="sfx_Genhu_Teleportation_Start" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_Start" GUID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}" DurationType="OneShot" DurationMin="2.568000" DurationMax="2.568000">
+					<IncludedMemoryFiles>
+						<File Id="383862852" Language="SFX">
+							<ShortName>sfx_Genhu_Teleportation_Start.wav</ShortName>
+							<Path>SFX\sfx_Genhu_Teleportation_Start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3254559700" Name="sfx_Invoking_1" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_1" GUID="{46FC202A-52E4-4500-8B89-C5554D8758E5}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274"/>
+				<Event Id="3254559703" Name="sfx_Invoking_2" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_2" GUID="{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274"/>
+				<Event Id="3254559702" Name="sfx_Invoking_3" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_3" GUID="{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274"/>
+				<Event Id="3254559697" Name="sfx_Invoking_4" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_4" GUID="{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274"/>
+				<Event Id="991804038" Name="sfx_Parched_Groan" ObjectPath="\Events\Default Work Unit\Parched\sfx_Parched_Groan" GUID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" DurationType="OneShot" DurationMin="3.406641" DurationMax="3.406641">
+					<IncludedMemoryFiles>
+						<File Id="826443704" Language="SFX">
+							<ShortName>sfx_Parched_Groan.wav</ShortName>
+							<Path>SFX\sfx_Parched_Groan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1904851423" Name="sfx_Rain" ObjectPath="\Events\Default Work Unit\Weather\sfx_Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
 					<IncludedMemoryFiles>
 						<File Id="1009186357" Language="SFX">
 							<ShortName>sfx_Environment_Ambience_Rain.wav</ShortName>
@@ -29,7 +173,59 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3279398580" Name="sfx_UI_EntryAdded" ObjectPath="\Events\Default Work Unit\UI\sfx_UI_EntryAdded" GUID="{585A58B5-7155-46B7-998E-CBC0EAD60849}" DurationType="OneShot" DurationMin="1.240884" DurationMax="1.240884">
+					<IncludedMemoryFiles>
+						<File Id="747815982" Language="SFX">
+							<ShortName>Journal_Entry.wav</ShortName>
+							<Path>SFX\Journal_Entry_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="6964705" Language="SFX">
+					<ShortName>tuning-fork_tone-2.wav</ShortName>
+					<Path>SFX\tuning-fork_tone-2_10C4C929.wem</Path>
+				</File>
+				<File Id="284070227" Language="SFX">
+					<ShortName>tuning-fork_tone-3.wav</ShortName>
+					<Path>SFX\tuning-fork_tone-3_10C4C929.wem</Path>
+				</File>
+				<File Id="582455103" Language="SFX">
+					<ShortName>genhu-sound_affirmative.wav</ShortName>
+					<Path>SFX\genhu-sound_affirmative_10C4C929.wem</Path>
+				</File>
+				<File Id="868511091" Language="SFX">
+					<ShortName>tuning-fork_tone-4.wav</ShortName>
+					<Path>SFX\tuning-fork_tone-4_10C4C929.wem</Path>
+				</File>
+				<File Id="903052459" Language="SFX">
+					<ShortName>genhu-sound_confused.wav</ShortName>
+					<Path>SFX\genhu-sound_confused_10C4C929.wem</Path>
+				</File>
+				<File Id="928158904" Language="SFX">
+					<ShortName>tuning-fork_tone-1.wav</ShortName>
+					<Path>SFX\tuning-fork_tone-1_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume" GUID="{E3663605-5C95-4663-8843-E86F86A3D067}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="4210236156" Name="sfx_Footsteps_Genhu_Material" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Genhu_Material" GUID="{588667B8-2BC3-4259-B4B1-DCB8C846A401}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Genhu_Material\Stone" GUID="{96D11B7F-50DE-49BB-9DD5-01B1FE2F3A86}"/>
+						<Switch Id="2269319855" Name="Sludge" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Genhu_Material\Sludge" GUID="{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4242414310" Name="sfx_Footsteps_Player_Material" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Player_Material" GUID="{8069F3A1-C043-4F6B-9EDD-E24AF55B3D26}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Player_Material\Stone" GUID="{BE3C6CA4-8163-4012-966D-0333D6B80798}"/>
+						<Switch Id="2269319855" Name="Sludge" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Player_Material\Sludge" GUID="{FF978EC6-7DC6-43F7-B4FE-DA8357344CFC}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

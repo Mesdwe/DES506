@@ -27,6 +27,14 @@ Switch	ID	Name	Switch Group			Notes
 	1216965916	Stone	sfx_Footsteps_Player_Material			
 	2269319855	Sludge	sfx_Footsteps_Player_Material			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1564184899	SFX_Volume			\Default Work Unit\SFX_Volume	
+	4179668880	Master_Volume			\Default Work Unit\Master_Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6964705	sfx_Invoking_Hit_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_Hit_2		208088
 	32840511	Big_Stone_Step_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Big_Stone_Step_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\GenhuFootstepMaterialContainer\sfx_Footsteps_Genhu_Stone\Big_Stone_Step_2		55972

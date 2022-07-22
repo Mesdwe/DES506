@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2768475181">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1643055994">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -208,6 +208,10 @@
 					<Path>SFX\tuning-fork_tone-1_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume" GUID="{E3663605-5C95-4663-8843-E86F86A3D067}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="4210236156" Name="sfx_Footsteps_Genhu_Material" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Genhu_Material" GUID="{588667B8-2BC3-4259-B4B1-DCB8C846A401}">
 					<Switches>

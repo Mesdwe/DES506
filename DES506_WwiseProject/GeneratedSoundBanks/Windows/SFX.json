@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "2768475181",
+    "Hash": "1643055994",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -421,6 +421,20 @@
       "Language": "SFX",
       "ShortName": "tuning-fork_tone-1.wav",
       "Path": "SFX\\tuning-fork_tone-1_10C4C929.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1564184899",
+      "Name": "SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX_Volume",
+      "GUID": "{E3663605-5C95-4663-8843-E86F86A3D067}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"
      }
     ],
     "SwitchGroups": [

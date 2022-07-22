@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "2768475181",
+    "Hash": "1643055994",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -426,6 +426,20 @@
       "Path": "SFX\\tuning-fork_tone-1_10C4C929.wem"
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "1564184899",
+      "Name": "SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX_Volume",
+      "GUID": "{E3663605-5C95-4663-8843-E86F86A3D067}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "4210236156",
@@ -473,16 +487,36 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3690994985",
+    "Hash": "1202574303",
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "GameParameters": [
+     {
+      "Id": "1006694123",
+      "Name": "Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume",
+      "GUID": "{F3D37598-EB3D-483D-9442-46691933BF0F}"
+     },
+     {
+      "Id": "1564184899",
+      "Name": "SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX_Volume",
+      "GUID": "{E3663605-5C95-4663-8843-E86F86A3D067}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"
+     }
+    ]
    },
    {
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "943948344",
+    "Hash": "1934225287",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -503,6 +537,20 @@
         "Path": "SFX\\Music_Background_Ambience_KipburyChasm_D79FB2B7.wem"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1006694123",
+      "Name": "Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume",
+      "GUID": "{F3D37598-EB3D-483D-9442-46691933BF0F}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"
      }
     ]
    }
