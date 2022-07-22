@@ -3,9 +3,10 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{2B571D06-2897-4915-8367-3CBBDE9E7B9C}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="M:\DES506\Audio\Tonal Invocation\TI_Fork\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="M:\DES506\Audio\AlphaSamples\Robbie Recordings\"/>
 				<Property Name="Event Action List\{17F2A4AD-5CC2-46EE-8677-861C79AE3B3E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{24A4C0F2-2305-410B-ADE8-121366B57CEE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2F7A22FD-6438-4233-B72A-67641633C313}\x64_Expand States" Type="string" Value=""/>

@@ -7,6 +7,8 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="sfx_Genhu_Teleportation_Start" ID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Footsteps_Genhu" ID="{876EE255-82C7-4037-9055-635FED585C13}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_Footsteps_Player" ID="{24A4C0F2-2305-410B-ADE8-121366B57CEE}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Genhu_Call_Confused" ID="{6D4BC654-D4DA-41B2-9F37-FF3A7F69A2F4}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Invoking_Hit_2" ID="{2E7D06C9-2D7F-441C-B229-4DF87C70E09C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Invoking_Hit_1" ID="{A33A589D-AE80-4473-9B01-16C7301A554C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
@@ -16,7 +18,6 @@
 						<ObjectRef Name="sfx_Genhu_Purify_Genhu" ID="{EA84BA88-4554-4749-A5FF-F608681E502C}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Cart" ID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Invoking_Hit_3" ID="{F0103F9F-CB67-4A28-A6BA-513B27B6755F}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="sfx_Footsteps_Stone" ID="{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Parched_Groan" ID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
@@ -29,6 +30,7 @@
 				<SoundBank Name="Music" ID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}">
 					<ObjectInclusionList>
 						<ObjectRef Name="PlayAmbience" ID="{2F7A22FD-6438-4233-B72A-67641633C313}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{D99A0082-22F2-49AF-8D1A-BBB9B9394F09}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

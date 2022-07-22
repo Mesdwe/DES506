@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "4178912687",
+    "Hash": "1643055994",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -137,19 +137,80 @@
       ]
      },
      {
-      "Id": "3646062548",
-      "Name": "sfx_Footsteps_Stone",
-      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\sfx_Footsteps_Stone",
-      "GUID": "{249F9FAF-11C6-4A6D-B003-BD6A443CEA5A}",
+      "Id": "1255872818",
+      "Name": "sfx_Footsteps_Player",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\sfx_Footsteps_Player",
+      "GUID": "{24A4C0F2-2305-410B-ADE8-121366B57CEE}",
       "DurationType": "OneShot",
-      "DurationMin": "10.635646",
-      "DurationMax": "10.635646",
+      "DurationMin": "0.269041",
+      "DurationMax": "0.896157",
       "IncludedMemoryFiles": [
        {
-        "Id": "857110300",
+        "Id": "100710372",
         "Language": "SFX",
-        "ShortName": "sfx_Footsteps_Stone.wav",
-        "Path": "SFX\\sfx_Footsteps_Stone_10C4C929.wem"
+        "ShortName": "Player_Sludge_2.wav",
+        "Path": "SFX\\Player_Sludge_2_10C4C929.wem"
+       },
+       {
+        "Id": "505039938",
+        "Language": "SFX",
+        "ShortName": "Player_Sludge_1.wav",
+        "Path": "SFX\\Player_Sludge_1_10C4C929.wem"
+       },
+       {
+        "Id": "641403689",
+        "Language": "SFX",
+        "ShortName": "Player_Footstep_3.wav",
+        "Path": "SFX\\Player_Footstep_3_10C4C929.wem"
+       },
+       {
+        "Id": "692045615",
+        "Language": "SFX",
+        "ShortName": "Player_Sludge_3.wav",
+        "Path": "SFX\\Player_Sludge_3_10C4C929.wem"
+       },
+       {
+        "Id": "713687476",
+        "Language": "SFX",
+        "ShortName": "Player_Footstep_2.wav",
+        "Path": "SFX\\Player_Footstep_2_10C4C929.wem"
+       },
+       {
+        "Id": "962641060",
+        "Language": "SFX",
+        "ShortName": "Player_Footstep_1.wav",
+        "Path": "SFX\\Player_Footstep_1_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{BE3C6CA4-8163-4012-966D-0333D6B80798}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{FF978EC6-7DC6-43F7-B4FE-DA8357344CFC}",
+        "Media": [
+         {
+          "Id": "100710372"
+         },
+         {
+          "Id": "505039938"
+         },
+         {
+          "Id": "692045615"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{BE3C6CA4-8163-4012-966D-0333D6B80798}",
+        "Media": [
+         {
+          "Id": "641403689"
+         },
+         {
+          "Id": "713687476"
+         },
+         {
+          "Id": "962641060"
+         }
+        ]
        }
       ]
      },
@@ -365,6 +426,20 @@
       "Path": "SFX\\tuning-fork_tone-1_10C4C929.wem"
      }
     ],
+    "GameParameters": [
+     {
+      "Id": "1564184899",
+      "Name": "SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX_Volume",
+      "GUID": "{E3663605-5C95-4663-8843-E86F86A3D067}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "4210236156",
@@ -385,6 +460,26 @@
         "GUID": "{0A0FBADB-2292-4CB1-8C68-F3A86C00E317}"
        }
       ]
+     },
+     {
+      "Id": "4242414310",
+      "Name": "sfx_Footsteps_Player_Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\sfx_Footsteps_Player_Material",
+      "GUID": "{8069F3A1-C043-4F6B-9EDD-E24AF55B3D26}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\sfx_Footsteps_Player_Material\\Stone",
+        "GUID": "{BE3C6CA4-8163-4012-966D-0333D6B80798}"
+       },
+       {
+        "Id": "2269319855",
+        "Name": "Sludge",
+        "ObjectPath": "\\Switches\\Default Work Unit\\sfx_Footsteps_Player_Material\\Sludge",
+        "GUID": "{FF978EC6-7DC6-43F7-B4FE-DA8357344CFC}"
+       }
+      ]
      }
     ]
    },
@@ -392,16 +487,36 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3690994985",
+    "Hash": "1202574303",
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "GameParameters": [
+     {
+      "Id": "1006694123",
+      "Name": "Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume",
+      "GUID": "{F3D37598-EB3D-483D-9442-46691933BF0F}"
+     },
+     {
+      "Id": "1564184899",
+      "Name": "SFX_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFX_Volume",
+      "GUID": "{E3663605-5C95-4663-8843-E86F86A3D067}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"
+     }
+    ]
    },
    {
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "943948344",
+    "Hash": "1934225287",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -422,6 +537,20 @@
         "Path": "SFX\\Music_Background_Ambience_KipburyChasm_D79FB2B7.wem"
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1006694123",
+      "Name": "Music_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_Volume",
+      "GUID": "{F3D37598-EB3D-483D-9442-46691933BF0F}"
+     },
+     {
+      "Id": "4179668880",
+      "Name": "Master_Volume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
+      "GUID": "{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"
      }
     ]
    }
