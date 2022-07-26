@@ -6,6 +6,9 @@
 				<Folder Name="Environment" ID="{728CBE25-D413-4145-99F8-5F462D32BD04}" ShortID="557209451">
 					<ChildrenList>
 						<Sound Name="sfx_Environment_Ambience_Rain" ID="{081F6566-77AF-4A9C-B9AA-50A6EB08C208}" ShortID="1065177395">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
@@ -26,6 +29,58 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="sfx_Environment_Ambience_Rain" ID="{31FC20FB-5FB7-42C5-9B73-088D450D3F84}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_Environment_Brazier_Flame" ID="{50CF273C-7CF0-44CC-BBB6-2AA8071C5D7F}" ShortID="564216946">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EFX SD Fire in Metal Stove 03" ID="{C18EA73C-4CC6-4480-9F58-E8C2B4738ACB}">
+									<Language>SFX</Language>
+									<AudioFile>EFX SD Fire in Metal Stove 03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="674811628"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="EFX SD Fire in Metal Stove 03" ID="{C18EA73C-4CC6-4480-9F58-E8C2B4738ACB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sfx_Environment_Ambience_Wind" ID="{B0BDDCA0-5913-42E9-A8D9-5446A997CC87}" ShortID="102078380">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EFX SD Wind Soft Whistling Gusts 04" ID="{5DD9C038-E912-4E2B-9651-F75E7D4A65A3}">
+									<Language>SFX</Language>
+									<AudioFile>EFX SD Wind Soft Whistling Gusts 04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="871631987"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="EFX SD Wind Soft Whistling Gusts 04" ID="{5DD9C038-E912-4E2B-9651-F75E7D4A65A3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -176,7 +231,7 @@
 					<ChildrenList>
 						<Sound Name="sfx_Background_Opening_Cart" ID="{6BCC5F43-A754-4DA2-BB47-2A8240546C44}" ShortID="243787804">
 							<PropertyList>
-								<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="LoopCount" Type="int32" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -747,6 +802,103 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<RandomSequenceContainer Name="PlayerClimbing" ID="{FA90CBF0-7BEF-429F-85C5-B8197E2CD7BC}" ShortID="772294938">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F28C66F1-8012-4ECD-9AB0-AE7EB368CCD9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="75"/>
+													<Property Name="Min" Type="Real64" Value="-75"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Climb_1" ID="{EE83DF9B-EB9E-4AF1-85B3-7747FA93F25A}" ShortID="387653887">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Climb_1" ID="{F1904C52-2FF8-43B7-9F49-8CF494EB8433}">
+											<Language>SFX</Language>
+											<AudioFile>Climb_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="4786361"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Climb_1" ID="{F1904C52-2FF8-43B7-9F49-8CF494EB8433}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Climb_2" ID="{5C89F5C5-94E5-4186-B9AB-FE9EB9DFE45C}" ShortID="959563651">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Climb_2" ID="{50030A67-5024-4D01-963B-25836377E0EB}">
+											<Language>SFX</Language>
+											<AudioFile>Climb_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="255479104"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Climb_2" ID="{50030A67-5024-4D01-963B-25836377E0EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Climb_3" ID="{A84A5963-9D7C-4926-BEED-AAABA163A82C}" ShortID="612543927">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Climb_3" ID="{5C4E8276-87DA-44DD-B32A-E404A4EF4386}">
+											<Language>SFX</Language>
+											<AudioFile>Climb_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="188585556"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Climb_3" ID="{5C4E8276-87DA-44DD-B32A-E404A4EF4386}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="TheParched" ID="{691CCBD6-DC28-42E2-9100-D9850331A773}" ShortID="650812056">

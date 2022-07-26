@@ -11,11 +11,19 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2435242072">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="3860716">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1957128328" Name="sfx_Brazier" ObjectPath="\Events\Default Work Unit\Environment\sfx_Brazier" GUID="{3AB11F0E-4C5D-4499-9579-82EEA9CB4827}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="674811628" Language="SFX">
+							<ShortName>EFX SD Fire in Metal Stove 03.wav</ShortName>
+							<Path>SFX\EFX SD Fire in Metal Stove 03_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1424467790" Name="sfx_Carnyx" ObjectPath="\Events\Default Work Unit\Act3SFX\sfx_Carnyx" GUID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" DurationType="OneShot" DurationMin="72.248894" DurationMax="72.248894">
 					<IncludedMemoryFiles>
 						<File Id="148474242" Language="SFX">
@@ -24,11 +32,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4050951667" Name="sfx_Cart" ObjectPath="\Events\Default Work Unit\IntroSFX\sfx_Cart" GUID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" DurationType="OneShot" DurationMin="86.099602" DurationMax="86.099602">
+				<Event Id="4050951667" Name="sfx_Cart" ObjectPath="\Events\Default Work Unit\IntroSFX\sfx_Cart" GUID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="223569691" Language="SFX">
 							<ShortName>Background_Opening_Cart.wav</ShortName>
-							<Path>SFX\Background_Opening_Cart_10C4C929.wem</Path>
+							<Path>SFX\Background_Opening_Cart_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -210,11 +218,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1904851423" Name="sfx_Rain" ObjectPath="\Events\Default Work Unit\Weather\sfx_Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="OneShot" DurationMin="123.000000" DurationMax="123.000000">
+				<Event Id="3824156588" Name="sfx_Player_Climbing" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Player_Climbing" GUID="{86862E83-6D46-46E9-A10B-9E5C29777E2F}" DurationType="OneShot" DurationMin="0.614668" DurationMax="0.917469">
+					<IncludedMemoryFiles>
+						<File Id="4786361" Language="SFX">
+							<ShortName>Climb_1.wav</ShortName>
+							<Path>SFX\Climb_1_10C4C929.wem</Path>
+						</File>
+						<File Id="188585556" Language="SFX">
+							<ShortName>Climb_3.wav</ShortName>
+							<Path>SFX\Climb_3_10C4C929.wem</Path>
+						</File>
+						<File Id="255479104" Language="SFX">
+							<ShortName>Climb_2.wav</ShortName>
+							<Path>SFX\Climb_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1904851423" Name="sfx_Rain" ObjectPath="\Events\Default Work Unit\Environment\sfx_Rain" GUID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1009186357" Language="SFX">
 							<ShortName>sfx_Environment_Ambience_Rain.wav</ShortName>
-							<Path>SFX\sfx_Environment_Ambience_Rain_10C4C929.wem</Path>
+							<Path>SFX\sfx_Environment_Ambience_Rain_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -223,6 +247,14 @@
 						<File Id="747815982" Language="SFX">
 							<ShortName>Journal_Entry.wav</ShortName>
 							<Path>SFX\Journal_Entry_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1398508531" Name="sfx_Wind" ObjectPath="\Events\Default Work Unit\Environment\sfx_Wind" GUID="{B0C78A44-E799-4A8D-B76D-B2411D6E33BB}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="871631987" Language="SFX">
+							<ShortName>EFX SD Wind Soft Whistling Gusts 04.wav</ShortName>
+							<Path>SFX\EFX SD Wind Soft Whistling Gusts 04_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -253,6 +285,10 @@
 					<Path>SFX\tuning-fork_tone-1_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume" GUID="{E3663605-5C95-4663-8843-E86F86A3D067}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="4210236156" Name="sfx_Footsteps_Genhu_Material" ObjectPath="\Switches\Default Work Unit\sfx_Footsteps_Genhu_Material" GUID="{588667B8-2BC3-4259-B4B1-DCB8C846A401}">
 					<Switches>
@@ -268,12 +304,17 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3690994985">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1202574303">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume" GUID="{F3D37598-EB3D-483D-9442-46691933BF0F}"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\SFX_Volume" GUID="{E3663605-5C95-4663-8843-E86F86A3D067}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="943948344">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="1934225287">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
@@ -287,6 +328,10 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume" GUID="{F3D37598-EB3D-483D-9442-46691933BF0F}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
