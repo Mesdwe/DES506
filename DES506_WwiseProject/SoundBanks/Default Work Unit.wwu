@@ -12,12 +12,15 @@
 						<ObjectRef Name="sfx_Genhu_Call_Confused" ID="{6D4BC654-D4DA-41B2-9F37-FF3A7F69A2F4}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Invoking_Hit_2" ID="{2E7D06C9-2D7F-441C-B229-4DF87C70E09C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Invoking_Hit_1" ID="{A33A589D-AE80-4473-9B01-16C7301A554C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_Brazier" ID="{3AB11F0E-4C5D-4499-9579-82EEA9CB4827}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Genhu_Call_Affirmative" ID="{C589B7CA-23C2-44B2-8D89-13C055414E12}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Genhu_Purify_Water" ID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_UI_EntryAdded" ID="{585A58B5-7155-46B7-998E-CBC0EAD60849}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_Player_Climbing" ID="{86862E83-6D46-46E9-A10B-9E5C29777E2F}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Genhu_Purify_Genhu" ID="{EA84BA88-4554-4749-A5FF-F608681E502C}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Cart" ID="{68676CFF-921B-4A05-AD04-CA83E8BAA88C}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Invoking_Hit_3" ID="{F0103F9F-CB67-4A28-A6BA-513B27B6755F}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="sfx_Wind" ID="{B0C78A44-E799-4A8D-B76D-B2411D6E33BB}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Parched_Groan" ID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
