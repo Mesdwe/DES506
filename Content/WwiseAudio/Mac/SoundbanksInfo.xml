@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1539447744">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2265303470">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -170,32 +170,48 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3254559700" Name="sfx_Invoking_1" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_1" GUID="{46FC202A-52E4-4500-8B89-C5554D8758E5}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274">
+				<Event Id="3254559700" Name="sfx_Invoking_1" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_1" GUID="{46FC202A-52E4-4500-8B89-C5554D8758E5}" DurationType="OneShot" DurationMin="6.200000" DurationMax="6.200000">
 					<IncludedMemoryFiles>
+						<File Id="816325769" Language="SFX">
+							<ShortName>sfx_Invoking_Ring_1.wav</ShortName>
+							<Path>SFX\sfx_Invoking_Ring_1_10C4C929.wem</Path>
+						</File>
 						<File Id="928158904" Language="SFX">
 							<ShortName>tuning-fork_tone-1.wav</ShortName>
 							<Path>SFX\tuning-fork_tone-1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3254559703" Name="sfx_Invoking_2" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_2" GUID="{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274">
+				<Event Id="3254559703" Name="sfx_Invoking_2" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_2" GUID="{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}" DurationType="OneShot" DurationMin="6.200000" DurationMax="6.200000">
 					<IncludedMemoryFiles>
 						<File Id="6964705" Language="SFX">
 							<ShortName>tuning-fork_tone-2.wav</ShortName>
 							<Path>SFX\tuning-fork_tone-2_10C4C929.wem</Path>
 						</File>
+						<File Id="813628381" Language="SFX">
+							<ShortName>sfx_Invoking_Ring_2.wav</ShortName>
+							<Path>SFX\sfx_Invoking_Ring_2_10C4C929.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3254559702" Name="sfx_Invoking_3" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_3" GUID="{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274">
+				<Event Id="3254559702" Name="sfx_Invoking_3" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_3" GUID="{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}" DurationType="OneShot" DurationMin="6.200000" DurationMax="6.200000">
 					<IncludedMemoryFiles>
 						<File Id="284070227" Language="SFX">
 							<ShortName>tuning-fork_tone-3.wav</ShortName>
 							<Path>SFX\tuning-fork_tone-3_10C4C929.wem</Path>
 						</File>
+						<File Id="942134843" Language="SFX">
+							<ShortName>sfx_Invoking_Ring_3.wav</ShortName>
+							<Path>SFX\sfx_Invoking_Ring_3_10C4C929.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3254559697" Name="sfx_Invoking_4" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_4" GUID="{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274">
+				<Event Id="3254559697" Name="sfx_Invoking_4" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_4" GUID="{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}" DurationType="OneShot" DurationMin="6.200000" DurationMax="6.200000">
 					<IncludedMemoryFiles>
+						<File Id="94253051" Language="SFX">
+							<ShortName>sfx_Invoking_Ring_4.wav</ShortName>
+							<Path>SFX\sfx_Invoking_Ring_4_10C4C929.wem</Path>
+						</File>
 						<File Id="868511091" Language="SFX">
 							<ShortName>tuning-fork_tone-4.wav</ShortName>
 							<Path>SFX\tuning-fork_tone-4_10C4C929.wem</Path>
@@ -296,7 +312,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1136478853">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1765758440">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -306,12 +322,12 @@
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="765304332">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="1175395333">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3129866761" Name="Play_Carnyx" ObjectPath="\Events\Default Work Unit\Music\Play_Carnyx" GUID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}" MaxAttenuation="1000.000000" DurationType="Infinite">
+				<Event Id="3129866761" Name="Play_Carnyx" ObjectPath="\Events\Default Work Unit\Music\Play_Carnyx" GUID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}" MaxAttenuation="15000.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="148474242" Language="SFX">
 							<ShortName>sfx_Raider_Carnyx.wav</ShortName>

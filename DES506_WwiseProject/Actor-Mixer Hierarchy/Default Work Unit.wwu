@@ -83,6 +83,29 @@
 								<ActiveSource Name="EFX SD Wind Soft Whistling Gusts 04" ID="{5DD9C038-E912-4E2B-9651-F75E7D4A65A3}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="sfx_Environment_Ambience_Waterfall" ID="{E11B8C9B-EDED-4734-A451-39C273EACCF8}" ShortID="34336618">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB WATERFLOW Stream Splash 2m Close M" ID="{BEAA5AE7-A8C4-4D75-A843-31A2D0801292}">
+									<Language>SFX</Language>
+									<AudioFile>AMB WATERFLOW Stream Splash 2m Close M.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="601247252"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB WATERFLOW Stream Splash 2m Close M" ID="{BEAA5AE7-A8C4-4D75-A843-31A2D0801292}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Genhu" ID="{17632786-8DFD-44A8-8398-C3EA0B311738}" ShortID="758424639">
@@ -942,126 +965,324 @@
 				</Folder>
 				<Folder Name="Invocation" ID="{8F9401E9-A3F6-42B0-9289-A35EDB0DADDB}" ShortID="833791784">
 					<ChildrenList>
-						<Sound Name="sfx_Invoking_Hit_1" ID="{A33A589D-AE80-4473-9B01-16C7301A554C}" ShortID="1066556301">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<BlendContainer Name="sfx_Invoking_1" ID="{249B25B3-A2DA-49EF-987A-B54D94D26AEC}" ShortID="890641182">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="tuning-fork_tone-1" ID="{89D517E1-9D9D-4138-A1C1-10778262F76E}">
-									<Language>SFX</Language>
-									<AudioFile>tuning-fork_tone-1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="928158904"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="sfx_Invoking_Hit_1" ID="{A33A589D-AE80-4473-9B01-16C7301A554C}" ShortID="1066556301">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tuning-fork_tone-1" ID="{89D517E1-9D9D-4138-A1C1-10778262F76E}">
+											<Language>SFX</Language>
+											<AudioFile>tuning-fork_tone-1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="928158904"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="tuning-fork_tone-1" ID="{89D517E1-9D9D-4138-A1C1-10778262F76E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_Invoking_Ring_1" ID="{F0284071-7654-4A07-9F39-C2908BD3B0A6}" ShortID="891806778">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-35</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Gain (Custom)" ID="{9A56CB00-FFA7-40E8-9E7D-B73A762546FF}" ShortID="987187385" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
+											</Custom>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_Invoking_Ring_1" ID="{D32EC08B-4B41-49C5-AD79-D2663511F723}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_Invoking_Ring_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816325769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_Invoking_Ring_1" ID="{D32EC08B-4B41-49C5-AD79-D2663511F723}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="tuning-fork_tone-1" ID="{89D517E1-9D9D-4138-A1C1-10778262F76E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sfx_Invoking_Hit_2" ID="{2E7D06C9-2D7F-441C-B229-4DF87C70E09C}" ShortID="221188911">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						</BlendContainer>
+						<BlendContainer Name="sfx_Invoking_2" ID="{97C7FE5F-DEE1-4301-8CB7-4469DFFC5584}" ShortID="854828060">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="tuning-fork_tone-2" ID="{6BE06ACD-68EC-4A8C-BEE9-9F029EEE5685}">
-									<Language>SFX</Language>
-									<AudioFile>tuning-fork_tone-2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="6964705"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="sfx_Invoking_Hit_2" ID="{2E7D06C9-2D7F-441C-B229-4DF87C70E09C}" ShortID="221188911">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tuning-fork_tone-2" ID="{6BE06ACD-68EC-4A8C-BEE9-9F029EEE5685}">
+											<Language>SFX</Language>
+											<AudioFile>tuning-fork_tone-2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="6964705"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="tuning-fork_tone-2" ID="{6BE06ACD-68EC-4A8C-BEE9-9F029EEE5685}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_Invoking_Ring_2" ID="{9C8E5B65-A175-4F2C-8279-D33C781DBD09}" ShortID="453161438">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-40</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_Invoking_Ring_2" ID="{6673D4AF-9B3F-4F87-98C2-81616A2638E6}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_Invoking_Ring_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="813628381"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_Invoking_Ring_2" ID="{6673D4AF-9B3F-4F87-98C2-81616A2638E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="tuning-fork_tone-2" ID="{6BE06ACD-68EC-4A8C-BEE9-9F029EEE5685}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sfx_Invoking_Hit_4" ID="{380D58E0-6635-4E65-AA53-6B2D838B9B66}" ShortID="343383156">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						</BlendContainer>
+						<BlendContainer Name="sfx_Invoking_3" ID="{B59E8792-A49D-4F3F-B63B-9909E0F333AE}" ShortID="249011725">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="tuning-fork_tone-4" ID="{90A603DA-EEAC-4926-BA07-CFA95E401080}">
-									<Language>SFX</Language>
-									<AudioFile>tuning-fork_tone-4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="868511091"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="sfx_Invoking_Hit_3" ID="{F0103F9F-CB67-4A28-A6BA-513B27B6755F}" ShortID="453809198">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tuning-fork_tone-3" ID="{20BFE641-7FBB-4358-824C-F20B1CBB9ECF}">
+											<Language>SFX</Language>
+											<AudioFile>tuning-fork_tone-3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="284070227"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="tuning-fork_tone-3" ID="{20BFE641-7FBB-4358-824C-F20B1CBB9ECF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_Invoking_Ring_3" ID="{E6EE3413-D1C6-49FD-9715-8CBF22464ED6}" ShortID="255726589">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-40</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_Invoking_Ring_3" ID="{D3D9BAEA-0FC9-47AF-88ED-7197D45C8179}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_Invoking_Ring_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="942134843"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_Invoking_Ring_3" ID="{D3D9BAEA-0FC9-47AF-88ED-7197D45C8179}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="tuning-fork_tone-4" ID="{90A603DA-EEAC-4926-BA07-CFA95E401080}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sfx_Invoking_Hit_3" ID="{F0103F9F-CB67-4A28-A6BA-513B27B6755F}" ShortID="453809198">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						</BlendContainer>
+						<BlendContainer Name="sfx_Invoking_4" ID="{014D4FD0-63F9-47D3-9953-87CCB36B2C6A}" ShortID="708960247">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="tuning-fork_tone-3" ID="{20BFE641-7FBB-4358-824C-F20B1CBB9ECF}">
-									<Language>SFX</Language>
-									<AudioFile>tuning-fork_tone-3.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="284070227"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="sfx_Invoking_Hit_4" ID="{380D58E0-6635-4E65-AA53-6B2D838B9B66}" ShortID="343383156">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tuning-fork_tone-4" ID="{90A603DA-EEAC-4926-BA07-CFA95E401080}">
+											<Language>SFX</Language>
+											<AudioFile>tuning-fork_tone-4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="868511091"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="tuning-fork_tone-4" ID="{90A603DA-EEAC-4926-BA07-CFA95E401080}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="sfx_Invoking_Ring_4" ID="{F88440C0-1E60-4FB9-B25C-7336413EF245}" ShortID="363820684">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-40</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="sfx_Invoking_Ring_4" ID="{F6619169-AE06-4459-AB1F-19E6F68F35F1}">
+											<Language>SFX</Language>
+											<AudioFile>sfx_Invoking_Ring_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="94253051"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="sfx_Invoking_Ring_4" ID="{F6619169-AE06-4459-AB1F-19E6F68F35F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="tuning-fork_tone-3" ID="{20BFE641-7FBB-4358-824C-F20B1CBB9ECF}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

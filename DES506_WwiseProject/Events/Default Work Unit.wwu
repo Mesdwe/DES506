@@ -225,7 +225,7 @@
 								<Action Name="" ID="{C37B7506-CA69-48EF-A49B-749961CFF640}" ShortID="1021051884">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Invoking_Hit_1" ID="{A33A589D-AE80-4473-9B01-16C7301A554C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="sfx_Invoking_1" ID="{249B25B3-A2DA-49EF-987A-B54D94D26AEC}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -236,7 +236,7 @@
 								<Action Name="" ID="{58A797B2-20E2-4A89-8DA2-E2A0D440BCB3}" ShortID="369193622">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Invoking_Hit_2" ID="{2E7D06C9-2D7F-441C-B229-4DF87C70E09C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="sfx_Invoking_2" ID="{97C7FE5F-DEE1-4301-8CB7-4469DFFC5584}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -247,7 +247,7 @@
 								<Action Name="" ID="{546F9ECF-54FC-4B60-8336-2C578D33AF2F}" ShortID="481486003">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Invoking_Hit_3" ID="{F0103F9F-CB67-4A28-A6BA-513B27B6755F}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="sfx_Invoking_3" ID="{B59E8792-A49D-4F3F-B63B-9909E0F333AE}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -258,7 +258,7 @@
 								<Action Name="" ID="{0840C4C6-8CC4-4137-B36A-67C406592906}" ShortID="132957391">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Invoking_Hit_4" ID="{380D58E0-6635-4E65-AA53-6B2D838B9B66}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="sfx_Invoking_4" ID="{014D4FD0-63F9-47D3-9953-87CCB36B2C6A}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

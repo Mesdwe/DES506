@@ -16,7 +16,7 @@
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "765304332",
+    "Hash": "1175395333",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -26,7 +26,7 @@
       "Name": "Play_Carnyx",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Carnyx",
       "GUID": "{D2D4C809-3C46-4F17-90FD-418D8C33D421}",
-      "MaxAttenuation": "1000.000000",
+      "MaxAttenuation": "15000.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {

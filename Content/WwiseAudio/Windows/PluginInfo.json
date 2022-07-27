@@ -5,6 +5,12 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Gain",
+    "ID": "9109507",
+    "DLL": "AkGain",
+    "StaticLib": "AkGainFX"
+   },
+   {
     "Name": "System",
     "ID": "11403271"
    },

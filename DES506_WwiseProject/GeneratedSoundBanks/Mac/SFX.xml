@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1933774037">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="3916924256">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -153,10 +153,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3254559700" Name="sfx_Invoking_1" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_1" GUID="{46FC202A-52E4-4500-8B89-C5554D8758E5}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274"/>
-				<Event Id="3254559703" Name="sfx_Invoking_2" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_2" GUID="{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274"/>
-				<Event Id="3254559702" Name="sfx_Invoking_3" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_3" GUID="{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274"/>
-				<Event Id="3254559697" Name="sfx_Invoking_4" ObjectPath="\Events\Default Work Unit\Invocation\sfx_Invoking_4" GUID="{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}" DurationType="OneShot" DurationMin="1.179274" DurationMax="1.179274"/>
 				<Event Id="991804038" Name="sfx_Parched_Groan" ObjectPath="\Events\Default Work Unit\Parched\sfx_Parched_Groan" GUID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" DurationType="OneShot" DurationMin="3.406641" DurationMax="3.406641">
 					<IncludedMemoryFiles>
 						<File Id="826443704" Language="SFX">

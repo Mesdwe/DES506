@@ -9,10 +9,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	2445943459	sfx_Genhu_Call_Confused			\Default Work Unit\Genhu\sfx_Genhu_Call_Confused	
 	2498639818	sfx_Genhu_Purify_Water			\Default Work Unit\Genhu\sfx_Genhu_Purify_Water	
 	2630622802	sfx_Genhu_Call_Affirmative			\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative	
-	3254559697	sfx_Invoking_4			\Default Work Unit\Invocation\sfx_Invoking_4	
-	3254559700	sfx_Invoking_1			\Default Work Unit\Invocation\sfx_Invoking_1	
-	3254559702	sfx_Invoking_3			\Default Work Unit\Invocation\sfx_Invoking_3	
-	3254559703	sfx_Invoking_2			\Default Work Unit\Invocation\sfx_Invoking_2	
 	3279398580	sfx_UI_EntryAdded			\Default Work Unit\UI\sfx_UI_EntryAdded	
 	3699556704	sfx_Genhu_Teleportation_Start			\Default Work Unit\Genhu\sfx_Genhu_Teleportation_Start	
 	3824156588	sfx_Player_Climbing			\Default Work Unit\Footsteps\sfx_Player_Climbing	
@@ -39,7 +35,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4786361	Climb_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Climb_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\PlayerClimbing\Climb_1		155044
-	6964705	sfx_Invoking_Hit_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_Hit_2		208088
+	6964705	sfx_Invoking_Hit_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_2\sfx_Invoking_Hit_2		208088
 	32840511	Big_Stone_Step_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Big_Stone_Step_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\GenhuFootstepMaterialContainer\sfx_Footsteps_Genhu_Stone\Big_Stone_Step_2		55972
 	99062319	sfx_Genhu_Purify_Water	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Genhu_Purify_Water_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Purify_Water		733760
 	100710372	Player_Sludge_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Player_Sludge_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\PlayerFootstepMaterialContainer\sfx_Footsteps_Player_Sludge\Player_Sludge_2		151444
@@ -48,7 +44,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	204369387	Big_Stone_Step_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Big_Stone_Step_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\GenhuFootstepMaterialContainer\sfx_Footsteps_Genhu_Stone\Big_Stone_Step_1		52724
 	223569691	sfx_Background_Opening_Cart	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Background_Opening_Cart_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Opening_Sequence\sfx_Background_Opening_Cart		16531188
 	255479104	Climb_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Climb_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\PlayerClimbing\Climb_2		113292
-	284070227	sfx_Invoking_Hit_3	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_Hit_3		208088
+	284070227	sfx_Invoking_Hit_3	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_3\sfx_Invoking_Hit_3		208088
 	299736928	sfx_Genhu_Teleportation_End	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Genhu_Teleportation_End_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Teleportation_End		331840
 	366046980	Big_Stone_Step_3	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Big_Stone_Step_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\GenhuFootstepMaterialContainer\sfx_Footsteps_Genhu_Stone\Big_Stone_Step_3		55648
 	383862852	sfx_Genhu_Teleportation_Start	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Genhu_Teleportation_Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Teleportation_Start		493120
@@ -62,10 +58,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	713687476	Player_Stone_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Player_Footstep_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\PlayerFootstepMaterialContainer\sfx_Footsteps_Player_Stone\Player_Stone_2		52644
 	747815982	sfx_UI_EntryAdded	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Journal_Entry_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\sfx_UI_EntryAdded		218956
 	826443704	sfx_Parched_Groan	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Parched_Groan_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheParched\sfx_Parched_Groan		496704
-	868511091	sfx_Invoking_Hit_4	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_Hit_4		208088
+	868511091	sfx_Invoking_Hit_4	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_4\sfx_Invoking_Hit_4		208088
 	871631987	sfx_Environment_Ambience_Wind	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\EFX SD Wind Soft Whistling Gusts 04_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\sfx_Environment_Ambience_Wind		23065752
 	903052459	sfx_Genhu_Call_Confused	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\genhu-sound_confused_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Call_Confused		211744
-	928158904	sfx_Invoking_Hit_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_Hit_1		208088
+	928158904	sfx_Invoking_Hit_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\tuning-fork_tone-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_1\sfx_Invoking_Hit_1		208088
 	955998453	Giant_Sludge_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Giant_Sludge_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\GenhuFootstepMaterialContainer\sfx_Footsteps_Genhu_Sludge\Giant_Sludge_1		137848
 	962641060	Player_Stone_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Player_Footstep_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\PlayerFootstepMaterialContainer\sfx_Footsteps_Player_Stone\Player_Stone_1		49624
 	1009186357	sfx_Environment_Ambience_Rain	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\sfx_Environment_Ambience_Rain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\sfx_Environment_Ambience_Rain		23616064
