@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2445943459	sfx_Genhu_Call_Confused			\Default Work Unit\Genhu\sfx_Genhu_Call_Confused	
 	2498639818	sfx_Genhu_Purify_Water			\Default Work Unit\Genhu\sfx_Genhu_Purify_Water	
 	2630622802	sfx_Genhu_Call_Affirmative			\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative	
+	2873237003	sfx_Genhu_Push_Object			\Default Work Unit\Genhu\sfx_Genhu_Push_Object	
 	3254559697	sfx_Invoking_4			\Default Work Unit\Invocation\sfx_Invoking_4	
 	3254559700	sfx_Invoking_1			\Default Work Unit\Invocation\sfx_Invoking_1	
 	3254559702	sfx_Invoking_3			\Default Work Unit\Invocation\sfx_Invoking_3	
@@ -52,6 +53,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	204369387	Big_Stone_Step_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\Big_Stone_Step_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\GenhuFootstepMaterialContainer\sfx_Footsteps_Genhu_Stone\Big_Stone_Step_1		52724
 	223569691	sfx_Background_Opening_Cart	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\Background_Opening_Cart_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Opening_Sequence\sfx_Background_Opening_Cart		16531188
 	255479104	Climb_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\Climb_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\PlayerClimbing\Climb_2		113292
+	259703603	sfx_Genhu_Push_Object	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\sfx_Gate_Crash_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Push_Object		1420552
 	284070227	sfx_Invoking_Hit_3	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\tuning-fork_tone-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_3\sfx_Invoking_Hit_3		208088
 	299736928	sfx_Genhu_Teleportation_End	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\sfx_Genhu_Teleportation_End_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Genhu\sfx_Genhu_Teleportation_End		331840
 	366046980	Big_Stone_Step_3	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\Big_Stone_Step_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\GenhuFootstepMaterialContainer\sfx_Footsteps_Genhu_Stone\Big_Stone_Step_3		55648
