@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6F76B8FE-CB6E-4F28-B2D2-5AB83CD53F14}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{6F76B8FE-CB6E-4F28-B2D2-5AB83CD53F14}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6F76B8FE-CB6E-4F28-B2D2-5AB83CD53F14}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MusicIntensity" ID="{2F96479B-3921-4C6B-BCAA-178EDD41283B}">
+					<ChildrenList>
+						<State Name="None" ID="{16B08996-91C0-4FFC-900D-B8AD20B39D1C}"/>
+						<State Name="High" ID="{AF78C2E9-9BF4-4675-A8CB-B668D13C9E45}"/>
+						<State Name="Mid" ID="{F8A939E4-D1BE-40E0-8A03-50F17BC47CF9}"/>
+						<State Name="Low" ID="{81FEBDF5-0F2E-4C2D-8A45-44C64AFC9826}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="CarnyxState" ID="{B2B81DA0-0FAC-41AB-A08F-14BBDF85A6E0}">
+					<ChildrenList>
+						<State Name="None" ID="{93F8A6C1-927B-4173-8E39-9C08DDBBFA00}"/>
+						<State Name="On" ID="{9F52E822-22EA-46FF-B029-56716D5064EE}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

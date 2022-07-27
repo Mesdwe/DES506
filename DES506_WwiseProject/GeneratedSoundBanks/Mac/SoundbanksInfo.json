@@ -19,25 +19,23 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "1643055994",
+    "Hash": "876939312",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
     "IncludedEvents": [
      {
-      "Id": "1424467790",
-      "Name": "sfx_Carnyx",
-      "ObjectPath": "\\Events\\Default Work Unit\\Act3SFX\\sfx_Carnyx",
-      "GUID": "{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}",
-      "DurationType": "OneShot",
-      "DurationMin": "72.248894",
-      "DurationMax": "72.248894",
+      "Id": "1957128328",
+      "Name": "sfx_Brazier",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\sfx_Brazier",
+      "GUID": "{3AB11F0E-4C5D-4499-9579-82EEA9CB4827}",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "148474242",
+        "Id": "674811628",
         "Language": "SFX",
-        "ShortName": "sfx_Raider_Carnyx.wav",
-        "Path": "SFX\\sfx_Raider_Carnyx_10C4C929.wem"
+        "ShortName": "EFX SD Fire in Metal Stove 03.wav",
+        "Path": "SFX\\EFX SD Fire in Metal Stove 03_D79FB2B7.wem"
        }
       ]
      },
@@ -46,15 +44,13 @@
       "Name": "sfx_Cart",
       "ObjectPath": "\\Events\\Default Work Unit\\IntroSFX\\sfx_Cart",
       "GUID": "{68676CFF-921B-4A05-AD04-CA83E8BAA88C}",
-      "DurationType": "OneShot",
-      "DurationMin": "86.099602",
-      "DurationMax": "86.099602",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "223569691",
         "Language": "SFX",
         "ShortName": "Background_Opening_Cart.wav",
-        "Path": "SFX\\Background_Opening_Cart_10C4C929.wem"
+        "Path": "SFX\\Background_Opening_Cart_D79FB2B7.wem"
        }
       ]
      },
@@ -267,6 +263,23 @@
       ]
      },
      {
+      "Id": "2873237003",
+      "Name": "sfx_Genhu_Push_Object",
+      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Push_Object",
+      "GUID": "{6454F005-8B28-43F5-A21D-2F7D6861B96D}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.052653",
+      "DurationMax": "8.052653",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "259703603",
+        "Language": "SFX",
+        "ShortName": "sfx_Gate_Crash.wav",
+        "Path": "SFX\\sfx_Gate_Crash_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "2264332347",
       "Name": "sfx_Genhu_Teleportation_End",
       "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Teleportation_End",
@@ -301,42 +314,6 @@
       ]
      },
      {
-      "Id": "3254559700",
-      "Name": "sfx_Invoking_1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_1",
-      "GUID": "{46FC202A-52E4-4500-8B89-C5554D8758E5}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.179274",
-      "DurationMax": "1.179274"
-     },
-     {
-      "Id": "3254559703",
-      "Name": "sfx_Invoking_2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_2",
-      "GUID": "{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.179274",
-      "DurationMax": "1.179274"
-     },
-     {
-      "Id": "3254559702",
-      "Name": "sfx_Invoking_3",
-      "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_3",
-      "GUID": "{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.179274",
-      "DurationMax": "1.179274"
-     },
-     {
-      "Id": "3254559697",
-      "Name": "sfx_Invoking_4",
-      "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_4",
-      "GUID": "{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.179274",
-      "DurationMax": "1.179274"
-     },
-     {
       "Id": "991804038",
       "Name": "sfx_Parched_Groan",
       "ObjectPath": "\\Events\\Default Work Unit\\Parched\\sfx_Parched_Groan",
@@ -354,19 +331,46 @@
       ]
      },
      {
+      "Id": "3824156588",
+      "Name": "sfx_Player_Climbing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\sfx_Player_Climbing",
+      "GUID": "{86862E83-6D46-46E9-A10B-9E5C29777E2F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.614668",
+      "DurationMax": "0.917469",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "4786361",
+        "Language": "SFX",
+        "ShortName": "Climb_1.wav",
+        "Path": "SFX\\Climb_1_10C4C929.wem"
+       },
+       {
+        "Id": "188585556",
+        "Language": "SFX",
+        "ShortName": "Climb_3.wav",
+        "Path": "SFX\\Climb_3_10C4C929.wem"
+       },
+       {
+        "Id": "255479104",
+        "Language": "SFX",
+        "ShortName": "Climb_2.wav",
+        "Path": "SFX\\Climb_2_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1904851423",
       "Name": "sfx_Rain",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weather\\sfx_Rain",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\sfx_Rain",
       "GUID": "{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}",
-      "DurationType": "OneShot",
-      "DurationMin": "123.000000",
-      "DurationMax": "123.000000",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "1009186357",
         "Language": "SFX",
         "ShortName": "sfx_Environment_Ambience_Rain.wav",
-        "Path": "SFX\\sfx_Environment_Ambience_Rain_10C4C929.wem"
+        "Path": "SFX\\sfx_Environment_Ambience_Rain_D79FB2B7.wem"
        }
       ]
      },
@@ -384,6 +388,21 @@
         "Language": "SFX",
         "ShortName": "Journal_Entry.wav",
         "Path": "SFX\\Journal_Entry_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1398508531",
+      "Name": "sfx_Wind",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\sfx_Wind",
+      "GUID": "{B0C78A44-E799-4A8D-B76D-B2411D6E33BB}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "871631987",
+        "Language": "SFX",
+        "ShortName": "EFX SD Wind Soft Whistling Gusts 04.wav",
+        "Path": "SFX\\EFX SD Wind Soft Whistling Gusts 04_D79FB2B7.wem"
        }
       ]
      }
@@ -487,7 +506,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3780278417",
+    "Hash": "1136478853",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -516,27 +535,79 @@
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "1934225287",
+    "Hash": "599790520",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
     "IncludedEvents": [
      {
+      "Id": "3129866761",
+      "Name": "Play_Carnyx",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Carnyx",
+      "GUID": "{D2D4C809-3C46-4F17-90FD-418D8C33D421}",
+      "MaxAttenuation": "15000.000000",
+      "DurationType": "Infinite"
+     },
+     {
       "Id": "1765704519",
       "Name": "PlayAmbience",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\PlayAmbience",
       "GUID": "{2F7A22FD-6438-4233-B72A-67641633C313}",
-      "DurationType": "OneShot",
-      "DurationMin": "207.812500",
-      "DurationMax": "207.812500",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "868099755",
+        "Id": "854522832",
         "Language": "SFX",
-        "ShortName": "Music_Background_Ambience_KipburyChasm.wav",
-        "Path": "SFX\\Music_Background_Ambience_KipburyChasm_D79FB2B7.wem"
+        "ShortName": "3. hi.wav",
+        "Path": "SFX\\3. hi_D79FB2B7.wem"
+       },
+       {
+        "Id": "939637976",
+        "Language": "SFX",
+        "ShortName": "1. lo ambiant.wav",
+        "Path": "SFX\\1. lo ambiant_D79FB2B7.wem"
+       },
+       {
+        "Id": "1006654850",
+        "Language": "SFX",
+        "ShortName": "2. mid.wav",
+        "Path": "SFX\\2. mid_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{AF78C2E9-9BF4-4675-A8CB-B668D13C9E45}",
+        "Media": [
+         {
+          "Id": "854522832"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{81FEBDF5-0F2E-4C2D-8A45-44C64AFC9826}",
+        "Media": [
+         {
+          "Id": "939637976"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F8A939E4-D1BE-40E0-8A03-50F17BC47CF9}",
+        "Media": [
+         {
+          "Id": "1006654850"
+         }
+        ]
        }
       ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "148474242",
+      "Language": "SFX",
+      "ShortName": "sfx_Raider_Carnyx.wav",
+      "Path": "SFX\\sfx_Raider_Carnyx_D79FB2B7.wem"
      }
     ],
     "GameParameters": [
@@ -551,6 +622,60 @@
       "Name": "Master_Volume",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Master_Volume",
       "GUID": "{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1301299809",
+      "Name": "MusicIntensity",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicIntensity",
+      "GUID": "{2F96479B-3921-4C6B-BCAA-178EDD41283B}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicIntensity\\None",
+        "GUID": "{16B08996-91C0-4FFC-900D-B8AD20B39D1C}"
+       },
+       {
+        "Id": "3550808449",
+        "Name": "High",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicIntensity\\High",
+        "GUID": "{AF78C2E9-9BF4-4675-A8CB-B668D13C9E45}"
+       },
+       {
+        "Id": "1182670505",
+        "Name": "Mid",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicIntensity\\Mid",
+        "GUID": "{F8A939E4-D1BE-40E0-8A03-50F17BC47CF9}"
+       },
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicIntensity\\Low",
+        "GUID": "{81FEBDF5-0F2E-4C2D-8A45-44C64AFC9826}"
+       }
+      ]
+     },
+     {
+      "Id": "3349589349",
+      "Name": "CarnyxState",
+      "ObjectPath": "\\States\\Default Work Unit\\CarnyxState",
+      "GUID": "{B2B81DA0-0FAC-41AB-A08F-14BBDF85A6E0}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\CarnyxState\\None",
+        "GUID": "{93F8A6C1-927B-4173-8E39-9C08DDBBFA00}"
+       },
+       {
+        "Id": "1651971902",
+        "Name": "On",
+        "ObjectPath": "\\States\\Default Work Unit\\CarnyxState\\On",
+        "GUID": "{9F52E822-22EA-46FF-B029-56716D5064EE}"
+       }
+      ]
      }
     ]
    }

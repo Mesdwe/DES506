@@ -7,25 +7,21 @@
 					<ChildrenList>
 						<Event Name="PlayAmbience" ID="{2F7A22FD-6438-4233-B72A-67641633C313}">
 							<ChildrenList>
-								<Action Name="" ID="{BA64AA6B-A2D2-451E-943B-732BE5348DC8}" ShortID="178187680">
+								<Action Name="" ID="{81BF7224-915C-4F0B-AC34-BCD18B1ED601}" ShortID="892743302">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_Background_Ambience_KipburyChasm" ID="{57DDE887-4B9B-44E6-9044-84902C39C489}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
+											<ObjectRef Name="Music_Background_Ambience" ID="{11ADF0D4-B610-40B7-9853-6EFBC243D9F4}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Act3SFX" ID="{E0B5E5E6-3B83-4A47-97CB-7A4276E0C390}" ShortID="541767797">
-					<ChildrenList>
-						<Event Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}">
+						<Event Name="Play_Carnyx" ID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}">
 							<ChildrenList>
-								<Action Name="" ID="{24161FA2-39FE-4C28-AEE5-972F0D1EAB84}" ShortID="1012909731">
+								<Action Name="" ID="{BCA00469-C83E-432C-BF56-8D863F4DCE11}" ShortID="1002855708">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Raider_Carnyx" ID="{6EC07E47-1E36-4C03-8DB5-BC76FB0E5567}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="Music_Raider_Carnyx" ID="{BF23A317-9C99-40A5-9B97-E37B1EECAC99}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -153,6 +149,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="sfx_Genhu_Push_Object" ID="{6454F005-8B28-43F5-A21D-2F7D6861B96D}">
+							<ChildrenList>
+								<Action Name="" ID="{E9A34638-2F14-4B03-B9FC-69FBD08B0EC3}" ShortID="617412626">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="sfx_Genhu_Push_Object" ID="{2D88560E-8895-44E9-BAB2-9E14248AA7D6}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Parched" ID="{EA06ABCF-19D2-4E57-A388-7327EFEDB453}" ShortID="886252342">
@@ -229,7 +236,7 @@
 								<Action Name="" ID="{C37B7506-CA69-48EF-A49B-749961CFF640}" ShortID="1021051884">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Invoking_Hit_1" ID="{A33A589D-AE80-4473-9B01-16C7301A554C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="sfx_Invoking_1" ID="{249B25B3-A2DA-49EF-987A-B54D94D26AEC}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -240,7 +247,7 @@
 								<Action Name="" ID="{58A797B2-20E2-4A89-8DA2-E2A0D440BCB3}" ShortID="369193622">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Invoking_Hit_2" ID="{2E7D06C9-2D7F-441C-B229-4DF87C70E09C}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="sfx_Invoking_2" ID="{97C7FE5F-DEE1-4301-8CB7-4469DFFC5584}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -251,7 +258,7 @@
 								<Action Name="" ID="{546F9ECF-54FC-4B60-8336-2C578D33AF2F}" ShortID="481486003">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Invoking_Hit_3" ID="{F0103F9F-CB67-4A28-A6BA-513B27B6755F}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="sfx_Invoking_3" ID="{B59E8792-A49D-4F3F-B63B-9909E0F333AE}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -262,7 +269,7 @@
 								<Action Name="" ID="{0840C4C6-8CC4-4137-B36A-67C406592906}" ShortID="132957391">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Invoking_Hit_4" ID="{380D58E0-6635-4E65-AA53-6B2D838B9B66}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="sfx_Invoking_4" ID="{014D4FD0-63F9-47D3-9953-87CCB36B2C6A}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

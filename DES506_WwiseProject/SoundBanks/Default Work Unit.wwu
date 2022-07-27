@@ -22,7 +22,6 @@
 						<ObjectRef Name="sfx_Invoking_Hit_3" ID="{F0103F9F-CB67-4A28-A6BA-513B27B6755F}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Wind" ID="{B0C78A44-E799-4A8D-B76D-B2411D6E33BB}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Rain" ID="{5DBB4613-0A99-4B7F-BBF2-4F3D1BDF6526}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Parched_Groan" ID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Invoking_Hit_4" ID="{380D58E0-6635-4E65-AA53-6B2D838B9B66}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="sfx_Genhu_Teleportation_End" ID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
@@ -32,6 +31,7 @@
 				</SoundBank>
 				<SoundBank Name="Music" ID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Music_Raider_Carnyx" ID="{BF23A317-9C99-40A5-9B97-E37B1EECAC99}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayAmbience" ID="{2F7A22FD-6438-4233-B72A-67641633C313}" WorkUnitID="{9E21F39E-25EF-48B0-9C0F-C1D1F0B30F1E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{D99A0082-22F2-49AF-8D1A-BBB9B9394F09}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

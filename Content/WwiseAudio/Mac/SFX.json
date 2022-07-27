@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "3860716",
+    "Hash": "3213654808",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -33,23 +33,6 @@
         "Language": "SFX",
         "ShortName": "EFX SD Fire in Metal Stove 03.wav",
         "Path": "SFX\\EFX SD Fire in Metal Stove 03_D79FB2B7.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1424467790",
-      "Name": "sfx_Carnyx",
-      "ObjectPath": "\\Events\\Default Work Unit\\Act3SFX\\sfx_Carnyx",
-      "GUID": "{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}",
-      "DurationType": "OneShot",
-      "DurationMin": "72.248894",
-      "DurationMax": "72.248894",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "148474242",
-        "Language": "SFX",
-        "ShortName": "sfx_Raider_Carnyx.wav",
-        "Path": "SFX\\sfx_Raider_Carnyx_10C4C929.wem"
        }
       ]
      },
@@ -293,6 +276,23 @@
       ]
      },
      {
+      "Id": "2873237003",
+      "Name": "sfx_Genhu_Push_Object",
+      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Push_Object",
+      "GUID": "{6454F005-8B28-43F5-A21D-2F7D6861B96D}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.052653",
+      "DurationMax": "8.052653",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "259703603",
+        "Language": "SFX",
+        "ShortName": "sfx_Gate_Crash.wav",
+        "Path": "SFX\\sfx_Gate_Crash_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "2264332347",
       "Name": "sfx_Genhu_Teleportation_End",
       "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Teleportation_End",
@@ -332,9 +332,15 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_1",
       "GUID": "{46FC202A-52E4-4500-8B89-C5554D8758E5}",
       "DurationType": "OneShot",
-      "DurationMin": "1.179274",
-      "DurationMax": "1.179274",
+      "DurationMin": "6.200000",
+      "DurationMax": "6.200000",
       "IncludedMemoryFiles": [
+       {
+        "Id": "816325769",
+        "Language": "SFX",
+        "ShortName": "sfx_Invoking_Ring_1.wav",
+        "Path": "SFX\\sfx_Invoking_Ring_1_10C4C929.wem"
+       },
        {
         "Id": "928158904",
         "Language": "SFX",
@@ -349,14 +355,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_2",
       "GUID": "{2FE4AA8B-8562-4CD4-90E2-ED86FAAAFD9C}",
       "DurationType": "OneShot",
-      "DurationMin": "1.179274",
-      "DurationMax": "1.179274",
+      "DurationMin": "6.200000",
+      "DurationMax": "6.200000",
       "IncludedMemoryFiles": [
        {
         "Id": "6964705",
         "Language": "SFX",
         "ShortName": "tuning-fork_tone-2.wav",
         "Path": "SFX\\tuning-fork_tone-2_10C4C929.wem"
+       },
+       {
+        "Id": "813628381",
+        "Language": "SFX",
+        "ShortName": "sfx_Invoking_Ring_2.wav",
+        "Path": "SFX\\sfx_Invoking_Ring_2_10C4C929.wem"
        }
       ]
      },
@@ -366,14 +378,20 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_3",
       "GUID": "{714D312C-A2BF-4BF0-9F3D-6EE0A5203302}",
       "DurationType": "OneShot",
-      "DurationMin": "1.179274",
-      "DurationMax": "1.179274",
+      "DurationMin": "6.200000",
+      "DurationMax": "6.200000",
       "IncludedMemoryFiles": [
        {
         "Id": "284070227",
         "Language": "SFX",
         "ShortName": "tuning-fork_tone-3.wav",
         "Path": "SFX\\tuning-fork_tone-3_10C4C929.wem"
+       },
+       {
+        "Id": "942134843",
+        "Language": "SFX",
+        "ShortName": "sfx_Invoking_Ring_3.wav",
+        "Path": "SFX\\sfx_Invoking_Ring_3_10C4C929.wem"
        }
       ]
      },
@@ -383,9 +401,15 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Invocation\\sfx_Invoking_4",
       "GUID": "{C759AC01-7A9C-41DD-A4A5-8C6AE91B1C93}",
       "DurationType": "OneShot",
-      "DurationMin": "1.179274",
-      "DurationMax": "1.179274",
+      "DurationMin": "6.200000",
+      "DurationMax": "6.200000",
       "IncludedMemoryFiles": [
+       {
+        "Id": "94253051",
+        "Language": "SFX",
+        "ShortName": "sfx_Invoking_Ring_4.wav",
+        "Path": "SFX\\sfx_Invoking_Ring_4_10C4C929.wem"
+       },
        {
         "Id": "868511091",
         "Language": "SFX",

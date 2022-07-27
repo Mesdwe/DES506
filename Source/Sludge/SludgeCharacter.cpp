@@ -33,7 +33,7 @@ ASludgeCharacter::ASludgeCharacter()
 	FirstPersonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));
 	//Attach camera to head
 	FirstPersonCameraComponent->SetupAttachment(ACharacter::GetMesh());
-	FirstPersonCameraComponent->AttachTo(ACharacter::GetMesh(), "Head");
+	FirstPersonCameraComponent->AttachTo(ACharacter::GetMesh(), "QuickRigCharacter_Head");
 
 	FirstPersonCameraComponent->bUsePawnControlRotation = true;
 
