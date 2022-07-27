@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1301299809	MusicIntensity			\Default Work Unit\MusicIntensity	
+
+State	ID	Name	State Group			Notes
+	545371365	Low	MusicIntensity			
+	748895195	None	MusicIntensity			
+	1182670505	Mid	MusicIntensity			
+	3550808449	High	MusicIntensity			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
 	1564184899	SFX_Volume			\Default Work Unit\SFX_Volume	

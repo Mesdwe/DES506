@@ -1,6 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1765704519	PlayAmbience			\Default Work Unit\Music\PlayAmbience	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	1301299809	MusicIntensity			\Default Work Unit\MusicIntensity	
+
+State	ID	Name	State Group			Notes
+	545371365	Low	MusicIntensity			
+	748895195	None	MusicIntensity			
+	1182670505	Mid	MusicIntensity			
+	3550808449	High	MusicIntensity			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1006694123	Music_Volume			\Default Work Unit\Music_Volume	
 	4179668880	Master_Volume			\Default Work Unit\Master_Volume	
@@ -10,5 +19,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	868099755	Music_Background_Ambience_KipburyChasm	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\Music_Background_Ambience_KipburyChasm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Background_Ambience\KipburyChasmFull\Music_Background_Ambience_KipburyChasm\Music_Background_Ambience_KipburyChasm		36658188
+	854522832	3_ hi	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\3. hi_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Background_Ambience\Music_High\3_ hi\3_ hi		10118368
+	939637976	1_ lo ambiant	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\1. lo ambiant_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Background_Ambience\Music_Low\1_ lo ambiant\1_ lo ambiant		10231264
+	1006654850	2_ mid	M:\GitHub\DES506\DES506_WwiseProject\.cache\Windows\SFX\2. mid_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Background_Ambience\Music_Mid\2_ mid\2_ mid		10231264
 
