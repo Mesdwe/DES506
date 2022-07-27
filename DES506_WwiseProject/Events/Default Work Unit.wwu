@@ -16,16 +16,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="Act3SFX" ID="{E0B5E5E6-3B83-4A47-97CB-7A4276E0C390}" ShortID="541767797">
-					<ChildrenList>
-						<Event Name="sfx_Carnyx" ID="{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}">
+						<Event Name="Play_Carnyx" ID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}">
 							<ChildrenList>
-								<Action Name="" ID="{24161FA2-39FE-4C28-AEE5-972F0D1EAB84}" ShortID="1012909731">
+								<Action Name="" ID="{BCA00469-C83E-432C-BF56-8D863F4DCE11}" ShortID="1002855708">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="sfx_Raider_Carnyx" ID="{6EC07E47-1E36-4C03-8DB5-BC76FB0E5567}" WorkUnitID="{2C6858E8-8E58-4179-9807-5D81A4180B3E}"/>
+											<ObjectRef Name="Music_Raider_Carnyx" ID="{BF23A317-9C99-40A5-9B97-E37B1EECAC99}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

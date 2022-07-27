@@ -258,33 +258,6 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Act 3 + Ending" ID="{C9AD81FD-376B-4941-B6C7-E85B7436FDF7}" ShortID="749829330">
-					<ChildrenList>
-						<Sound Name="sfx_Raider_Carnyx" ID="{6EC07E47-1E36-4C03-8DB5-BC76FB0E5567}" ShortID="546493070">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="SFX" ID="{0F95CB32-6F54-41AE-B5FD-39AA627E260A}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sfx_Raider_Carnyx" ID="{55C720DA-4337-4C27-989C-F91B6467DD52}">
-									<Language>SFX</Language>
-									<AudioFile>sfx_Raider_Carnyx.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="148474242"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="sfx_Raider_Carnyx" ID="{55C720DA-4337-4C27-989C-F91B6467DD52}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Footsteps" ID="{76E26D89-DA28-4489-8CDD-E0962EB3DD6E}" ShortID="524415928">
 					<ChildrenList>
 						<SwitchContainer Name="GenhuFootstepMaterialContainer" ID="{04796C46-C688-40B6-8BCC-FA78BC809A6B}" ShortID="855467300">

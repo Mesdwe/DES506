@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "3860716",
+    "Hash": "1539447744",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -33,23 +33,6 @@
         "Language": "SFX",
         "ShortName": "EFX SD Fire in Metal Stove 03.wav",
         "Path": "SFX\\EFX SD Fire in Metal Stove 03_D79FB2B7.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1424467790",
-      "Name": "sfx_Carnyx",
-      "ObjectPath": "\\Events\\Default Work Unit\\Act3SFX\\sfx_Carnyx",
-      "GUID": "{285E6EFF-EC7D-4DCF-9C97-B79F283440E8}",
-      "DurationType": "OneShot",
-      "DurationMin": "72.248894",
-      "DurationMax": "72.248894",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "148474242",
-        "Language": "SFX",
-        "ShortName": "sfx_Raider_Carnyx.wav",
-        "Path": "SFX\\sfx_Raider_Carnyx_10C4C929.wem"
        }
       ]
      },
