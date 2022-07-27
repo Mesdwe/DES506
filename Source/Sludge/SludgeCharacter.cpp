@@ -164,8 +164,11 @@ void ASludgeCharacter::TurnAtRate(float Rate)
 		float RotationYaw = ACharacter::GetActorRotation().Yaw;
 		PlayerController->PlayerCameraManager->ViewYawMax = RotationYaw+80.0f;
 		PlayerController->PlayerCameraManager->ViewYawMin = RotationYaw -80.0f;
+
 	}
 	// calculate delta for this frame from the rate information
+	PlayerController->PlayerCameraManager->ViewPitchMin = -70.0f;
+	PlayerController->PlayerCameraManager->ViewPitchMax = 80.0f;
 
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
 }
@@ -180,6 +183,8 @@ void ASludgeCharacter::TurnMouse(float Rate)
 		
 	}
 
+	PlayerController->PlayerCameraManager->ViewPitchMin = -70.0f;
+	PlayerController->PlayerCameraManager->ViewPitchMax = 80.0f;
 		// calculate delta for this frame from the rate information
 		AddControllerYawInput(Rate);
 }
