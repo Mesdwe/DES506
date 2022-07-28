@@ -9,6 +9,7 @@ void AMovingSpell::BeginPlay()
 	Super::BeginPlay();
 	AActor* PlayerCharacter = UGameplayStatics::GetPlayerCharacter(GetWorld(), 0);
 	ASludgeCharacter* FPCharacter = Cast<ASludgeCharacter>(PlayerCharacter);
+	BeginPlayBehaviour();
 	if (FPCharacter != nullptr)
 	{
 		FirstPersonCamera = FPCharacter->GetFirstPersonCameraComponent();
