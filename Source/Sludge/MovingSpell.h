@@ -26,7 +26,8 @@ protected:
 	virtual void EndCasting() override;
 	UFUNCTION(BlueprintImplementableEvent)
 		void SetValidState(FHitResult HitResult);
-
+	UFUNCTION(BlueprintImplementableEvent)
+		void BeginPlayBehaviour();
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float MoveableRange;
 private:
