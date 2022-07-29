@@ -131,6 +131,9 @@
 							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{D22DD6C6-E444-4262-A73D-3CE660204FC7}" ShortID="577256495">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{C619916C-96A8-4A40-833A-05105E1D82AB}" ShortID="607991326">
 											<PropertyList>
@@ -260,6 +263,9 @@
 							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{914857C6-967E-43B3-8E04-41AB375E8C0B}" ShortID="828612469">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{EA89C3F6-E2F7-433F-8FB8-D034B170DF59}" ShortID="346540291">
 											<PropertyList>
@@ -1021,6 +1027,9 @@
 					<ObjectLists/>
 					<Playlist>
 						<MusicPlaylistItem Name="" ID="{64F613E1-4D40-4FD7-A844-EA027CF09787}" ShortID="970646670">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{4F0259E7-E533-46C6-ADDF-28E3CB0A0A35}" ShortID="740319227">
 									<PropertyList>

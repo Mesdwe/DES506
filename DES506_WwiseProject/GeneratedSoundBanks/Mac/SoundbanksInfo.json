@@ -509,7 +509,7 @@
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "3718594731",
+    "Hash": "1888955475",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -520,9 +520,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Carnyx",
       "GUID": "{D2D4C809-3C46-4F17-90FD-418D8C33D421}",
       "MaxAttenuation": "20000.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "72.248901",
-      "DurationMax": "72.248901",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "148474242",
