@@ -779,22 +779,6 @@
 										</DestinationFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
-								<MusicTransition Name="Transition" ID="{51DB5442-20CC-426F-ACE6-DE7FD3B078FB}">
-									<PropertyList>
-										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
-										<Property Name="SourceContextType" Type="int16" Value="1"/>
-									</PropertyList>
-									<TransitionInfo>
-										<DestinationFadeIn>
-											<MusicFade Name="Destination Fade-in" ID="{A8B09C18-9495-4665-89E9-103EFA6DB83F}">
-												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeTime" Type="Real64" Value="2"/>
-												</PropertyList>
-											</MusicFade>
-										</DestinationFadeIn>
-									</TransitionInfo>
-								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
