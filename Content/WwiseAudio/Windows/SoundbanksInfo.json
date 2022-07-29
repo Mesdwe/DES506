@@ -605,7 +605,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "720036050",
+    "Hash": "3896980328",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -634,7 +634,7 @@
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "2648660398",
+    "Hash": "3718594731",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -644,24 +644,16 @@
       "Name": "Play_Carnyx",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Carnyx",
       "GUID": "{D2D4C809-3C46-4F17-90FD-418D8C33D421}",
-      "MaxAttenuation": "15000.000000",
-      "DurationType": "Infinite",
+      "MaxAttenuation": "20000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "72.248901",
+      "DurationMax": "72.248901",
       "IncludedMemoryFiles": [
        {
         "Id": "148474242",
         "Language": "SFX",
         "ShortName": "sfx_Raider_Carnyx.wav",
         "Path": "SFX\\sfx_Raider_Carnyx_D79FB2B7.wem"
-       }
-      ],
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{9F52E822-22EA-46FF-B029-56716D5064EE}",
-        "Media": [
-         {
-          "Id": "148474242"
-         }
-        ]
        }
       ]
      },
@@ -719,14 +711,6 @@
       ]
      }
     ],
-    "IncludedMemoryFiles": [
-     {
-      "Id": "148474242",
-      "Language": "SFX",
-      "ShortName": "sfx_Raider_Carnyx.wav",
-      "Path": "SFX\\sfx_Raider_Carnyx_D79FB2B7.wem"
-     }
-    ],
     "GameParameters": [
      {
       "Id": "1006694123",
@@ -771,26 +755,6 @@
         "Name": "Low",
         "ObjectPath": "\\States\\Default Work Unit\\MusicIntensity\\Low",
         "GUID": "{81FEBDF5-0F2E-4C2D-8A45-44C64AFC9826}"
-       }
-      ]
-     },
-     {
-      "Id": "3349589349",
-      "Name": "CarnyxState",
-      "ObjectPath": "\\States\\Default Work Unit\\CarnyxState",
-      "GUID": "{B2B81DA0-0FAC-41AB-A08F-14BBDF85A6E0}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\CarnyxState\\None",
-        "GUID": "{93F8A6C1-927B-4173-8E39-9C08DDBBFA00}"
-       },
-       {
-        "Id": "1651971902",
-        "Name": "On",
-        "ObjectPath": "\\States\\Default Work Unit\\CarnyxState\\On",
-        "GUID": "{9F52E822-22EA-46FF-B029-56716D5064EE}"
        }
       ]
      }

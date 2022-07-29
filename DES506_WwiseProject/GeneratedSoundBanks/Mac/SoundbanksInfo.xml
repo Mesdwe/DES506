@@ -245,7 +245,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1136478853">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="621174551">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -255,12 +255,19 @@
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="134676100">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="3718594731">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3129866761" Name="Play_Carnyx" ObjectPath="\Events\Default Work Unit\Music\Play_Carnyx" GUID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}" MaxAttenuation="15000.000000" DurationType="Infinite"/>
+				<Event Id="3129866761" Name="Play_Carnyx" ObjectPath="\Events\Default Work Unit\Music\Play_Carnyx" GUID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}" MaxAttenuation="20000.000000" DurationType="OneShot" DurationMin="72.248901" DurationMax="72.248901">
+					<IncludedMemoryFiles>
+						<File Id="148474242" Language="SFX">
+							<ShortName>sfx_Raider_Carnyx.wav</ShortName>
+							<Path>SFX\sfx_Raider_Carnyx_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1765704519" Name="PlayAmbience" ObjectPath="\Events\Default Work Unit\Music\PlayAmbience" GUID="{2F7A22FD-6438-4233-B72A-67641633C313}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="854522832" Language="SFX">
@@ -295,12 +302,6 @@
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="148474242" Language="SFX">
-					<ShortName>sfx_Raider_Carnyx.wav</ShortName>
-					<Path>SFX\sfx_Raider_Carnyx_D79FB2B7.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Music_Volume" GUID="{F3D37598-EB3D-483D-9442-46691933BF0F}"/>
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
@@ -312,12 +313,6 @@
 						<State Id="3550808449" Name="High" ObjectPath="\States\Default Work Unit\MusicIntensity\High" GUID="{AF78C2E9-9BF4-4675-A8CB-B668D13C9E45}"/>
 						<State Id="1182670505" Name="Mid" ObjectPath="\States\Default Work Unit\MusicIntensity\Mid" GUID="{F8A939E4-D1BE-40E0-8A03-50F17BC47CF9}"/>
 						<State Id="545371365" Name="Low" ObjectPath="\States\Default Work Unit\MusicIntensity\Low" GUID="{81FEBDF5-0F2E-4C2D-8A45-44C64AFC9826}"/>
-					</States>
-				</StateGroup>
-				<StateGroup Id="3349589349" Name="CarnyxState" ObjectPath="\States\Default Work Unit\CarnyxState" GUID="{B2B81DA0-0FAC-41AB-A08F-14BBDF85A6E0}">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CarnyxState\None" GUID="{93F8A6C1-927B-4173-8E39-9C08DDBBFA00}"/>
-						<State Id="1651971902" Name="On" ObjectPath="\States\Default Work Unit\CarnyxState\On" GUID="{9F52E822-22EA-46FF-B029-56716D5064EE}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

@@ -21,7 +21,7 @@
 								<Action Name="" ID="{BCA00469-C83E-432C-BF56-8D863F4DCE11}" ShortID="1002855708">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music_Raider_Carnyx" ID="{BF23A317-9C99-40A5-9B97-E37B1EECAC99}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
+											<ObjectRef Name="Music_Carnyx" ID="{29F3D398-B662-4C9A-B9E1-B5D0982A5CCD}" WorkUnitID="{DD588F75-22A0-488D-A1E0-AEE3BA695BDB}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
