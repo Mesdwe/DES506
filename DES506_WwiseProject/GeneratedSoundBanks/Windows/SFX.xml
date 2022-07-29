@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="3916924256">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2778952516">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -74,31 +74,27 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1255872818" Name="sfx_Footsteps_Player" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Player" GUID="{24A4C0F2-2305-410B-ADE8-121366B57CEE}" DurationType="OneShot" DurationMin="0.269041" DurationMax="0.896157">
+				<Event Id="1255872818" Name="sfx_Footsteps_Player" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Player" GUID="{24A4C0F2-2305-410B-ADE8-121366B57CEE}" DurationType="OneShot" DurationMin="0.427849" DurationMax="0.896157">
 					<IncludedMemoryFiles>
 						<File Id="100710372" Language="SFX">
 							<ShortName>Player_Sludge_2.wav</ShortName>
 							<Path>SFX\Player_Sludge_2_10C4C929.wem</Path>
 						</File>
+						<File Id="322297081" Language="SFX">
+							<ShortName>PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _10C4C929.wem</Path>
+						</File>
 						<File Id="505039938" Language="SFX">
 							<ShortName>Player_Sludge_1.wav</ShortName>
 							<Path>SFX\Player_Sludge_1_10C4C929.wem</Path>
-						</File>
-						<File Id="641403689" Language="SFX">
-							<ShortName>Player_Footstep_3.wav</ShortName>
-							<Path>SFX\Player_Footstep_3_10C4C929.wem</Path>
 						</File>
 						<File Id="692045615" Language="SFX">
 							<ShortName>Player_Sludge_3.wav</ShortName>
 							<Path>SFX\Player_Sludge_3_10C4C929.wem</Path>
 						</File>
-						<File Id="713687476" Language="SFX">
-							<ShortName>Player_Footstep_2.wav</ShortName>
-							<Path>SFX\Player_Footstep_2_10C4C929.wem</Path>
-						</File>
-						<File Id="962641060" Language="SFX">
-							<ShortName>Player_Footstep_1.wav</ShortName>
-							<Path>SFX\Player_Footstep_1_10C4C929.wem</Path>
+						<File Id="876543846" Language="SFX">
+							<ShortName>PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav</ShortName>
+							<Path>SFX\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{BE3C6CA4-8163-4012-966D-0333D6B80798}</DefaultSwitchValue>
@@ -112,9 +108,8 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{BE3C6CA4-8163-4012-966D-0333D6B80798}">
 							<Media>
-								<File Id="641403689"/>
-								<File Id="713687476"/>
-								<File Id="962641060"/>
+								<File Id="322297081"/>
+								<File Id="876543846"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>

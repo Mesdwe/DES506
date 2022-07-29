@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "3213654808",
+    "Hash": "1858216492",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -138,7 +138,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps\\sfx_Footsteps_Player",
       "GUID": "{24A4C0F2-2305-410B-ADE8-121366B57CEE}",
       "DurationType": "OneShot",
-      "DurationMin": "0.269041",
+      "DurationMin": "0.427849",
       "DurationMax": "0.896157",
       "IncludedMemoryFiles": [
        {
@@ -148,16 +148,16 @@
         "Path": "SFX\\Player_Sludge_2_10C4C929.wem"
        },
        {
+        "Id": "322297081",
+        "Language": "SFX",
+        "ShortName": "PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav",
+        "Path": "SFX\\PM_SDGS_113 Footstep Step Dry Grass Shrubs Pine Needles Meadow _10C4C929.wem"
+       },
+       {
         "Id": "505039938",
         "Language": "SFX",
         "ShortName": "Player_Sludge_1.wav",
         "Path": "SFX\\Player_Sludge_1_10C4C929.wem"
-       },
-       {
-        "Id": "641403689",
-        "Language": "SFX",
-        "ShortName": "Player_Footstep_3.wav",
-        "Path": "SFX\\Player_Footstep_3_10C4C929.wem"
        },
        {
         "Id": "692045615",
@@ -166,16 +166,10 @@
         "Path": "SFX\\Player_Sludge_3_10C4C929.wem"
        },
        {
-        "Id": "713687476",
+        "Id": "876543846",
         "Language": "SFX",
-        "ShortName": "Player_Footstep_2.wav",
-        "Path": "SFX\\Player_Footstep_2_10C4C929.wem"
-       },
-       {
-        "Id": "962641060",
-        "Language": "SFX",
-        "ShortName": "Player_Footstep_1.wav",
-        "Path": "SFX\\Player_Footstep_1_10C4C929.wem"
+        "ShortName": "PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow .wav",
+        "Path": "SFX\\PM_SDGS_186 Footstep Step Dry Grass Shrubs Pine Needles Meadow _10C4C929.wem"
        }
       ],
       "DefaultSwitchValue": "{BE3C6CA4-8163-4012-966D-0333D6B80798}",
@@ -198,13 +192,10 @@
         "SwitchValue": "{BE3C6CA4-8163-4012-966D-0333D6B80798}",
         "Media": [
          {
-          "Id": "641403689"
+          "Id": "322297081"
          },
          {
-          "Id": "713687476"
-         },
-         {
-          "Id": "962641060"
+          "Id": "876543846"
          }
         ]
        }
