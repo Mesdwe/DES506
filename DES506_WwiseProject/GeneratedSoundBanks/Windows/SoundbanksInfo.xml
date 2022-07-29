@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="876939312">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="3916924256">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -140,14 +140,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2873237003" Name="sfx_Genhu_Push_Object" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Push_Object" GUID="{6454F005-8B28-43F5-A21D-2F7D6861B96D}" DurationType="OneShot" DurationMin="8.052653" DurationMax="8.052653">
-					<IncludedMemoryFiles>
-						<File Id="259703603" Language="SFX">
-							<ShortName>sfx_Gate_Crash.wav</ShortName>
-							<Path>SFX\sfx_Gate_Crash_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="2264332347" Name="sfx_Genhu_Teleportation_End" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_End" GUID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" DurationType="OneShot" DurationMin="1.880816" DurationMax="1.880816">
 					<IncludedMemoryFiles>
 						<File Id="299736928" Language="SFX">
@@ -268,7 +260,7 @@
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="599790520">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="2639788">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

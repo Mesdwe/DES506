@@ -725,9 +725,9 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{DAD0BC00-3F18-4E76-859A-74C5B34C39FB}">
 												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeCurve" Type="int16" Value="7"/>
 													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
-													<Property Name="FadeTime" Type="Real64" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="6"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -748,9 +748,9 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{E66270F2-6DE3-47BB-AC8C-FD17F07FE1F0}">
 												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeCurve" Type="int16" Value="7"/>
 													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
-													<Property Name="FadeTime" Type="Real64" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="6"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -771,9 +771,9 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{A91EEACB-0921-4C8D-B51D-8EDCE6B8C24B}">
 												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeCurve" Type="int16" Value="7"/>
 													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
-													<Property Name="FadeTime" Type="Real64" Value="3"/>
+													<Property Name="FadeTime" Type="Real64" Value="6"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -784,7 +784,6 @@
 										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 										<Property Name="SourceContextType" Type="int16" Value="1"/>
 									</PropertyList>
-									<ReferenceList/>
 									<TransitionInfo>
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{A8B09C18-9495-4665-89E9-103EFA6DB83F}">
@@ -910,7 +909,7 @@
 														</Point>
 														<Point>
 															<XPos>8988.40206</XPos>
-															<YPos>-0</YPos>
+															<YPos>0</YPos>
 															<Flags>0</Flags>
 														</Point>
 														<Point>

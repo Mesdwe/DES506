@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "876939312",
+    "Hash": "3916924256",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -259,23 +259,6 @@
         "Language": "SFX",
         "ShortName": "sfx_Genhu_Purify_Water.wav",
         "Path": "SFX\\sfx_Genhu_Purify_Water_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2873237003",
-      "Name": "sfx_Genhu_Push_Object",
-      "ObjectPath": "\\Events\\Default Work Unit\\Genhu\\sfx_Genhu_Push_Object",
-      "GUID": "{6454F005-8B28-43F5-A21D-2F7D6861B96D}",
-      "DurationType": "OneShot",
-      "DurationMin": "8.052653",
-      "DurationMax": "8.052653",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "259703603",
-        "Language": "SFX",
-        "ShortName": "sfx_Gate_Crash.wav",
-        "Path": "SFX\\sfx_Gate_Crash_10C4C929.wem"
        }
       ]
      },
@@ -535,7 +518,7 @@
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "599790520",
+    "Hash": "2639788",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
