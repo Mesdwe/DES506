@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "481328115",
+    "Hash": "3980999280",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -291,8 +291,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Parched\\sfx_Parched_Groan",
       "GUID": "{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}",
       "DurationType": "OneShot",
-      "DurationMin": "3.406641",
-      "DurationMax": "3.406641",
+      "DurationMin": "2.823562",
+      "DurationMax": "2.823562",
       "IncludedMemoryFiles": [
        {
         "Id": "826443704",
