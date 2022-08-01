@@ -16,7 +16,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "1714764805",
+    "Hash": "3206405923",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -26,6 +26,7 @@
       "Name": "sfx_Brazier",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\sfx_Brazier",
       "GUID": "{3AB11F0E-4C5D-4499-9579-82EEA9CB4827}",
+      "MaxAttenuation": "1000.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
