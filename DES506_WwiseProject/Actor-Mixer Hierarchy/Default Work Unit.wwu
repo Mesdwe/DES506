@@ -360,7 +360,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Background_Opening_Cart" ID="{4DF961ED-01AE-4947-BBE9-86F0766C453E}">
+								<AudioFileSource Name="Background_Opening_Cart" ID="{4EC241AC-08A2-4261-8119-3F824AFFEB46}">
 									<Language>SFX</Language>
 									<AudioFile>Background_Opening_Cart.wav</AudioFile>
 									<MediaIDList>
@@ -370,7 +370,7 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Background_Opening_Cart" ID="{4DF961ED-01AE-4947-BBE9-86F0766C453E}" Platform="Linked"/>
+								<ActiveSource Name="Background_Opening_Cart" ID="{4EC241AC-08A2-4261-8119-3F824AFFEB46}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -629,13 +629,6 @@
 							</GroupingInfo>
 						</SwitchContainer>
 						<SwitchContainer Name="PlayerFootstepMaterialContainer" ID="{E9386EB5-77C1-4AD4-84B3-51EE51DF7717}" ShortID="948153357">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-5</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
@@ -776,6 +769,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{5C7CE0A3-F3C1-4DD4-AA5A-3E95C404A073}">
@@ -983,7 +979,12 @@
 								</Property>
 								<Property Name="Pitch" Type="int32">
 									<ValueList>
-										<Value>-330</Value>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
