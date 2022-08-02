@@ -101,7 +101,7 @@ void ASludgeCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
 	PlayerInputComponent->BindAxis("Turn", this, &ASludgeCharacter::TurnMouse);
 	PlayerInputComponent->BindAxis("TurnRate", this, &ASludgeCharacter::TurnAtRate);
-	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &ASludgeCharacter::LookUpMouse);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ASludgeCharacter::LookUpAtRate);
 }
 
@@ -186,7 +186,7 @@ void ASludgeCharacter::TurnMouse(float Rate)
 	PlayerController->PlayerCameraManager->ViewPitchMin = -70.0f;
 	PlayerController->PlayerCameraManager->ViewPitchMax = 80.0f;
 		// calculate delta for this frame from the rate information
-		AddControllerYawInput(Rate);
+		AddControllerYawInput(Rate * MouseRotateSpeed);
 }
 
 void ASludgeCharacter::LookUpAtRate(float Rate)
@@ -194,7 +194,11 @@ void ASludgeCharacter::LookUpAtRate(float Rate)
 	// calculate delta for this frame from the rate information
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
-
+void ASludgeCharacter::LookUpMouse(float Rate)
+{
+	// calculate delta for this frame from the rate information
+	AddControllerPitchInput(Rate * MouseRotateSpeed);
+}
 //Start casting mode
 void ASludgeCharacter::SpellCasting()
 {
