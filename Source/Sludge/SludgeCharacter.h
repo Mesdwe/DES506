@@ -34,7 +34,8 @@ class ASludgeCharacter : public ACharacter
 public:
 	ASludgeCharacter();
 
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float MouseRotateSpeed = 0.6f;
 	UPROPERTY(BlueprintReadWrite)
 		bool bIsClimbing;
 	UPROPERTY(BlueprintReadWrite)
@@ -90,7 +91,7 @@ protected:
 	 * @param Rate	This is a normalized rate, i.e. 1.0 means 100% of desired turn rate
 	 */
 	void LookUpAtRate(float Rate);
-
+	void LookUpMouse(float Rate);
 	void SpellCasting();
 	void ToneInput(float Rate);
 	void Tone1Input();
