@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2588852485">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="605516411">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -32,7 +32,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" MaxAttenuation="1500.000000" DurationType="OneShot" DurationMin="0.285870" DurationMax="0.912260">
+				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" MaxAttenuation="1000.000000" DurationType="OneShot" DurationMin="0.285870" DurationMax="0.912260">
 					<IncludedMemoryFiles>
 						<File Id="32840511" Language="SFX">
 							<ShortName>Big_Stone_Step_2.wav</ShortName>
@@ -255,7 +255,7 @@
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="547448586">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="703275056">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

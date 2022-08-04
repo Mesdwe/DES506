@@ -821,6 +821,9 @@
 					</EntryList>
 				</MusicSwitchContainer>
 				<MusicPlaylistContainer Name="Music_Carnyx" ID="{29F3D398-B662-4C9A-B9E1-B5D0982A5CCD}" ShortID="230969634">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
@@ -895,11 +898,6 @@
 														<Point>
 															<XPos>2061.85568</XPos>
 															<YPos>100</YPos>
-															<Flags>0</Flags>
-														</Point>
-														<Point>
-															<XPos>11984.53608</XPos>
-															<YPos>0</YPos>
 															<Flags>0</Flags>
 														</Point>
 														<Point>
