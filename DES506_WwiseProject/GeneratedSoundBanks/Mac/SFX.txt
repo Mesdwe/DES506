@@ -33,6 +33,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Effect plug-ins	ID	Name	Type				Notes
+	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
+	2547645744	Boost_3dB_100Hz	Wwise Parametric EQ			
+	3948262040	Octave_Down	Wwise Pitch Shifter			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4786361	Climb_1	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\Climb_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\PlayerClimbing\Climb_1		155044
 	6964705	sfx_Invoking_Hit_2	M:\GitHub\DES506\DES506_WwiseProject\.cache\Mac\SFX\tuning-fork_tone-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Invocation\sfx_Invoking_2\sfx_Invoking_Hit_2		208088
