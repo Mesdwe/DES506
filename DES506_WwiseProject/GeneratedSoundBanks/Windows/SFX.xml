@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1687971736">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1180683985">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -148,7 +148,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="991804038" Name="sfx_Parched_Groan" ObjectPath="\Events\Default Work Unit\Parched\sfx_Parched_Groan" GUID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" DurationType="OneShot" DurationMin="2.823562" DurationMax="2.823562">
+				<Event Id="991804038" Name="sfx_Parched_Groan" ObjectPath="\Events\Default Work Unit\Parched\sfx_Parched_Groan" GUID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" DurationType="OneShot" DurationMin="2.552097" DurationMax="3.123903">
 					<IncludedMemoryFiles>
 						<File Id="826443704" Language="SFX">
 							<ShortName>sfx_Parched_Groan.wav</ShortName>

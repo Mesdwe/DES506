@@ -447,7 +447,7 @@
 																</Point>
 																<Point>
 																	<XPos>302.71668</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -1108,6 +1108,17 @@
 									<ValueList>
 										<Value>-5</Value>
 									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6B81322B-088F-4540-9C02-8EA3BD18A7CC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="175"/>
+													<Property Name="Min" Type="Real64" Value="-175"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
