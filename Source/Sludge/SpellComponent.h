@@ -62,6 +62,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TEnumAsByte<Rune> CurrentRune;
+	UFUNCTION(BlueprintCallable)
 	void ActivateSpellCasting();
 
 	UFUNCTION(BlueprintCallable)
