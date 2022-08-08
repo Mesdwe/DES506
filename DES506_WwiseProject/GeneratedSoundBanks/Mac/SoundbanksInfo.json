@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "979261227",
+    "Hash": "890227645",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -210,8 +210,8 @@
       "GUID": "{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}",
       "MaxAttenuation": "3000.000000",
       "DurationType": "OneShot",
-      "DurationMin": "1.200000",
-      "DurationMax": "1.200000"
+      "DurationMin": "1.601808",
+      "DurationMax": "1.601808"
      },
      {
       "Id": "2445943459",
@@ -220,8 +220,8 @@
       "GUID": "{5EB18133-7D46-4BA8-A79C-51A290F31256}",
       "MaxAttenuation": "3000.000000",
       "DurationType": "OneShot",
-      "DurationMin": "1.200000",
-      "DurationMax": "1.200000"
+      "DurationMin": "1.386423",
+      "DurationMax": "1.386423"
      },
      {
       "Id": "280264588",
@@ -517,7 +517,7 @@
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "614712324",
+    "Hash": "2074852577",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
