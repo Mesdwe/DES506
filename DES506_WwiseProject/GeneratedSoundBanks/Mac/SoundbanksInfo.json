@@ -19,7 +19,7 @@
     "Id": "393239870",
     "GUID": "{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}",
     "Language": "SFX",
-    "Hash": "890227645",
+    "Hash": "954054735",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -517,7 +517,7 @@
     "Id": "3991942870",
     "GUID": "{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}",
     "Language": "SFX",
-    "Hash": "2074852577",
+    "Hash": "3197318909",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
     "ShortName": "Music",
     "Path": "Music.bnk",
@@ -527,7 +527,7 @@
       "Name": "Play_Carnyx",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\Play_Carnyx",
       "GUID": "{D2D4C809-3C46-4F17-90FD-418D8C33D421}",
-      "MaxAttenuation": "20000.000000",
+      "MaxAttenuation": "17500.000000",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
