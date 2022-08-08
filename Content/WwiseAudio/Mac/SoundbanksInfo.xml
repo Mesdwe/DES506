@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="1922416027">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="2032372664">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -117,7 +117,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2630622802" Name="sfx_Genhu_Call_Affirmative" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative" GUID="{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000">
+				<Event Id="2630622802" Name="sfx_Genhu_Call_Affirmative" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative" GUID="{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.601808" DurationMax="1.601808">
 					<IncludedMemoryFiles>
 						<File Id="582455103" Language="SFX">
 							<ShortName>genhu-sound_affirmative.wav</ShortName>
@@ -125,7 +125,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2445943459" Name="sfx_Genhu_Call_Confused" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Confused" GUID="{5EB18133-7D46-4BA8-A79C-51A290F31256}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000">
+				<Event Id="2445943459" Name="sfx_Genhu_Call_Confused" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Confused" GUID="{5EB18133-7D46-4BA8-A79C-51A290F31256}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.386423" DurationMax="1.386423">
 					<IncludedMemoryFiles>
 						<File Id="903052459" Language="SFX">
 							<ShortName>genhu-sound_confused.wav</ShortName>
@@ -325,12 +325,12 @@
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="703275056">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="3197318909">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3129866761" Name="Play_Carnyx" ObjectPath="\Events\Default Work Unit\Music\Play_Carnyx" GUID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}" MaxAttenuation="20000.000000" DurationType="Infinite">
+				<Event Id="3129866761" Name="Play_Carnyx" ObjectPath="\Events\Default Work Unit\Music\Play_Carnyx" GUID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}" MaxAttenuation="17500.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="148474242" Language="SFX">
 							<ShortName>sfx_Raider_Carnyx.wav</ShortName>
