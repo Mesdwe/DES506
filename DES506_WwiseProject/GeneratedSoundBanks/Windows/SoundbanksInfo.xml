@@ -255,7 +255,7 @@
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="703275056">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="2074852577">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>

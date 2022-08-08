@@ -823,6 +823,11 @@
 				<MusicPlaylistContainer Name="Music_Carnyx" ID="{29F3D398-B662-4C9A-B9E1-B5D0982A5CCD}" ShortID="230969634">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -920,13 +925,13 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{96C0E551-EDF9-46ED-A1B6-3FA18FF71F36}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
+							<ObjectRef Name="Music" ID="{D99A0082-22F2-49AF-8D1A-BBB9B9394F09}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<MusicSegment Name="sfx_Raider_Carnyx" ID="{7406C840-81A8-4C39-8548-5966DE84FCCE}" ShortID="577802438">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="72248.8958333333"/>
+								<Property Name="EndPosition" Type="Real64" Value="77308.5507423618"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -937,14 +942,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="sfx_Raider_Carnyx" ID="{AEFECFE2-DA86-4786-8322-2A4766D264D8}" ShortID="853842658">
+								<MusicTrack Name="sfx_Raider_Carnyx" ID="{5CC8943E-16D0-4E28-820F-6C8263EA8061}" ShortID="56621634">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7E469C3E-0615-4407-9FBC-FE3BB75AFCC6}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="sfx_Raider_Carnyx" ID="{3BCE04A0-C717-488E-A53F-1179DE67BA8B}">
+										<AudioFileSource Name="sfx_Raider_Carnyx" ID="{CCC45451-9F2D-4E2C-ADA2-9715EF8906BE}">
 											<Language>SFX</Language>
 											<AudioFile>sfx_Raider_Carnyx.wav</AudioFile>
 											<MediaIDList>
@@ -953,7 +958,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{9977342E-57A0-4C4A-B408-1596883111B7}">
+										<MusicTransition Name="Root" ID="{3A6D5CB2-7FEA-436F-932C-3C3FBE96FFE2}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -964,18 +969,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{51337E59-3BB2-41F7-A8C6-7A697AEDC2A8}">
+													<MusicTrackSequence Name="" ID="{81EA752F-5768-4D87-88D4-542650709AB0}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="sfx_Raider_Carnyx" ID="{3FA7E4DE-8B86-47D3-859D-A299C6C2FE5E}">
+																		<MusicClip Name="sfx_Raider_Carnyx" ID="{826D5B71-C146-46EA-9040-9520C25E4813}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="72248.8958333333"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="FadeInDuration" Type="Real64" Value="4315.58801064195"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="5803.72180741503"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="sfx_Raider_Carnyx" ID="{3BCE04A0-C717-488E-A53F-1179DE67BA8B}"/>
+																			<AudioSourceRef Name="sfx_Raider_Carnyx" ID="{CCC45451-9F2D-4E2C-ADA2-9715EF8906BE}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -992,7 +997,11 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{044B736D-D2B8-47CA-B284-5C81E9BEDF55}"/>
+											<MusicCue Name="Entry Cue" ID="{044B736D-D2B8-47CA-B284-5C81E9BEDF55}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="4166.77463096464"/>
+												</PropertyList>
+											</MusicCue>
 										</Local>
 									</Reference>
 									<Reference>
@@ -1000,7 +1009,7 @@
 											<MusicCue Name="Exit Cue" ID="{E845BCB4-45AC-405E-BD61-F9164A571839}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="72248.8958333333"/>
+													<Property Name="TimeMs" Type="Real64" Value="72323.302523172"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
