@@ -11,12 +11,6 @@
     "StaticLib": "AkParametricEQFX"
    },
    {
-    "Name": "Wwise Matrix Reverb",
-    "ID": "7536643",
-    "DLL": "AkMatrixReverb",
-    "StaticLib": "AkMatrixReverbFX"
-   },
-   {
     "Name": "Wwise Pitch Shifter",
     "ID": "8912899",
     "DLL": "AkPitchShifter",

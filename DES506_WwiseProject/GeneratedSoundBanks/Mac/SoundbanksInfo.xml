@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="3323005144">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="954054735">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -117,9 +117,9 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2630622802" Name="sfx_Genhu_Call_Affirmative" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative" GUID="{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000"/>
-				<Event Id="2445943459" Name="sfx_Genhu_Call_Confused" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Confused" GUID="{5EB18133-7D46-4BA8-A79C-51A290F31256}" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000"/>
-				<Event Id="280264588" Name="sfx_Genhu_Purify_Genhu" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Purify_Genhu" GUID="{EA84BA88-4554-4749-A5FF-F608681E502C}" DurationType="OneShot" DurationMin="3.460703" DurationMax="3.460703">
+				<Event Id="2630622802" Name="sfx_Genhu_Call_Affirmative" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Affirmative" GUID="{5A4BE10D-3160-4169-8B3A-3C7C5C4506A5}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.601808" DurationMax="1.601808"/>
+				<Event Id="2445943459" Name="sfx_Genhu_Call_Confused" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Call_Confused" GUID="{5EB18133-7D46-4BA8-A79C-51A290F31256}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.386423" DurationMax="1.386423"/>
+				<Event Id="280264588" Name="sfx_Genhu_Purify_Genhu" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Purify_Genhu" GUID="{EA84BA88-4554-4749-A5FF-F608681E502C}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="3.460703" DurationMax="3.460703">
 					<IncludedMemoryFiles>
 						<File Id="427301792" Language="SFX">
 							<ShortName>sfx_Genhu_Purify_Genhu.wav</ShortName>
@@ -127,7 +127,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2498639818" Name="sfx_Genhu_Purify_Water" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Purify_Water" GUID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}" DurationType="OneShot" DurationMin="4.159275" DurationMax="4.159275">
+				<Event Id="2498639818" Name="sfx_Genhu_Purify_Water" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Purify_Water" GUID="{2C942487-1D5A-44FD-B1A4-1FBCAAAB18F7}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="4.159275" DurationMax="4.159275">
 					<IncludedMemoryFiles>
 						<File Id="99062319" Language="SFX">
 							<ShortName>sfx_Genhu_Purify_Water.wav</ShortName>
@@ -135,7 +135,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2264332347" Name="sfx_Genhu_Teleportation_End" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_End" GUID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" DurationType="OneShot" DurationMin="1.880816" DurationMax="1.880816">
+				<Event Id="2264332347" Name="sfx_Genhu_Teleportation_End" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_End" GUID="{A269E613-764D-4FA5-8B2E-0C75BF99B2E4}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.880816" DurationMax="1.880816">
 					<IncludedMemoryFiles>
 						<File Id="299736928" Language="SFX">
 							<ShortName>sfx_Genhu_Teleportation_End.wav</ShortName>
@@ -143,7 +143,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3699556704" Name="sfx_Genhu_Teleportation_Start" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_Start" GUID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}" DurationType="OneShot" DurationMin="2.568000" DurationMax="2.568000">
+				<Event Id="3699556704" Name="sfx_Genhu_Teleportation_Start" ObjectPath="\Events\Default Work Unit\Genhu\sfx_Genhu_Teleportation_Start" GUID="{83E02307-F8A7-4001-8EC3-D40792AAC3A2}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="2.568000" DurationMax="2.568000">
 					<IncludedMemoryFiles>
 						<File Id="383862852" Language="SFX">
 							<ShortName>sfx_Genhu_Teleportation_Start.wav</ShortName>
@@ -151,7 +151,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="991804038" Name="sfx_Parched_Groan" ObjectPath="\Events\Default Work Unit\Parched\sfx_Parched_Groan" GUID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" DurationType="OneShot" DurationMin="2.823562" DurationMax="2.823562">
+				<Event Id="991804038" Name="sfx_Parched_Groan" ObjectPath="\Events\Default Work Unit\Parched\sfx_Parched_Groan" GUID="{C2104706-7E79-4E1E-8387-5FF5C4C0B4D8}" DurationType="OneShot" DurationMin="2.552097" DurationMax="3.123903">
 					<IncludedMemoryFiles>
 						<File Id="826443704" Language="SFX">
 							<ShortName>sfx_Parched_Groan.wav</ShortName>
@@ -245,7 +245,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3958753961">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1933425183">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -255,12 +255,12 @@
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Master_Volume" GUID="{67F2C1E1-3762-43D6-95D7-60EBFF98363B}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="703275056">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="3197318909">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3129866761" Name="Play_Carnyx" ObjectPath="\Events\Default Work Unit\Music\Play_Carnyx" GUID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}" MaxAttenuation="20000.000000" DurationType="Infinite">
+				<Event Id="3129866761" Name="Play_Carnyx" ObjectPath="\Events\Default Work Unit\Music\Play_Carnyx" GUID="{D2D4C809-3C46-4F17-90FD-418D8C33D421}" MaxAttenuation="17500.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="148474242" Language="SFX">
 							<ShortName>sfx_Raider_Carnyx.wav</ShortName>
