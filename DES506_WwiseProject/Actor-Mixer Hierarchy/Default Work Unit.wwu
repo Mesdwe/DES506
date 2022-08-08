@@ -604,6 +604,16 @@
 						<Sound Name="sfx_Genhu_Call_Affirmative" ID="{C589B7CA-23C2-44B2-8D89-13C055414E12}" ShortID="1039914411">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-500</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>10</Value>
@@ -714,6 +724,16 @@
 						<Sound Name="sfx_Genhu_Call_Confused" ID="{6D4BC654-D4DA-41B2-9F37-FF3A7F69A2F4}" ShortID="418473518">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-250</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>10</Value>
