@@ -34,7 +34,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
-	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
 	2547645744	Boost_3dB_100Hz	Wwise Parametric EQ			
 	3948262040	Octave_Down	Wwise Pitch Shifter			
 
