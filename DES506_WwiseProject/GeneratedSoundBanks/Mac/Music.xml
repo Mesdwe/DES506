@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="3197318909">
+		<SoundBank Id="3991942870" GUID="{CDB4DFEC-AC11-4CED-9AD0-2DD5554B7083}" Language="SFX" Hash="1784466270">
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
