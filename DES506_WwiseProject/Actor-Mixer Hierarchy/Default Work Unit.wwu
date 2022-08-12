@@ -1084,6 +1084,9 @@
 										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-150</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{25C05412-0698-4B05-BC51-3BAAD300B81D}">
@@ -1095,11 +1098,6 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>10</Value>
-											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1207,6 +1205,9 @@
 									<PropertyList>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-150</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{5356872D-BDBD-4032-BD4F-52B2972BE6B0}">
@@ -1218,11 +1219,6 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>5</Value>
-											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1364,11 +1360,6 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>5</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1480,7 +1471,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-15</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>

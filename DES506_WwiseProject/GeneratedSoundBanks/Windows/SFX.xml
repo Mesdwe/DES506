@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>M:\GitHub\DES506\DES506_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="954054735">
+		<SoundBank Id="393239870" GUID="{5D0D4A71-CFD6-4D35-A610-B57E52865DD7}" Language="SFX" Hash="4034967028">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -29,7 +29,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.285870" DurationMax="0.912260">
+				<Event Id="4026805620" Name="sfx_Footsteps_Genhu" ObjectPath="\Events\Default Work Unit\Footsteps\sfx_Footsteps_Genhu" GUID="{876EE255-82C7-4037-9055-635FED585C13}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.311743" DurationMax="0.994826">
 					<IncludedMemoryFiles>
 						<File Id="32840511" Language="SFX">
 							<ShortName>Big_Stone_Step_2.wav</ShortName>
